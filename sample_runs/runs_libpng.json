@@ -4,6 +4,11 @@
             "/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngtest.png" : 1,
             "/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngbar.png": 1
         }
+    },
+    "comments": {
+        "project_name": "libpng",
+        "project_path": "/home/dewang/smartKT/SmartKTRepo/projects/libpng",
+        "vocab_loc": "/home/dewang/smartKT/SmartKTRepo/Semantic-Search-Tool/kgg/parsers/comments/program_domain.csv",
+        "problem_domain_loc": "/home/dewang/smartKT/SmartKTRepo/Semantic-Search-Tool/kgg/parsers/comments/ProblemDomains/libpng/problem_domain.txt"
     }
 }
-
