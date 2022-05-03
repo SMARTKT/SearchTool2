@@ -1,0 +1,2354 @@
+<?xml version="1.0" ?>
+<COMMENTS project_name="libpng" project_path="/home/dewang/smartKT/SmartKTRepo/projects/libpng">
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="override with app values" comment_scope_start="62" comment_scope_end="62">
+		<SYMBOLS>
+			<CallExpr type="int" spelling="png_colorspace_set_chromaticities" id="1101556582648"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="values" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="app"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="FLOATING_POINT" comment_scope_start="133" comment_scope_end="133"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="cHRM" comment_scope_start="135" comment_scope_end="135"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="eXIf" comment_scope_start="182" comment_scope_end="182"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Changed from info-&gt;num_palette to PNG_MAX_PALETTE_LENGTH in
+    * version 1.2.1" comment_scope_start="231" comment_scope_end="250">
+		<SYMBOLS>
+			<TypeRef type="png_uint_16" spelling="png_uint_16" id="1100915399737"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101619712904"/>
+			<DeclRefExpr type="png_voidp (png_const_structrp, png_alloc_size_t)" spelling="png_malloc_warn" id="1102174560917"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1102918270371"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1100789438058"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_warning" id="1103856861586"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1102619338866"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101004791534"/>
+			<DeclRefExpr type="int" spelling="i" id="1102427153719"/>
+			<DeclRefExpr type="int" spelling="i" id="1100006537171"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1104100911257"/>
+			<DeclRefExpr type="int" spelling="i" id="1101370856171"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101087831335"/>
+			<DeclRefExpr type="int" spelling="i" id="1100321492552"/>
+			<DeclRefExpr type="png_const_uint_16p" spelling="hist" id="1102745341709"/>
+			<DeclRefExpr type="int" spelling="i" id="1103653412161"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1100304291910"/>
+			<MemberRefExpr type="png_uint_16p" spelling="hist" id="1100354031899"/>
+			<MemberRefExpr type="png_uint_16p" spelling="hist" id="1103527318320"/>
+			<MemberRefExpr type="png_uint_32" spelling="free_me" id="1100457097396"/>
+			<MemberRefExpr type="png_uint_16" spelling="num_palette" id="1100781972816"/>
+			<MemberRefExpr type="png_uint_16p" spelling="hist" id="1101469387663"/>
+			<MemberRefExpr type="png_uint_32" spelling="valid" id="1104113372504"/>
+			<StringLiteral type="char [40]" spelling="&quot;Insufficient memory for hIST chunk data&quot;" id="1100098571142"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103788782244"/>
+			<UnexposedExpr type="png_voidp (*)(png_const_structrp, png_alloc_size_t)" spelling="png_malloc_warn" id="1103910233797"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1100719675301"/>
+			<UnexposedExpr type="png_uint_16p" spelling="hist" id="1100077556183"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1101243135880"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_warning" id="1101781607461"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1101280856889"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102148078226"/>
+			<UnexposedExpr type="int" spelling="i" id="1100889976266"/>
+			<UnexposedExpr type="int" spelling="num_palette" id="1103379000697"/>
+			<UnexposedExpr type="png_uint_16" spelling="num_palette" id="1101818186587"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103228137168"/>
+			<UnexposedExpr type="png_uint_16p" spelling="hist" id="1103791399737"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102968230996"/>
+			<UnexposedExpr type="int" spelling="i" id="1100351074459"/>
+			<UnexposedExpr type="png_const_uint_16p" spelling="hist" id="1102439549534"/>
+			<UnexposedExpr type="int" spelling="i" id="1102849851111"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103703034932"/>
+			<CallExpr type="png_voidp" spelling="png_malloc_warn" id="1102006346256"/>
+			<CallExpr type="void" spelling="png_warning" id="1102811642591"/>
+			<FunctionDecl type="void (png_const_structrp, png_inforp, png_const_uint_16p)" spelling="png_set_hIST" id="1102902657643"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="TODO: validate format of calibration name and unit name" comment_scope_start="329" comment_scope_end="345">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="type" id="1102721510984"/>
+			<DeclRefExpr type="int" spelling="type" id="1101579061157"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1102802473566"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1103585581634"/>
+			<DeclRefExpr type="int" spelling="nparams" id="1102614701309"/>
+			<DeclRefExpr type="int" spelling="nparams" id="1101080891514"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1100234657550"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1102436154941"/>
+			<StringLiteral type="char [27]" spelling="&quot;Invalid pCAL equation type&quot;" id="1104240546493"/>
+			<StringLiteral type="char [29]" spelling="&quot;Invalid pCAL parameter count&quot;" id="1101868982454"/>
+			<UnexposedExpr type="int" spelling="type" id="1100286162590"/>
+			<UnexposedExpr type="int" spelling="type" id="1101497036339"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1102356359734"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1104100513576"/>
+			<UnexposedExpr type="int" spelling="nparams" id="1101233234258"/>
+			<UnexposedExpr type="int" spelling="nparams" id="1102611804830"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1103338481939"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1103823948275"/>
+			<CallExpr type="void" spelling="png_chunk_report" id="1102408776745"/>
+			<CallExpr type="void" spelling="png_chunk_report" id="1102249046312"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="validate" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="calibration"/>
+			<PROBLEM_DOMAIN word="unit"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Check that the type matches the specification." comment_scope_start="329" comment_scope_end="345">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="type" id="1102721510984"/>
+			<DeclRefExpr type="int" spelling="type" id="1101579061157"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1102802473566"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1103585581634"/>
+			<DeclRefExpr type="int" spelling="nparams" id="1102614701309"/>
+			<DeclRefExpr type="int" spelling="nparams" id="1101080891514"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1100234657550"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1102436154941"/>
+			<StringLiteral type="char [27]" spelling="&quot;Invalid pCAL equation type&quot;" id="1104240546493"/>
+			<StringLiteral type="char [29]" spelling="&quot;Invalid pCAL parameter count&quot;" id="1101868982454"/>
+			<UnexposedExpr type="int" spelling="type" id="1100286162590"/>
+			<UnexposedExpr type="int" spelling="type" id="1101497036339"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1102356359734"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1104100513576"/>
+			<UnexposedExpr type="int" spelling="nparams" id="1101233234258"/>
+			<UnexposedExpr type="int" spelling="nparams" id="1102611804830"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1103338481939"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1103823948275"/>
+			<CallExpr type="void" spelling="png_chunk_report" id="1102408776745"/>
+			<CallExpr type="void" spelling="png_chunk_report" id="1102249046312"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="check" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Validate params[nparams]" comment_scope_start="346" comment_scope_end="356">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="i" id="1102959596521"/>
+			<DeclRefExpr type="int" spelling="i" id="1101036097036"/>
+			<DeclRefExpr type="int" spelling="nparams" id="1102266544902"/>
+			<DeclRefExpr type="int" spelling="i" id="1103930909606"/>
+			<DeclRefExpr type="png_charpp" spelling="params" id="1103931107304"/>
+			<DeclRefExpr type="int" spelling="i" id="1104167687707"/>
+			<DeclRefExpr type="int (png_const_charp, size_t)" spelling="png_check_fp_string" id="1103410449617"/>
+			<DeclRefExpr type="png_charpp" spelling="params" id="1100068300133"/>
+			<DeclRefExpr type="int" spelling="i" id="1101962926126"/>
+			<DeclRefExpr type="unsigned long (const char *)" spelling="strlen" id="1103422255518"/>
+			<DeclRefExpr type="png_charpp" spelling="params" id="1103566307853"/>
+			<DeclRefExpr type="int" spelling="i" id="1101864102169"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1100343322131"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1102553031986"/>
+			<StringLiteral type="char [34]" spelling="&quot;Invalid format for pCAL parameter&quot;" id="1100088765185"/>
+			<UnexposedExpr type="int" spelling="i" id="1103161640312"/>
+			<UnexposedExpr type="int" spelling="nparams" id="1100421427993"/>
+			<UnexposedExpr type="png_charpp" spelling="params" id="1103760459112"/>
+			<UnexposedExpr type="int" spelling="i" id="1101144239601"/>
+			<UnexposedExpr type="int (*)(png_const_charp, size_t)" spelling="png_check_fp_string" id="1100574297601"/>
+			<UnexposedExpr type="png_charpp" spelling="params" id="1101062634340"/>
+			<UnexposedExpr type="int" spelling="i" id="1100333177223"/>
+			<UnexposedExpr type="unsigned long (*)(const char *)" spelling="strlen" id="1103448032247"/>
+			<UnexposedExpr type="png_charpp" spelling="params" id="1100374482071"/>
+			<UnexposedExpr type="int" spelling="i" id="1100801421539"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1103181784945"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1101089220132"/>
+			<CallExpr type="int" spelling="png_check_fp_string" id="1101993025345"/>
+			<CallExpr type="unsigned long" spelling="strlen" id="1101191328299"/>
+			<CallExpr type="void" spelling="png_chunk_report" id="1101321081315"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="validate" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Double check the unit (should never get here with an invalid
+    * unit unless this is an API call.)" comment_scope_start="440" comment_scope_end="446">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="unit" id="1102787214715"/>
+			<DeclRefExpr type="int" spelling="unit" id="1101357335758"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp) __attribute__((noreturn))" spelling="png_error" id="1103759580164"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1101116945589"/>
+			<DeclRefExpr type="png_const_charp" spelling="swidth" id="1102840050236"/>
+			<DeclRefExpr type="size_t" spelling="lengthw" id="1100344573506"/>
+			<DeclRefExpr type="unsigned long (const char *)" spelling="strlen" id="1101045361370"/>
+			<DeclRefExpr type="png_const_charp" spelling="swidth" id="1102332367012"/>
+			<StringLiteral type="char [18]" spelling="&quot;Invalid sCAL unit&quot;" id="1101804837888"/>
+			<UnexposedExpr type="int" spelling="unit" id="1101943824659"/>
+			<UnexposedExpr type="int" spelling="unit" id="1102747616640"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp) __attribute__((noreturn))" spelling="png_error" id="1100392459152"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102521972452"/>
+			<UnexposedExpr type="png_const_charp" spelling="swidth" id="1101497856948"/>
+			<UnexposedExpr type="unsigned long (*)(const char *)" spelling="strlen" id="1100313730179"/>
+			<UnexposedExpr type="png_const_charp" spelling="swidth" id="1101005020436"/>
+			<CallExpr type="void" spelling="png_error" id="1100425318196"/>
+			<CallExpr type="unsigned long" spelling="strlen" id="1103698145887"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="double" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="check" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="get" type=" 'Operations as part of Data structure"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="unit"/>
+			<PROBLEM_DOMAIN word="unit"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="'-'" comment_scope_start="447" comment_scope_end="447">
+		<SYMBOLS>
+			<DeclRefExpr type="png_const_charp" spelling="swidth" id="1103545729516"/>
+			<DeclRefExpr type="int (png_const_charp, size_t)" spelling="png_check_fp_string" id="1102567160126"/>
+			<DeclRefExpr type="png_const_charp" spelling="swidth" id="1100487306737"/>
+			<DeclRefExpr type="size_t" spelling="lengthw" id="1100668089479"/>
+			<UnexposedExpr type="png_const_charp" spelling="swidth" id="1104231011869"/>
+			<UnexposedExpr type="int (*)(png_const_charp, size_t)" spelling="png_check_fp_string" id="1101025768074"/>
+			<UnexposedExpr type="png_const_charp" spelling="swidth" id="1101250022592"/>
+			<UnexposedExpr type="size_t" spelling="lengthw" id="1101320773705"/>
+			<CallExpr type="int" spelling="png_check_fp_string" id="1102309097678"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="'-'" comment_scope_start="451" comment_scope_end="451">
+		<SYMBOLS>
+			<DeclRefExpr type="png_const_charp" spelling="sheight" id="1102262871698"/>
+			<DeclRefExpr type="int (png_const_charp, size_t)" spelling="png_check_fp_string" id="1100214166729"/>
+			<DeclRefExpr type="png_const_charp" spelling="sheight" id="1103398558724"/>
+			<DeclRefExpr type="size_t" spelling="lengthh" id="1103777090592"/>
+			<UnexposedExpr type="png_const_charp" spelling="sheight" id="1100777035793"/>
+			<UnexposedExpr type="int (*)(png_const_charp, size_t)" spelling="png_check_fp_string" id="1101354988317"/>
+			<UnexposedExpr type="png_const_charp" spelling="sheight" id="1102769071529"/>
+			<UnexposedExpr type="size_t" spelling="lengthh" id="1101351568141"/>
+			<CallExpr type="int" spelling="png_check_fp_string" id="1103164305874"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Check the arguments." comment_scope_start="502" comment_scope_end="510">
+		<SYMBOLS>
+			<DeclRefExpr type="double" spelling="width" id="1103974020066"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_warning" id="1102974458659"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1100246397927"/>
+			<DeclRefExpr type="double" spelling="height" id="1101879156782"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_warning" id="1102033414670"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1101864419971"/>
+			<StringLiteral type="char [27]" spelling="&quot;Invalid sCAL width ignored&quot;" id="1101993742392"/>
+			<StringLiteral type="char [28]" spelling="&quot;Invalid sCAL height ignored&quot;" id="1100553693551"/>
+			<UnexposedExpr type="double" spelling="width" id="1102237069646"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_warning" id="1100838180488"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1101365051254"/>
+			<UnexposedExpr type="double" spelling="height" id="1100992428126"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_warning" id="1101206357075"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1104217669111"/>
+			<CallExpr type="void" spelling="png_warning" id="1102249984797"/>
+			<CallExpr type="void" spelling="png_warning" id="1102812023619"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="check" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="arguments" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Convert 'width' and 'height' to ASCII." comment_scope_start="511" comment_scope_end="521">
+		<SYMBOLS>
+			<DeclRefExpr type="void (png_const_structrp, png_charp, size_t, double, unsigned int)" spelling="png_ascii_from_fp" id="1101292051383"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1104278504703"/>
+			<DeclRefExpr type="char [18]" spelling="swidth" id="1100607336728"/>
+			<DeclRefExpr type="char [18]" spelling="swidth" id="1101569787874"/>
+			<DeclRefExpr type="double" spelling="width" id="1102682980723"/>
+			<DeclRefExpr type="void (png_const_structrp, png_charp, size_t, double, unsigned int)" spelling="png_ascii_from_fp" id="1100710114678"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1102881717992"/>
+			<DeclRefExpr type="char [18]" spelling="sheight" id="1104146688020"/>
+			<DeclRefExpr type="char [18]" spelling="sheight" id="1100534405434"/>
+			<DeclRefExpr type="double" spelling="height" id="1102502004006"/>
+			<DeclRefExpr type="void (png_const_structrp, png_inforp, int, png_const_charp, png_const_charp)" spelling="png_set_sCAL_s" id="1102392528686"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1104199448014"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101957068433"/>
+			<DeclRefExpr type="int" spelling="unit" id="1103250585127"/>
+			<DeclRefExpr type="char [18]" spelling="swidth" id="1101591918254"/>
+			<DeclRefExpr type="char [18]" spelling="sheight" id="1103203557791"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_charp, size_t, double, unsigned int)" spelling="png_ascii_from_fp" id="1103211838555"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102025260281"/>
+			<UnexposedExpr type="char *" spelling="swidth" id="1101118621730"/>
+			<UnexposedExpr type="double" spelling="width" id="1102526276089"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_charp, size_t, double, unsigned int)" spelling="png_ascii_from_fp" id="1102420028477"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1100424881243"/>
+			<UnexposedExpr type="char *" spelling="sheight" id="1100078480089"/>
+			<UnexposedExpr type="double" spelling="height" id="1102519137020"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_inforp, int, png_const_charp, png_const_charp)" spelling="png_set_sCAL_s" id="1102360376390"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1103293142487"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1101322095373"/>
+			<UnexposedExpr type="int" spelling="unit" id="1101242245239"/>
+			<UnexposedExpr type="png_const_charp" spelling="swidth" id="1101179271242"/>
+			<UnexposedExpr type="char *" spelling="swidth" id="1101165428900"/>
+			<UnexposedExpr type="png_const_charp" spelling="sheight" id="1100329258596"/>
+			<UnexposedExpr type="char *" spelling="sheight" id="1102028052366"/>
+			<VarDecl type="char [18]" spelling="swidth" id="1100853019019"/>
+			<VarDecl type="char [18]" spelling="sheight" id="1102758475595"/>
+			<CallExpr type="void" spelling="png_ascii_from_fp" id="1102418547309"/>
+			<CallExpr type="void" spelling="png_ascii_from_fp" id="1104020668917"/>
+			<CallExpr type="void" spelling="png_set_sCAL_s" id="1103681291974"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="convert" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="height" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Check the arguments." comment_scope_start="532" comment_scope_end="540">
+		<SYMBOLS>
+			<DeclRefExpr type="png_fixed_point" spelling="width" id="1104099430231"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_warning" id="1101235712534"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1102436112396"/>
+			<DeclRefExpr type="png_fixed_point" spelling="height" id="1103812572792"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_warning" id="1103652503064"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1104035607905"/>
+			<StringLiteral type="char [27]" spelling="&quot;Invalid sCAL width ignored&quot;" id="1101514099771"/>
+			<StringLiteral type="char [28]" spelling="&quot;Invalid sCAL height ignored&quot;" id="1103052696582"/>
+			<UnexposedExpr type="png_fixed_point" spelling="width" id="1100798476894"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_warning" id="1102522801138"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102940705232"/>
+			<UnexposedExpr type="png_fixed_point" spelling="height" id="1103658248654"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_warning" id="1100072176831"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1103128472630"/>
+			<CallExpr type="void" spelling="png_warning" id="1100080246928"/>
+			<CallExpr type="void" spelling="png_warning" id="1103468639451"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="check" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="arguments" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Convert 'width' and 'height' to ASCII." comment_scope_start="541" comment_scope_end="549">
+		<SYMBOLS>
+			<DeclRefExpr type="void (png_const_structrp, png_charp, size_t, png_fixed_point)" spelling="png_ascii_from_fixed" id="1103530538638"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1102607771290"/>
+			<DeclRefExpr type="char [18]" spelling="swidth" id="1100744621147"/>
+			<DeclRefExpr type="char [18]" spelling="swidth" id="1103410515184"/>
+			<DeclRefExpr type="png_fixed_point" spelling="width" id="1104005876561"/>
+			<DeclRefExpr type="void (png_const_structrp, png_charp, size_t, png_fixed_point)" spelling="png_ascii_from_fixed" id="1100269809364"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1102641135138"/>
+			<DeclRefExpr type="char [18]" spelling="sheight" id="1104294304147"/>
+			<DeclRefExpr type="char [18]" spelling="sheight" id="1100673569585"/>
+			<DeclRefExpr type="png_fixed_point" spelling="height" id="1100036077982"/>
+			<DeclRefExpr type="void (png_const_structrp, png_inforp, int, png_const_charp, png_const_charp)" spelling="png_set_sCAL_s" id="1102770026822"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1101084263326"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1102934261296"/>
+			<DeclRefExpr type="int" spelling="unit" id="1104090102451"/>
+			<DeclRefExpr type="char [18]" spelling="swidth" id="1101464757095"/>
+			<DeclRefExpr type="char [18]" spelling="sheight" id="1103917268865"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_charp, size_t, png_fixed_point)" spelling="png_ascii_from_fixed" id="1102748477107"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1104277603971"/>
+			<UnexposedExpr type="char *" spelling="swidth" id="1101316678093"/>
+			<UnexposedExpr type="png_fixed_point" spelling="width" id="1102875684348"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_charp, size_t, png_fixed_point)" spelling="png_ascii_from_fixed" id="1100842292769"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1103010890694"/>
+			<UnexposedExpr type="char *" spelling="sheight" id="1100161043973"/>
+			<UnexposedExpr type="png_fixed_point" spelling="height" id="1100920007262"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_inforp, int, png_const_charp, png_const_charp)" spelling="png_set_sCAL_s" id="1100115788155"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1100537719215"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102344553075"/>
+			<UnexposedExpr type="int" spelling="unit" id="1103910639053"/>
+			<UnexposedExpr type="png_const_charp" spelling="swidth" id="1102505341423"/>
+			<UnexposedExpr type="char *" spelling="swidth" id="1103974502285"/>
+			<UnexposedExpr type="png_const_charp" spelling="sheight" id="1102202726973"/>
+			<UnexposedExpr type="char *" spelling="sheight" id="1102970923139"/>
+			<VarDecl type="char [18]" spelling="swidth" id="1103983071680"/>
+			<VarDecl type="char [18]" spelling="sheight" id="1101377623683"/>
+			<CallExpr type="void" spelling="png_ascii_from_fixed" id="1102913123005"/>
+			<CallExpr type="void" spelling="png_ascii_from_fixed" id="1100781266813"/>
+			<CallExpr type="void" spelling="png_set_sCAL_s" id="1104099364870"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="convert" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="height" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="It may not actually be necessary to set png_ptr-&gt;palette here;
+    * we do it for backward compatibility with the way the png_handle_tRNS
+    * function used to do the allocation.
+    *
+    * 1.6.0: the above statement appears to be incorrect; something has to set
+    * the palette inside png_struct on read." comment_scope_start="609" comment_scope_end="617">
+		<SYMBOLS>
+			<DeclRefExpr type="void (png_const_structrp, png_inforp, png_uint_32, int)" spelling="png_free_data" id="1100967030133"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1103012572249"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1103951501309"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_inforp, png_uint_32, int)" spelling="png_free_data" id="1101272559802"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102095108598"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1103724025341"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1104198351297"/>
+			<CallExpr type="void" spelling="png_free_data" id="1103012483271"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="set" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="do" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="for" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="do" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="allocation" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="set" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="read" type=" 'Operations as part of Data structure"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="palette"/>
+			<PROBLEM_DOMAIN word="palette"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Changed in libpng-1.2.1 to allocate PNG_MAX_PALETTE_LENGTH instead
+    * of num_palette entries, in case of an invalid PNG file or incorrect
+    * call to png_set_PLTE() with too-large sample values." comment_scope_start="618" comment_scope_end="634">
+		<SYMBOLS>
+			<TypeRef type="png_color" spelling="png_color" id="1101187648872"/>
+			<TypeRef type="png_color" spelling="png_color" id="1101187648872"/>
+			<TypeRef type="png_uint_16" spelling="png_uint_16" id="1100915399737"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1102482695694"/>
+			<DeclRefExpr type="png_voidp (png_const_structrp, png_alloc_size_t)" spelling="png_calloc" id="1103222994849"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1103877350565"/>
+			<DeclRefExpr type="int" spelling="num_palette" id="1104144796891"/>
+			<DeclRefExpr type="void *(void *, const void *, unsigned long)" spelling="memcpy" id="1102807707278"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1100523628006"/>
+			<DeclRefExpr type="png_const_colorp" spelling="palette" id="1100192330712"/>
+			<DeclRefExpr type="int" spelling="num_palette" id="1103600834745"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1102563541833"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1101680508513"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1102976113185"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1101566406492"/>
+			<DeclRefExpr type="int" spelling="num_palette" id="1104122520742"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1102947380800"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1103180569185"/>
+			<MemberRefExpr type="png_colorp" spelling="palette" id="1101647879099"/>
+			<MemberRefExpr type="png_colorp" spelling="palette" id="1100577139982"/>
+			<MemberRefExpr type="png_colorp" spelling="palette" id="1100068786808"/>
+			<MemberRefExpr type="png_colorp" spelling="palette" id="1102099346000"/>
+			<MemberRefExpr type="png_uint_16" spelling="num_palette" id="1100306924572"/>
+			<MemberRefExpr type="png_uint_16" spelling="num_palette" id="1102623581110"/>
+			<MemberRefExpr type="png_uint_32" spelling="free_me" id="1102027509931"/>
+			<MemberRefExpr type="png_uint_32" spelling="valid" id="1100317327719"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1101503039296"/>
+			<UnexposedExpr type="png_voidp (*)(png_const_structrp, png_alloc_size_t)" spelling="png_calloc" id="1100380147005"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1101663464713"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1104277880767"/>
+			<UnexposedExpr type="int" spelling="num_palette" id="1102602013416"/>
+			<UnexposedExpr type="void *(*)(void *, const void *, unsigned long)" spelling="memcpy" id="1102014545128"/>
+			<UnexposedExpr type="void *" spelling="palette" id="1102472270154"/>
+			<UnexposedExpr type="png_colorp" spelling="palette" id="1101746740890"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1100637889571"/>
+			<UnexposedExpr type="const void *" spelling="palette" id="1100731426912"/>
+			<UnexposedExpr type="png_const_colorp" spelling="palette" id="1104178916834"/>
+			<UnexposedExpr type="int" spelling="num_palette" id="1100332985594"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1101596718212"/>
+			<UnexposedExpr type="png_colorp" spelling="palette" id="1104002370582"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1103929355284"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1100095464860"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1102384747779"/>
+			<UnexposedExpr type="int" spelling="num_palette" id="1103221344779"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103028430945"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102179491601"/>
+			<CallExpr type="png_voidp" spelling="png_calloc" id="1102158326493"/>
+			<CallExpr type="void *" spelling="memcpy" id="1102977327861"/>
+			<FunctionDecl type="void (png_structrp, png_inforp, png_const_colorp, int)" spelling="png_set_PLTE" id="1100847602167"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="allocate" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="case" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="values" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="png"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="This causes the gAMA and cHRM to be written too" comment_scope_start="676" comment_scope_end="679">
+		<SYMBOLS>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1102535297435"/>
+			<MemberRefExpr type="png_uint_16" spelling="flags" id="1100054734688"/>
+			<MemberRefExpr type="png_colorspace" spelling="colorspace" id="1104099194574"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103685954610"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="gama"/>
+			<PROBLEM_DOMAIN word="chrm"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="sRGB" comment_scope_start="683" comment_scope_end="683"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Set the colorspace first because this validates the profile; do not
+    * override previously set app cHRM or gAMA here (because likely as not the
+    * application knows better than libpng what the correct values are.)  Pass
+    * the info_ptr color_type field to png_colorspace_set_ICC because in the
+    * write case it has not yet been stored in png_ptr." comment_scope_start="704" comment_scope_end="723">
+		<SYMBOLS>
+			<DeclRefExpr type="int (png_const_structrp, png_colorspacerp, png_const_charp, png_uint_32, png_const_bytep, int)" spelling="png_colorspace_set_ICC" id="1100681762789"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1101588460932"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1103413432026"/>
+			<DeclRefExpr type="png_const_charp" spelling="name" id="1100201487826"/>
+			<DeclRefExpr type="png_uint_32" spelling="proflen" id="1101156712152"/>
+			<DeclRefExpr type="png_const_bytep" spelling="profile" id="1101774473270"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1104163891532"/>
+			<DeclRefExpr type="void (png_const_structrp, png_inforp)" spelling="png_colorspace_sync_info" id="1103190064670"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1101482972044"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101330498781"/>
+			<DeclRefExpr type="int" spelling="result" id="1102979957542"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101352839806"/>
+			<MemberRefExpr type="png_colorspace" spelling="colorspace" id="1103224686069"/>
+			<MemberRefExpr type="png_byte" spelling="color_type" id="1101516744672"/>
+			<MemberRefExpr type="png_uint_16" spelling="flags" id="1101299556559"/>
+			<MemberRefExpr type="png_colorspace" spelling="colorspace" id="1103699590052"/>
+			<UnexposedExpr type="int (*)(png_const_structrp, png_colorspacerp, png_const_charp, png_uint_32, png_const_bytep, int)" spelling="png_colorspace_set_ICC" id="1102301330935"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102992535593"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102847268313"/>
+			<UnexposedExpr type="png_const_charp" spelling="name" id="1101397126462"/>
+			<UnexposedExpr type="png_uint_32" spelling="proflen" id="1102869143281"/>
+			<UnexposedExpr type="png_const_bytep" spelling="profile" id="1101935400679"/>
+			<UnexposedExpr type="int" spelling="color_type" id="1102342058538"/>
+			<UnexposedExpr type="png_byte" spelling="color_type" id="1100674707675"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1100782038557"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_inforp)" spelling="png_colorspace_sync_info" id="1103894669060"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1101134544257"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1100408919525"/>
+			<UnexposedExpr type="int" spelling="result" id="1101567372065"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1101081040255"/>
+			<VarDecl type="int" spelling="result" id="1100584150608"/>
+			<CallExpr type="int" spelling="png_colorspace_set_ICC" id="1102756971570"/>
+			<CallExpr type="void" spelling="png_colorspace_sync_info" id="1100031977766"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="set" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="first" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="validates" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="do" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="set" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="values" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="write" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="case" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="colorspace"/>
+			<PROBLEM_DOMAIN word="profile"/>
+			<PROBLEM_DOMAIN word="app"/>
+			<PROBLEM_DOMAIN word="chrm"/>
+			<PROBLEM_DOMAIN word="gama"/>
+			<PROBLEM_DOMAIN word="application"/>
+			<PROBLEM_DOMAIN word="libpng"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Don't do any of the copying if the profile was bad, or inconsistent." comment_scope_start="716" comment_scope_end="719">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="result" id="1102979957542"/>
+			<UnexposedExpr type="int" spelling="result" id="1101567372065"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="do" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="profile"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="But do write the gAMA and cHRM chunks from the profile." comment_scope_start="720" comment_scope_end="723">
+		<SYMBOLS>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101352839806"/>
+			<MemberRefExpr type="png_uint_16" spelling="flags" id="1101299556559"/>
+			<MemberRefExpr type="png_colorspace" spelling="colorspace" id="1103699590052"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1101081040255"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="do" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="write" type=" 'Operations as part of Data structure"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="gama"/>
+			<PROBLEM_DOMAIN word="chrm"/>
+			<PROBLEM_DOMAIN word="profile"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="PRIVATE" comment_scope_start="772" comment_scope_end="772"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Make sure we have enough space in the &quot;text&quot; array in info_struct
+    * to hold all of the incoming text_ptr objects.  This compare can't overflow
+    * because max_text &gt;= num_text (anyway, subtract of two positive integers
+    * can't overflow in any case.)" comment_scope_start="784" comment_scope_end="832">
+		<SYMBOLS>
+			<TypeRef type="png_textp" spelling="png_textp" id="1101549451874"/>
+			<DeclRefExpr type="int" spelling="num_text" id="1101373997826"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1100146877587"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1102147325012"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1102867244697"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1102984937388"/>
+			<DeclRefExpr type="int" spelling="old_num_text" id="1100913581663"/>
+			<DeclRefExpr type="int" spelling="num_text" id="1101998234005"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1101466510479"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1101461207417"/>
+			<DeclRefExpr type="int" spelling="num_text" id="1103503054789"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1103627429248"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1103748515392"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1103665515864"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1100607200378"/>
+			<DeclRefExpr type="png_textp" spelling="new_text" id="1100777927373"/>
+			<DeclRefExpr type="png_voidp (png_const_structrp, png_const_voidp, int, int, size_t)" spelling="png_realloc_array" id="1104118571122"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1103520239834"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1100313396446"/>
+			<DeclRefExpr type="int" spelling="old_num_text" id="1101654242833"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1100703547593"/>
+			<DeclRefExpr type="int" spelling="old_num_text" id="1103671572156"/>
+			<DeclRefExpr type="png_textp" spelling="new_text" id="1102038364720"/>
+			<DeclRefExpr type="png_textp" spelling="new_text" id="1102932469681"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1103093758280"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1103691326505"/>
+			<DeclRefExpr type="void (png_const_structrp, png_voidp)" spelling="png_free" id="1103308520172"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1100642754936"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1103046806610"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1104180832222"/>
+			<DeclRefExpr type="png_textp" spelling="new_text" id="1102735574117"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1103507529680"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1104153442730"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1101595130435"/>
+			<MemberRefExpr type="int" spelling="max_text" id="1101683963218"/>
+			<MemberRefExpr type="int" spelling="num_text" id="1101868364756"/>
+			<MemberRefExpr type="int" spelling="num_text" id="1103338433954"/>
+			<MemberRefExpr type="png_textp" spelling="text" id="1102345133233"/>
+			<MemberRefExpr type="png_textp" spelling="text" id="1103821138264"/>
+			<MemberRefExpr type="png_textp" spelling="text" id="1101302472687"/>
+			<MemberRefExpr type="png_uint_32" spelling="free_me" id="1102972929984"/>
+			<MemberRefExpr type="int" spelling="max_text" id="1102327133567"/>
+			<StringLiteral type="char [21]" spelling="&quot;too many text chunks&quot;" id="1100493249653"/>
+			<UnexposedExpr type="int" spelling="num_text" id="1101985196256"/>
+			<UnexposedExpr type="int" spelling="max_text" id="1102994043085"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103280674101"/>
+			<UnexposedExpr type="int" spelling="num_text" id="1101231659169"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1101745822079"/>
+			<UnexposedExpr type="int" spelling="num_text" id="1100020939333"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1101051875163"/>
+			<UnexposedExpr type="int" spelling="old_num_text" id="1100221218721"/>
+			<UnexposedExpr type="int" spelling="num_text" id="1100282538704"/>
+			<UnexposedExpr type="int" spelling="max_text" id="1103072144130"/>
+			<UnexposedExpr type="int" spelling="num_text" id="1104175533264"/>
+			<UnexposedExpr type="int" spelling="max_text" id="1101582155398"/>
+			<UnexposedExpr type="int" spelling="max_text" id="1100613808012"/>
+			<UnexposedExpr type="png_voidp (*)(png_const_structrp, png_const_voidp, int, int, size_t)" spelling="png_realloc_array" id="1103396967118"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1100871969576"/>
+			<UnexposedExpr type="png_const_voidp" spelling="text" id="1103211049789"/>
+			<UnexposedExpr type="png_textp" spelling="text" id="1100414766135"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103205857568"/>
+			<UnexposedExpr type="int" spelling="old_num_text" id="1102412323232"/>
+			<UnexposedExpr type="int" spelling="max_text" id="1102922268170"/>
+			<UnexposedExpr type="int" spelling="old_num_text" id="1103846228707"/>
+			<UnexposedExpr type="png_textp" spelling="new_text" id="1103080641764"/>
+			<UnexposedExpr type="png_textp" spelling="new_text" id="1102800841578"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1101206785152"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102580161317"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_voidp)" spelling="png_free" id="1100664135576"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102864390557"/>
+			<UnexposedExpr type="png_voidp" spelling="text" id="1102823254707"/>
+			<UnexposedExpr type="png_textp" spelling="text" id="1102723304021"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1104234262497"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103004390236"/>
+			<UnexposedExpr type="png_textp" spelling="new_text" id="1103789948136"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1104155030570"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1104048485289"/>
+			<UnexposedExpr type="int" spelling="max_text" id="1102596647358"/>
+			<VarDecl type="int" spelling="old_num_text" id="1103152856193"/>
+			<VarDecl type="int" spelling="max_text" id="1100120173085"/>
+			<VarDecl type="png_textp" spelling="new_text" id="1103720075422"/>
+			<CallExpr type="png_voidp" spelling="png_realloc_array" id="1101614029575"/>
+			<CallExpr type="void" spelling="png_chunk_report" id="1100163312622"/>
+			<CallExpr type="void" spelling="png_free" id="1103185831319"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="make" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="space" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="array" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="compare" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="overflow" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="subtract" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="positive" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="overflow" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="case" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="text"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Calculate an appropriate max_text, checking for overflow." comment_scope_start="795" comment_scope_end="800">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="max_text" id="1102984937388"/>
+			<DeclRefExpr type="int" spelling="old_num_text" id="1100913581663"/>
+			<DeclRefExpr type="int" spelling="num_text" id="1101998234005"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1101466510479"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1101461207417"/>
+			<DeclRefExpr type="int" spelling="num_text" id="1103503054789"/>
+			<UnexposedExpr type="int" spelling="old_num_text" id="1100221218721"/>
+			<UnexposedExpr type="int" spelling="num_text" id="1100282538704"/>
+			<UnexposedExpr type="int" spelling="max_text" id="1103072144130"/>
+			<UnexposedExpr type="int" spelling="num_text" id="1104175533264"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="checking" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="for" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="overflow" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Round up to a multiple of 8" comment_scope_start="801" comment_scope_end="807">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="max_text" id="1103627429248"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1103748515392"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1103665515864"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1100607200378"/>
+			<UnexposedExpr type="int" spelling="max_text" id="1101582155398"/>
+			<UnexposedExpr type="int" spelling="max_text" id="1100613808012"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="round" type=" 'Operations as part of Data structure"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Now allocate a new array and copy the old members in; this does all
+          * the overflow checks." comment_scope_start="808" comment_scope_end="814">
+		<SYMBOLS>
+			<DeclRefExpr type="png_textp" spelling="new_text" id="1100777927373"/>
+			<DeclRefExpr type="png_voidp (png_const_structrp, png_const_voidp, int, int, size_t)" spelling="png_realloc_array" id="1104118571122"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1103520239834"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1100313396446"/>
+			<DeclRefExpr type="int" spelling="old_num_text" id="1101654242833"/>
+			<DeclRefExpr type="int" spelling="max_text" id="1100703547593"/>
+			<DeclRefExpr type="int" spelling="old_num_text" id="1103671572156"/>
+			<DeclRefExpr type="png_textp" spelling="new_text" id="1102038364720"/>
+			<MemberRefExpr type="png_textp" spelling="text" id="1102345133233"/>
+			<UnexposedExpr type="png_voidp (*)(png_const_structrp, png_const_voidp, int, int, size_t)" spelling="png_realloc_array" id="1103396967118"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1100871969576"/>
+			<UnexposedExpr type="png_const_voidp" spelling="text" id="1103211049789"/>
+			<UnexposedExpr type="png_textp" spelling="text" id="1100414766135"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103205857568"/>
+			<UnexposedExpr type="int" spelling="old_num_text" id="1102412323232"/>
+			<UnexposedExpr type="int" spelling="max_text" id="1102922268170"/>
+			<UnexposedExpr type="int" spelling="old_num_text" id="1103846228707"/>
+			<UnexposedExpr type="png_textp" spelling="new_text" id="1103080641764"/>
+			<CallExpr type="png_voidp" spelling="png_realloc_array" id="1101614029575"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="allocate" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="new" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="array" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="overflow" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="checks" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="num_text is adjusted below as the entries are copied in" comment_scope_start="829" comment_scope_end="832"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Set iTXt data" comment_scope_start="862" comment_scope_end="875">
+		<SYMBOLS>
+			<DeclRefExpr type="png_const_textp" spelling="text_ptr" id="1102015929677"/>
+			<DeclRefExpr type="int" spelling="i" id="1101904682388"/>
+			<DeclRefExpr type="size_t" spelling="lang_len" id="1100331971115"/>
+			<DeclRefExpr type="unsigned long (const char *)" spelling="strlen" id="1102142847505"/>
+			<DeclRefExpr type="png_const_textp" spelling="text_ptr" id="1104125894700"/>
+			<DeclRefExpr type="int" spelling="i" id="1101947139202"/>
+			<DeclRefExpr type="size_t" spelling="lang_len" id="1102276835438"/>
+			<DeclRefExpr type="png_const_textp" spelling="text_ptr" id="1104043518059"/>
+			<DeclRefExpr type="int" spelling="i" id="1100095756653"/>
+			<DeclRefExpr type="size_t" spelling="lang_key_len" id="1100001894366"/>
+			<DeclRefExpr type="unsigned long (const char *)" spelling="strlen" id="1103236468629"/>
+			<DeclRefExpr type="png_const_textp" spelling="text_ptr" id="1101699885216"/>
+			<DeclRefExpr type="int" spelling="i" id="1100709688510"/>
+			<DeclRefExpr type="size_t" spelling="lang_key_len" id="1102226918545"/>
+			<MemberRefExpr type="const png_charp" spelling="lang" id="1103569837852"/>
+			<MemberRefExpr type="const png_charp" spelling="lang" id="1101774208258"/>
+			<MemberRefExpr type="const png_charp" spelling="lang_key" id="1102523522690"/>
+			<MemberRefExpr type="const png_charp" spelling="lang_key" id="1101844051940"/>
+			<UnexposedExpr type="png_charp" spelling="lang" id="1102098406457"/>
+			<UnexposedExpr type="png_const_textp" spelling="text_ptr" id="1102304279078"/>
+			<UnexposedExpr type="int" spelling="i" id="1103422220733"/>
+			<UnexposedExpr type="unsigned long (*)(const char *)" spelling="strlen" id="1104059088364"/>
+			<UnexposedExpr type="const char *" spelling="lang" id="1101978336231"/>
+			<UnexposedExpr type="png_charp" spelling="lang" id="1103536407788"/>
+			<UnexposedExpr type="png_const_textp" spelling="text_ptr" id="1102907326694"/>
+			<UnexposedExpr type="int" spelling="i" id="1100446388734"/>
+			<UnexposedExpr type="png_charp" spelling="lang_key" id="1103452248527"/>
+			<UnexposedExpr type="png_const_textp" spelling="text_ptr" id="1101527207316"/>
+			<UnexposedExpr type="int" spelling="i" id="1100523089626"/>
+			<UnexposedExpr type="unsigned long (*)(const char *)" spelling="strlen" id="1102829365288"/>
+			<UnexposedExpr type="const char *" spelling="lang_key" id="1101146461710"/>
+			<UnexposedExpr type="png_charp" spelling="lang_key" id="1104106466032"/>
+			<UnexposedExpr type="png_const_textp" spelling="text_ptr" id="1102970605194"/>
+			<UnexposedExpr type="int" spelling="i" id="1100730152335"/>
+			<CallExpr type="unsigned long" spelling="strlen" id="1101817952458"/>
+			<CallExpr type="unsigned long" spelling="strlen" id="1103439259569"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="set" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="data" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="itxt"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="iTXt" comment_scope_start="876" comment_scope_end="876"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="It may not actually be necessary to set png_ptr-&gt;trans_alpha here;
+        * we do it for backward compatibility with the way the png_handle_tRNS
+        * function used to do the allocation.
+        *
+        * 1.6.0: The above statement is incorrect; png_handle_tRNS effectively
+        * relies on png_set_tRNS storing the information in png_struct
+        * (otherwise it won't be there for the code in pngrtran.c)." comment_scope_start="1005" comment_scope_end="1017">
+		<SYMBOLS>
+			<DeclRefExpr type="void (png_const_structrp, png_inforp, png_uint_32, int)" spelling="png_free_data" id="1104180296305"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1102998624766"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1103078461131"/>
+			<DeclRefExpr type="int" spelling="num_trans" id="1103102966406"/>
+			<DeclRefExpr type="int" spelling="num_trans" id="1100011379167"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_inforp, png_uint_32, int)" spelling="png_free_data" id="1103873063792"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102946556478"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1101745515543"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1100704786087"/>
+			<UnexposedExpr type="int" spelling="num_trans" id="1103713810105"/>
+			<UnexposedExpr type="int" spelling="num_trans" id="1100834838559"/>
+			<CallExpr type="void" spelling="png_free_data" id="1100885983650"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="set" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="do" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="for" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="do" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="allocation" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="for" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="pngrtran"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Changed from num_trans to PNG_MAX_PALETTE_LENGTH in version 1.2.1" comment_scope_start="1018" comment_scope_end="1022">
+		<SYMBOLS>
+			<TypeRef type="size_t" spelling="size_t" id="1102702040207"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1102024017151"/>
+			<DeclRefExpr type="png_voidp (png_const_structrp, png_alloc_size_t)" spelling="png_malloc" id="1103666223208"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1100680908797"/>
+			<DeclRefExpr type="void *(void *, const void *, unsigned long)" spelling="memcpy" id="1101758180594"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1103496739952"/>
+			<DeclRefExpr type="png_const_bytep" spelling="trans_alpha" id="1100758187174"/>
+			<DeclRefExpr type="int" spelling="num_trans" id="1102634019226"/>
+			<MemberRefExpr type="png_bytep" spelling="trans_alpha" id="1100169177750"/>
+			<MemberRefExpr type="png_bytep" spelling="trans_alpha" id="1102809849440"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103832561067"/>
+			<UnexposedExpr type="png_voidp (*)(png_const_structrp, png_alloc_size_t)" spelling="png_malloc" id="1102311433218"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1100551106589"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1100975888107"/>
+			<UnexposedExpr type="void *(*)(void *, const void *, unsigned long)" spelling="memcpy" id="1104192123410"/>
+			<UnexposedExpr type="void *" spelling="trans_alpha" id="1103494896485"/>
+			<UnexposedExpr type="png_bytep" spelling="trans_alpha" id="1100503192775"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102178746063"/>
+			<UnexposedExpr type="const void *" spelling="trans_alpha" id="1102592215932"/>
+			<UnexposedExpr type="png_const_bytep" spelling="trans_alpha" id="1100911904009"/>
+			<UnexposedExpr type="int" spelling="num_trans" id="1102167848575"/>
+			<CallExpr type="png_voidp" spelling="png_malloc" id="1103328231927"/>
+			<CallExpr type="void *" spelling="memcpy" id="1102098349491"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="*  entries        - array of png_sPLT_t structures
+ *                   to be added to the list of palettes
+ *                   in the info structure.
+ *
+ *  nentries       - number of palette structures to be
+ *                   added." comment_scope_start="1064" comment_scope_end="1158">
+		<SYMBOLS>
+			<TypeRef type="png_sPLT_tp" spelling="png_sPLT_tp" id="1102666512370"/>
+			<TypeRef type="size_t" spelling="size_t" id="1102702040207"/>
+			<TypeRef type="png_sPLT_entry" spelling="png_sPLT_entry" id="1102238528039"/>
+			<TypeRef type="png_sPLT_entry" spelling="png_sPLT_entry" id="1102238528039"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1100789550943"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101335802809"/>
+			<DeclRefExpr type="int" spelling="nentries" id="1102656055331"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1102101805183"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1101784593340"/>
+			<DeclRefExpr type="png_voidp (png_const_structrp, png_const_voidp, int, int, size_t)" spelling="png_realloc_array" id="1102265720180"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1100439577977"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1100311076642"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101345698114"/>
+			<DeclRefExpr type="int" spelling="nentries" id="1103186179456"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1103045919929"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1102283641920"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1101369481064"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1104234246812"/>
+			<DeclRefExpr type="void (png_const_structrp, png_voidp)" spelling="png_free" id="1101802108556"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1101691151952"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1102913080505"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101546170512"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1100392975724"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101616622025"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1102124917799"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1100245510580"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1102685979090"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1102475173917"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_app_error" id="1102966505402"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1101735490075"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1101453877709"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1103396339514"/>
+			<DeclRefExpr type="size_t" spelling="length" id="1101791260400"/>
+			<DeclRefExpr type="unsigned long (const char *)" spelling="strlen" id="1100968723525"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1102262952844"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1102103226307"/>
+			<DeclRefExpr type="png_voidp (png_const_structrp, png_alloc_size_t)" spelling="png_malloc_base" id="1101470902253"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1103731837020"/>
+			<DeclRefExpr type="size_t" spelling="length" id="1101626747811"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1103408674081"/>
+			<DeclRefExpr type="void *(void *, const void *, unsigned long)" spelling="memcpy" id="1103695950609"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1102798081088"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1102721831265"/>
+			<DeclRefExpr type="size_t" spelling="length" id="1103084166922"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1101882712854"/>
+			<DeclRefExpr type="png_voidp (png_const_structrp, int, size_t)" spelling="png_malloc_array" id="1103566353692"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1103055159029"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1102489880975"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1101818677614"/>
+			<DeclRefExpr type="void (png_const_structrp, png_voidp)" spelling="png_free" id="1100705612517"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1100098647002"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1102639092618"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1103003761183"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1102357216207"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1100195134456"/>
+			<DeclRefExpr type="void *(void *, const void *, unsigned long)" spelling="memcpy" id="1101711110922"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1103221250090"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1102211130918"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1103965609978"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101489509093"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101855854608"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1102479856031"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1103408187088"/>
+			<DeclRefExpr type="int" spelling="nentries" id="1102167925359"/>
+			<DeclRefExpr type="int" spelling="nentries" id="1100944411692"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1102135705039"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1101119120267"/>
+			<MemberRefExpr type="png_sPLT_tp" spelling="splt_palettes" id="1103786657141"/>
+			<MemberRefExpr type="int" spelling="splt_palettes_num" id="1100202164055"/>
+			<MemberRefExpr type="png_sPLT_tp" spelling="splt_palettes" id="1100227044902"/>
+			<MemberRefExpr type="png_sPLT_tp" spelling="splt_palettes" id="1102656298969"/>
+			<MemberRefExpr type="png_uint_32" spelling="free_me" id="1102130819619"/>
+			<MemberRefExpr type="int" spelling="splt_palettes_num" id="1101920513587"/>
+			<MemberRefExpr type="const png_charp" spelling="name" id="1102582217735"/>
+			<MemberRefExpr type="const png_sPLT_entryp" spelling="entries" id="1103651011184"/>
+			<MemberRefExpr type="png_byte" spelling="depth" id="1101579407121"/>
+			<MemberRefExpr type="const png_byte" spelling="depth" id="1100527429429"/>
+			<MemberRefExpr type="const png_charp" spelling="name" id="1101135960908"/>
+			<MemberRefExpr type="png_charp" spelling="name" id="1101932414422"/>
+			<MemberRefExpr type="png_charp" spelling="name" id="1100503738224"/>
+			<MemberRefExpr type="png_charp" spelling="name" id="1100016475015"/>
+			<MemberRefExpr type="const png_charp" spelling="name" id="1102256533662"/>
+			<MemberRefExpr type="png_sPLT_entryp" spelling="entries" id="1102629334205"/>
+			<MemberRefExpr type="const png_int_32" spelling="nentries" id="1101515346532"/>
+			<MemberRefExpr type="png_sPLT_entryp" spelling="entries" id="1104192850233"/>
+			<MemberRefExpr type="png_charp" spelling="name" id="1103374447204"/>
+			<MemberRefExpr type="png_charp" spelling="name" id="1101377869186"/>
+			<MemberRefExpr type="png_int_32" spelling="nentries" id="1101929903929"/>
+			<MemberRefExpr type="const png_int_32" spelling="nentries" id="1104031316966"/>
+			<MemberRefExpr type="png_sPLT_entryp" spelling="entries" id="1102221689781"/>
+			<MemberRefExpr type="const png_sPLT_entryp" spelling="entries" id="1100369943467"/>
+			<MemberRefExpr type="const png_int_32" spelling="nentries" id="1101190679193"/>
+			<MemberRefExpr type="png_uint_32" spelling="valid" id="1103080578906"/>
+			<MemberRefExpr type="int" spelling="splt_palettes_num" id="1100041641228"/>
+			<StringLiteral type="char [21]" spelling="&quot;too many sPLT chunks&quot;" id="1102272436052"/>
+			<StringLiteral type="char [27]" spelling="&quot;png_set_sPLT: invalid sPLT&quot;" id="1103265345942"/>
+			<StringLiteral type="char [19]" spelling="&quot;sPLT out of memory&quot;" id="1102407903828"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1100626322876"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1100458775011"/>
+			<UnexposedExpr type="int" spelling="nentries" id="1101741913104"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1102322365305"/>
+			<UnexposedExpr type="png_voidp (*)(png_const_structrp, png_const_voidp, int, int, size_t)" spelling="png_realloc_array" id="1101151725267"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1101851162332"/>
+			<UnexposedExpr type="png_const_voidp" spelling="splt_palettes" id="1103549309455"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="splt_palettes" id="1101032671897"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102704413643"/>
+			<UnexposedExpr type="int" spelling="splt_palettes_num" id="1104246239466"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102171921663"/>
+			<UnexposedExpr type="int" spelling="nentries" id="1101340471619"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1104167335522"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1100040443390"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1103179779165"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102087791612"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_voidp)" spelling="png_free" id="1101258096479"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1100695396431"/>
+			<UnexposedExpr type="png_voidp" spelling="splt_palettes" id="1102742495458"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="splt_palettes" id="1100802127021"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1100925699935"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102321207954"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1100966235496"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1101871930517"/>
+			<UnexposedExpr type="int" spelling="splt_palettes_num" id="1100265439565"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1100006600790"/>
+			<UnexposedExpr type="png_charp" spelling="name" id="1100336071046"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1100895272656"/>
+			<UnexposedExpr type="png_sPLT_entryp" spelling="entries" id="1100525316282"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1102764734124"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_app_error" id="1103158724143"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1104213615525"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1100488421955"/>
+			<UnexposedExpr type="png_byte" spelling="depth" id="1100555181153"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1101318259495"/>
+			<UnexposedExpr type="unsigned long (*)(const char *)" spelling="strlen" id="1100534001954"/>
+			<UnexposedExpr type="const char *" spelling="name" id="1100327975154"/>
+			<UnexposedExpr type="png_charp" spelling="name" id="1103562232030"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1103292701375"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1103980253500"/>
+			<UnexposedExpr type="png_voidp (*)(png_const_structrp, png_alloc_size_t)" spelling="png_malloc_base" id="1101582512972"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1101713551182"/>
+			<UnexposedExpr type="size_t" spelling="length" id="1101020062838"/>
+			<UnexposedExpr type="png_charp" spelling="name" id="1102944873931"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1100998886761"/>
+			<UnexposedExpr type="void *(*)(void *, const void *, unsigned long)" spelling="memcpy" id="1101940833883"/>
+			<UnexposedExpr type="void *" spelling="name" id="1101212708802"/>
+			<UnexposedExpr type="png_charp" spelling="name" id="1104082939827"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1103199149151"/>
+			<UnexposedExpr type="const void *" spelling="name" id="1104078015202"/>
+			<UnexposedExpr type="png_charp" spelling="name" id="1103653309270"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1101167385614"/>
+			<UnexposedExpr type="size_t" spelling="length" id="1101582080764"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1100646923528"/>
+			<UnexposedExpr type="png_voidp (*)(png_const_structrp, int, size_t)" spelling="png_malloc_array" id="1102852069468"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102037072389"/>
+			<UnexposedExpr type="png_int_32" spelling="nentries" id="1102415916181"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1103382316581"/>
+			<UnexposedExpr type="png_sPLT_entryp" spelling="entries" id="1103666663847"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1100307902645"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_voidp)" spelling="png_free" id="1101236119078"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1101887510101"/>
+			<UnexposedExpr type="png_voidp" spelling="name" id="1103481189039"/>
+			<UnexposedExpr type="png_charp" spelling="name" id="1103560529704"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1101064705621"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1101899584502"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1101815086325"/>
+			<UnexposedExpr type="png_int_32" spelling="nentries" id="1100590382239"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1103936362066"/>
+			<UnexposedExpr type="void *(*)(void *, const void *, unsigned long)" spelling="memcpy" id="1102992324971"/>
+			<UnexposedExpr type="void *" spelling="entries" id="1100564167433"/>
+			<UnexposedExpr type="png_sPLT_entryp" spelling="entries" id="1103422956836"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1100582326769"/>
+			<UnexposedExpr type="const void *" spelling="entries" id="1102378557848"/>
+			<UnexposedExpr type="png_sPLT_entryp" spelling="entries" id="1101710683088"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1103955242323"/>
+			<UnexposedExpr type="png_int_32" spelling="nentries" id="1102394642471"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1103838880048"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102506335865"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103431655244"/>
+			<UnexposedExpr type="int" spelling="nentries" id="1101892864564"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1100892467245"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1103984762422"/>
+			<VarDecl type="png_sPLT_tp" spelling="np" id="1100512468809"/>
+			<VarDecl type="size_t" spelling="length" id="1102168191689"/>
+			<CallExpr type="png_voidp" spelling="png_realloc_array" id="1102083833419"/>
+			<CallExpr type="void" spelling="png_chunk_report" id="1104205653504"/>
+			<CallExpr type="void" spelling="png_free" id="1101447731108"/>
+			<CallExpr type="void" spelling="png_app_error" id="1103325536897"/>
+			<CallExpr type="unsigned long" spelling="strlen" id="1104282143581"/>
+			<CallExpr type="png_voidp" spelling="png_malloc_base" id="1100641746576"/>
+			<CallExpr type="void *" spelling="memcpy" id="1100939487345"/>
+			<CallExpr type="png_voidp" spelling="png_malloc_array" id="1100662538584"/>
+			<CallExpr type="void" spelling="png_free" id="1102539485389"/>
+			<CallExpr type="void *" spelling="memcpy" id="1101716961879"/>
+			<CallExpr type="void" spelling="png_chunk_report" id="1100579283673"/>
+			<FunctionDecl type="void (png_const_structrp, png_inforp, png_const_sPLT_tp, int)" spelling="png_set_sPLT" id="1101648007648"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="array" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="added" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="list" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="structure" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="number" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="added" type=" 'Operations as part of Data structure"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="palettes"/>
+			<PROBLEM_DOMAIN word="palette"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Use the internal realloc function, which checks for all the possible
+    * overflows.  Notice that the parameters are (int) and (size_t)" comment_scope_start="1078" comment_scope_end="1086">
+		<SYMBOLS>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1101784593340"/>
+			<DeclRefExpr type="png_voidp (png_const_structrp, png_const_voidp, int, int, size_t)" spelling="png_realloc_array" id="1102265720180"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1100439577977"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1100311076642"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101345698114"/>
+			<DeclRefExpr type="int" spelling="nentries" id="1103186179456"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1103045919929"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1102283641920"/>
+			<MemberRefExpr type="png_sPLT_tp" spelling="splt_palettes" id="1103786657141"/>
+			<MemberRefExpr type="int" spelling="splt_palettes_num" id="1100202164055"/>
+			<UnexposedExpr type="png_voidp (*)(png_const_structrp, png_const_voidp, int, int, size_t)" spelling="png_realloc_array" id="1101151725267"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1101851162332"/>
+			<UnexposedExpr type="png_const_voidp" spelling="splt_palettes" id="1103549309455"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="splt_palettes" id="1101032671897"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102704413643"/>
+			<UnexposedExpr type="int" spelling="splt_palettes_num" id="1104246239466"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102171921663"/>
+			<UnexposedExpr type="int" spelling="nentries" id="1101340471619"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1104167335522"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1100040443390"/>
+			<CallExpr type="png_voidp" spelling="png_realloc_array" id="1102083833419"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="internal" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="realloc" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="checks" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="for" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="parameters" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="int" type=" 'Properties of Datastructure / Function / Blocks"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Out of memory or too many chunks" comment_scope_start="1087" comment_scope_end="1091">
+		<SYMBOLS>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1101369481064"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1104234246812"/>
+			<StringLiteral type="char [21]" spelling="&quot;too many sPLT chunks&quot;" id="1102272436052"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1103179779165"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102087791612"/>
+			<CallExpr type="void" spelling="png_chunk_report" id="1104205653504"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="memory" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Skip invalid input entries" comment_scope_start="1103" comment_scope_end="1110">
+		<SYMBOLS>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1102685979090"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1102475173917"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_app_error" id="1102966505402"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1101735490075"/>
+			<MemberRefExpr type="const png_charp" spelling="name" id="1102582217735"/>
+			<MemberRefExpr type="const png_sPLT_entryp" spelling="entries" id="1103651011184"/>
+			<StringLiteral type="char [27]" spelling="&quot;png_set_sPLT: invalid sPLT&quot;" id="1103265345942"/>
+			<UnexposedExpr type="png_charp" spelling="name" id="1100336071046"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1100895272656"/>
+			<UnexposedExpr type="png_sPLT_entryp" spelling="entries" id="1100525316282"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1102764734124"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_app_error" id="1103158724143"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1104213615525"/>
+			<CallExpr type="void" spelling="png_app_error" id="1103325536897"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="input" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="png_handle_sPLT doesn't do this, so this is an app error" comment_scope_start="1106" comment_scope_end="1107">
+		<SYMBOLS>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_app_error" id="1102966505402"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1101735490075"/>
+			<StringLiteral type="char [27]" spelling="&quot;png_set_sPLT: invalid sPLT&quot;" id="1103265345942"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_app_error" id="1103158724143"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1104213615525"/>
+			<CallExpr type="void" spelling="png_app_error" id="1103325536897"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="do" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="error" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="app"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Just skip the invalid entry" comment_scope_start="1108" comment_scope_end="1110"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="In the event of out-of-memory just return - there's no point keeping
+       * on trying to add sPLT chunks." comment_scope_start="1114" comment_scope_end="1124">
+		<SYMBOLS>
+			<DeclRefExpr type="size_t" spelling="length" id="1101791260400"/>
+			<DeclRefExpr type="unsigned long (const char *)" spelling="strlen" id="1100968723525"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1102262952844"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1102103226307"/>
+			<DeclRefExpr type="png_voidp (png_const_structrp, png_alloc_size_t)" spelling="png_malloc_base" id="1101470902253"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1103731837020"/>
+			<DeclRefExpr type="size_t" spelling="length" id="1101626747811"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1103408674081"/>
+			<DeclRefExpr type="void *(void *, const void *, unsigned long)" spelling="memcpy" id="1103695950609"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1102798081088"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1102721831265"/>
+			<DeclRefExpr type="size_t" spelling="length" id="1103084166922"/>
+			<MemberRefExpr type="const png_charp" spelling="name" id="1101135960908"/>
+			<MemberRefExpr type="png_charp" spelling="name" id="1101932414422"/>
+			<MemberRefExpr type="png_charp" spelling="name" id="1100503738224"/>
+			<MemberRefExpr type="png_charp" spelling="name" id="1100016475015"/>
+			<MemberRefExpr type="const png_charp" spelling="name" id="1102256533662"/>
+			<UnexposedExpr type="unsigned long (*)(const char *)" spelling="strlen" id="1100534001954"/>
+			<UnexposedExpr type="const char *" spelling="name" id="1100327975154"/>
+			<UnexposedExpr type="png_charp" spelling="name" id="1103562232030"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1103292701375"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1103980253500"/>
+			<UnexposedExpr type="png_voidp (*)(png_const_structrp, png_alloc_size_t)" spelling="png_malloc_base" id="1101582512972"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1101713551182"/>
+			<UnexposedExpr type="size_t" spelling="length" id="1101020062838"/>
+			<UnexposedExpr type="png_charp" spelling="name" id="1102944873931"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1100998886761"/>
+			<UnexposedExpr type="void *(*)(void *, const void *, unsigned long)" spelling="memcpy" id="1101940833883"/>
+			<UnexposedExpr type="void *" spelling="name" id="1101212708802"/>
+			<UnexposedExpr type="png_charp" spelling="name" id="1104082939827"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1103199149151"/>
+			<UnexposedExpr type="const void *" spelling="name" id="1104078015202"/>
+			<UnexposedExpr type="png_charp" spelling="name" id="1103653309270"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1101167385614"/>
+			<UnexposedExpr type="size_t" spelling="length" id="1101582080764"/>
+			<CallExpr type="unsigned long" spelling="strlen" id="1104282143581"/>
+			<CallExpr type="png_voidp" spelling="png_malloc_base" id="1100641746576"/>
+			<CallExpr type="void *" spelling="memcpy" id="1100939487345"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="return" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="add" type=" 'Operations as part of Data structure"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="splt"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="IMPORTANT: we have memory now that won't get freed if something else
+       * goes wrong; this code must free it.  png_malloc_array produces no
+       * warnings; use a png_chunk_report (below) if there is an error." comment_scope_start="1125" comment_scope_end="1139">
+		<SYMBOLS>
+			<TypeRef type="png_sPLT_entry" spelling="png_sPLT_entry" id="1102238528039"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1101882712854"/>
+			<DeclRefExpr type="png_voidp (png_const_structrp, int, size_t)" spelling="png_malloc_array" id="1103566353692"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1103055159029"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1102489880975"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1101818677614"/>
+			<DeclRefExpr type="void (png_const_structrp, png_voidp)" spelling="png_free" id="1100705612517"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1100098647002"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1102639092618"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1103003761183"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1102357216207"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1100195134456"/>
+			<MemberRefExpr type="png_sPLT_entryp" spelling="entries" id="1102629334205"/>
+			<MemberRefExpr type="const png_int_32" spelling="nentries" id="1101515346532"/>
+			<MemberRefExpr type="png_sPLT_entryp" spelling="entries" id="1104192850233"/>
+			<MemberRefExpr type="png_charp" spelling="name" id="1103374447204"/>
+			<MemberRefExpr type="png_charp" spelling="name" id="1101377869186"/>
+			<MemberRefExpr type="png_int_32" spelling="nentries" id="1101929903929"/>
+			<MemberRefExpr type="const png_int_32" spelling="nentries" id="1104031316966"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1100646923528"/>
+			<UnexposedExpr type="png_voidp (*)(png_const_structrp, int, size_t)" spelling="png_malloc_array" id="1102852069468"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102037072389"/>
+			<UnexposedExpr type="png_int_32" spelling="nentries" id="1102415916181"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1103382316581"/>
+			<UnexposedExpr type="png_sPLT_entryp" spelling="entries" id="1103666663847"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1100307902645"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_voidp)" spelling="png_free" id="1101236119078"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1101887510101"/>
+			<UnexposedExpr type="png_voidp" spelling="name" id="1103481189039"/>
+			<UnexposedExpr type="png_charp" spelling="name" id="1103560529704"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1101064705621"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1101899584502"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1101815086325"/>
+			<UnexposedExpr type="png_int_32" spelling="nentries" id="1100590382239"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1103936362066"/>
+			<CallExpr type="png_voidp" spelling="png_malloc_array" id="1100662538584"/>
+			<CallExpr type="void" spelling="png_free" id="1102539485389"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="memory" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="get" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="freed" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="else" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="free" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="error" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="This multiply can't overflow because png_malloc_array has already
+       * checked it when doing the allocation." comment_scope_start="1140" comment_scope_end="1145">
+		<SYMBOLS>
+			<TypeRef type="png_sPLT_entry" spelling="png_sPLT_entry" id="1102238528039"/>
+			<DeclRefExpr type="void *(void *, const void *, unsigned long)" spelling="memcpy" id="1101711110922"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1103221250090"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1102211130918"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1103965609978"/>
+			<MemberRefExpr type="png_sPLT_entryp" spelling="entries" id="1102221689781"/>
+			<MemberRefExpr type="const png_sPLT_entryp" spelling="entries" id="1100369943467"/>
+			<MemberRefExpr type="const png_int_32" spelling="nentries" id="1101190679193"/>
+			<UnexposedExpr type="void *(*)(void *, const void *, unsigned long)" spelling="memcpy" id="1102992324971"/>
+			<UnexposedExpr type="void *" spelling="entries" id="1100564167433"/>
+			<UnexposedExpr type="png_sPLT_entryp" spelling="entries" id="1103422956836"/>
+			<UnexposedExpr type="png_sPLT_tp" spelling="np" id="1100582326769"/>
+			<UnexposedExpr type="const void *" spelling="entries" id="1102378557848"/>
+			<UnexposedExpr type="png_sPLT_entryp" spelling="entries" id="1101710683088"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1103955242323"/>
+			<UnexposedExpr type="png_int_32" spelling="nentries" id="1102394642471"/>
+			<UnexposedExpr type="png_const_sPLT_tp" spelling="entries" id="1103838880048"/>
+			<CallExpr type="void *" spelling="memcpy" id="1101716961879"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="multiply" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="overflow" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="checked" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="allocation" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Note that 'continue' skips the advance of the out pointer and out
+       * count, so an invalid entry is not added." comment_scope_start="1146" comment_scope_end="1153">
+		<SYMBOLS>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101489509093"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101855854608"/>
+			<DeclRefExpr type="png_sPLT_tp" spelling="np" id="1102479856031"/>
+			<DeclRefExpr type="png_const_sPLT_tp" spelling="entries" id="1103408187088"/>
+			<MemberRefExpr type="png_uint_32" spelling="valid" id="1103080578906"/>
+			<MemberRefExpr type="int" spelling="splt_palettes_num" id="1100041641228"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102506335865"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103431655244"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="continue" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="pointer" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="count" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="added" type=" 'Operations as part of Data structure"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="sPLT" comment_scope_start="1159" comment_scope_end="1159"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="New in 1.6.0; copy the location and check it.  This is an API
+    * change; previously the app had to use the
+    * png_set_unknown_chunk_location API below for each chunk." comment_scope_start="1167" comment_scope_end="1179">
+		<SYMBOLS>
+			<TypeRef type="png_byte" spelling="png_byte" id="1103437488081"/>
+			<DeclRefExpr type="int" spelling="location" id="1100030599237"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1102323890739"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_app_warning" id="1102983648582"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1101094832816"/>
+			<DeclRefExpr type="int" spelling="location" id="1100057174691"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1101985327039"/>
+			<MemberRefExpr type="const png_uint_32" spelling="mode" id="1100093987446"/>
+			<MemberRefExpr type="const png_uint_32" spelling="mode" id="1103012652617"/>
+			<StringLiteral type="char [52]" spelling="&quot;png_set_unknown_chunks now expects a valid location&quot;" id="1100079855797"/>
+			<UnexposedExpr type="int" spelling="location" id="1104239213816"/>
+			<UnexposedExpr type="png_uint_32" spelling="mode" id="1103369042344"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1104097397320"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_app_warning" id="1100962145537"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102173223036"/>
+			<UnexposedExpr type="png_uint_32" spelling="mode" id="1100854570678"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1100034066148"/>
+			<CallExpr type="void" spelling="png_app_warning" id="1103754525745"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="new" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="check" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="for" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="app"/>
+			<PROBLEM_DOMAIN word="chunk"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Write struct, so unknown chunks come from the app" comment_scope_start="1173" comment_scope_end="1175">
+		<SYMBOLS>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_app_warning" id="1102983648582"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1101094832816"/>
+			<StringLiteral type="char [52]" spelling="&quot;png_set_unknown_chunks now expects a valid location&quot;" id="1100079855797"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_app_warning" id="1100962145537"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102173223036"/>
+			<CallExpr type="void" spelling="png_app_warning" id="1103754525745"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="write" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="struct" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="app"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Use the old behavior" comment_scope_start="1176" comment_scope_end="1179">
+		<SYMBOLS>
+			<TypeRef type="png_byte" spelling="png_byte" id="1103437488081"/>
+			<DeclRefExpr type="int" spelling="location" id="1100057174691"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1101985327039"/>
+			<MemberRefExpr type="const png_uint_32" spelling="mode" id="1103012652617"/>
+			<UnexposedExpr type="png_uint_32" spelling="mode" id="1100854570678"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1100034066148"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="This need not be an internal error - if the app calls
+    * png_set_unknown_chunks on a read pointer it must get the location right." comment_scope_start="1181" comment_scope_end="1186">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="location" id="1100520091220"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp) __attribute__((noreturn))" spelling="png_error" id="1101459541003"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1103058146681"/>
+			<StringLiteral type="char [43]" spelling="&quot;invalid location in png_set_unknown_chunks&quot;" id="1102349939568"/>
+			<UnexposedExpr type="int" spelling="location" id="1103016746592"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp) __attribute__((noreturn))" spelling="png_error" id="1102079397867"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1103860212577"/>
+			<CallExpr type="void" spelling="png_error" id="1103869805525"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="internal" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="error" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="read" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="pointer" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="get" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="right" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="app"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Now reduce the location to the top-most set bit by removing each least
+    * significant bit in turn." comment_scope_start="1187" comment_scope_end="1192">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="location" id="1103819667301"/>
+			<DeclRefExpr type="int" spelling="location" id="1101855889572"/>
+			<DeclRefExpr type="int" spelling="location" id="1101859097111"/>
+			<DeclRefExpr type="int" spelling="location" id="1102089714166"/>
+			<DeclRefExpr type="int" spelling="location" id="1101135902325"/>
+			<DeclRefExpr type="int" spelling="location" id="1103144883068"/>
+			<UnexposedExpr type="int" spelling="location" id="1102154469127"/>
+			<UnexposedExpr type="int" spelling="location" id="1100329423562"/>
+			<UnexposedExpr type="int" spelling="location" id="1101534036145"/>
+			<UnexposedExpr type="int" spelling="location" id="1103256730244"/>
+			<UnexposedExpr type="int" spelling="location" id="1101051537969"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="reduce" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="set" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="bit" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="removing" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="bit" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="The cast is safe because 'location' is a bit mask and only the low four
+    * bits are significant." comment_scope_start="1193" comment_scope_end="1197">
+		<SYMBOLS>
+			<TypeRef type="png_byte" spelling="png_byte" id="1103437488081"/>
+			<DeclRefExpr type="int" spelling="location" id="1101941628381"/>
+			<UnexposedExpr type="int" spelling="location" id="1101998563097"/>
+			<FunctionDecl type="png_byte (png_const_structrp, int)" spelling="check_location" id="1103665261663"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="cast" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="bit" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Check for the failure cases where support has been disabled at compile
+    * time.  This code is hardly ever compiled - it's here because
+    * STORE_UNKNOWN_CHUNKS is set by both read and write code (compiling in this
+    * code) but may be meaningless if the read or write handling of unknown
+    * chunks is not compiled in." comment_scope_start="1209" comment_scope_end="1233"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Prior to 1.6.0 this code used png_malloc_warn; however, this meant that
+    * unknown critical chunks could be lost with just a warning resulting in
+    * undefined behavior.  Now png_chunk_report is used to provide behavior
+    * appropriate to read or write." comment_scope_start="1234" comment_scope_end="1251">
+		<SYMBOLS>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1100065016626"/>
+			<DeclRefExpr type="png_voidp (png_const_structrp, png_const_voidp, int, int, size_t)" spelling="png_realloc_array" id="1101930185963"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1104148347665"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1104027983603"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1103049612582"/>
+			<DeclRefExpr type="int" spelling="num_unknowns" id="1103452466553"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1102409274440"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1101275944252"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1101261418021"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1100903597762"/>
+			<DeclRefExpr type="void (png_const_structrp, png_voidp)" spelling="png_free" id="1101115484579"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1103220327754"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101601195591"/>
+			<MemberRefExpr type="png_unknown_chunkp" spelling="unknown_chunks" id="1102514036173"/>
+			<MemberRefExpr type="int" spelling="unknown_chunks_num" id="1100895035325"/>
+			<MemberRefExpr type="png_unknown_chunkp" spelling="unknown_chunks" id="1103792972505"/>
+			<StringLiteral type="char [24]" spelling="&quot;too many unknown chunks&quot;" id="1101782673968"/>
+			<UnexposedExpr type="png_voidp (*)(png_const_structrp, png_const_voidp, int, int, size_t)" spelling="png_realloc_array" id="1103105290020"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1101693918189"/>
+			<UnexposedExpr type="png_const_voidp" spelling="unknown_chunks" id="1102730307392"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="unknown_chunks" id="1103783232611"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103405488413"/>
+			<UnexposedExpr type="int" spelling="unknown_chunks_num" id="1101276445155"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103809194783"/>
+			<UnexposedExpr type="int" spelling="num_unknowns" id="1103321671135"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="np" id="1101242711938"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="np" id="1101509278352"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1103027512547"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1103792494959"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_voidp)" spelling="png_free" id="1102040072643"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1103345146495"/>
+			<UnexposedExpr type="png_voidp" spelling="unknown_chunks" id="1101343734536"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="unknown_chunks" id="1103447049116"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1101012463417"/>
+			<CallExpr type="png_voidp" spelling="png_realloc_array" id="1102768719103"/>
+			<CallExpr type="void" spelling="png_chunk_report" id="1103178765491"/>
+			<CallExpr type="void" spelling="png_free" id="1103891220729"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="read" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="write" type=" 'Operations as part of Data structure"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="safe because it is initialized" comment_scope_start="1252" comment_scope_end="1252">
+		<SYMBOLS>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1102127306874"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1103992439952"/>
+			<MemberRefExpr type="png_unknown_chunkp" spelling="unknown_chunks" id="1104282646703"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102616546832"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="np" id="1100227390633"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Increment unknown_chunks_num each time round the loop to protect the
+    * just-allocated chunk data." comment_scope_start="1257" comment_scope_end="1295">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="num_unknowns" id="1102489751306"/>
+			<DeclRefExpr type="int" spelling="num_unknowns" id="1103330166838"/>
+			<DeclRefExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1102091186766"/>
+			<DeclRefExpr type="void *(void *, const void *, unsigned long)" spelling="memcpy" id="1101680945086"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1101248182140"/>
+			<DeclRefExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1101448271143"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1103281126071"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1100386011286"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1103312565096"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1103975898788"/>
+			<DeclRefExpr type="png_byte (png_const_structrp, int)" spelling="check_location" id="1101101062573"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1103107762762"/>
+			<DeclRefExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1100933444620"/>
+			<DeclRefExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1103615099779"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1102478633523"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1102308186081"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1103022541641"/>
+			<DeclRefExpr type="png_voidp (png_const_structrp, png_alloc_size_t)" spelling="png_malloc_base" id="1102088590926"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1100077805531"/>
+			<DeclRefExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1100017347556"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1103126426434"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1104096533838"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1103617245897"/>
+			<DeclRefExpr type="void *(void *, const void *, unsigned long)" spelling="memcpy" id="1102091495677"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1102299766433"/>
+			<DeclRefExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1101208211518"/>
+			<DeclRefExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1100423451514"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1101956742203"/>
+			<DeclRefExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1103618675417"/>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1101521922499"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1104222652995"/>
+			<MemberRefExpr type="png_byte [5]" spelling="name" id="1101485758157"/>
+			<MemberRefExpr type="png_byte const[5]" spelling="name" id="1102036500417"/>
+			<MemberRefExpr type="png_byte [5]" spelling="name" id="1102279898699"/>
+			<MemberRefExpr type="png_byte [5]" spelling="name" id="1103578092882"/>
+			<MemberRefExpr type="png_byte [5]" spelling="name" id="1100093179585"/>
+			<MemberRefExpr type="png_byte" spelling="location" id="1103466083950"/>
+			<MemberRefExpr type="const png_byte" spelling="location" id="1101099047605"/>
+			<MemberRefExpr type="const size_t" spelling="size" id="1101739047183"/>
+			<MemberRefExpr type="png_byte *" spelling="data" id="1103851805108"/>
+			<MemberRefExpr type="size_t" spelling="size" id="1103089803068"/>
+			<MemberRefExpr type="png_byte *" spelling="data" id="1102768979037"/>
+			<MemberRefExpr type="const size_t" spelling="size" id="1102805803694"/>
+			<MemberRefExpr type="png_byte *" spelling="data" id="1104171303534"/>
+			<MemberRefExpr type="png_byte *" spelling="data" id="1100731804298"/>
+			<MemberRefExpr type="png_byte *const" spelling="data" id="1103239578176"/>
+			<MemberRefExpr type="const size_t" spelling="size" id="1101390080788"/>
+			<MemberRefExpr type="size_t" spelling="size" id="1103807845754"/>
+			<MemberRefExpr type="const size_t" spelling="size" id="1100467749908"/>
+			<MemberRefExpr type="int" spelling="unknown_chunks_num" id="1100914645088"/>
+			<StringLiteral type="char [29]" spelling="&quot;unknown chunk: out of memory&quot;" id="1101580802719"/>
+			<UnexposedExpr type="int" spelling="num_unknowns" id="1103825117492"/>
+			<UnexposedExpr type="void *(*)(void *, const void *, unsigned long)" spelling="memcpy" id="1100413540906"/>
+			<UnexposedExpr type="void *" spelling="name" id="1101348739128"/>
+			<UnexposedExpr type="png_byte *" spelling="name" id="1102920455714"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="np" id="1102905080277"/>
+			<UnexposedExpr type="const void *" spelling="name" id="1101058186188"/>
+			<UnexposedExpr type="const png_byte *" spelling="name" id="1101913465168"/>
+			<UnexposedExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1102537848754"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="np" id="1100000377494"/>
+			<UnexposedExpr type="png_byte *" spelling="name" id="1101590660247"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="np" id="1103938159438"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="np" id="1100623258787"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="np" id="1101697621919"/>
+			<UnexposedExpr type="png_byte (*)(png_const_structrp, int)" spelling="check_location" id="1100614278069"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1102934879021"/>
+			<UnexposedExpr type="int" spelling="location" id="1103210674414"/>
+			<UnexposedExpr type="png_byte" spelling="location" id="1103534791615"/>
+			<UnexposedExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1102582319317"/>
+			<UnexposedExpr type="size_t" spelling="size" id="1101191077830"/>
+			<UnexposedExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1103081770318"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="np" id="1103161250324"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="np" id="1102419466297"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="np" id="1101351605153"/>
+			<UnexposedExpr type="png_voidp (*)(png_const_structrp, png_alloc_size_t)" spelling="png_malloc_base" id="1100924917465"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1101045684054"/>
+			<UnexposedExpr type="size_t" spelling="size" id="1101115296281"/>
+			<UnexposedExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1101562098261"/>
+			<UnexposedExpr type="png_byte *" spelling="data" id="1100616161749"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="np" id="1101261413074"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp, int)" spelling="png_chunk_report" id="1102088827008"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1103666319124"/>
+			<UnexposedExpr type="void *(*)(void *, const void *, unsigned long)" spelling="memcpy" id="1104147469006"/>
+			<UnexposedExpr type="void *" spelling="data" id="1103949004766"/>
+			<UnexposedExpr type="png_byte *" spelling="data" id="1101971394050"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="np" id="1101022555849"/>
+			<UnexposedExpr type="const void *" spelling="data" id="1102630481155"/>
+			<UnexposedExpr type="png_byte *" spelling="data" id="1101908931632"/>
+			<UnexposedExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1103933664808"/>
+			<UnexposedExpr type="size_t" spelling="size" id="1103036221693"/>
+			<UnexposedExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1102152293874"/>
+			<UnexposedExpr type="png_unknown_chunkp" spelling="np" id="1103410270362"/>
+			<UnexposedExpr type="size_t" spelling="size" id="1102169350232"/>
+			<UnexposedExpr type="png_const_unknown_chunkp" spelling="unknowns" id="1102439416966"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1100779086379"/>
+			<CallExpr type="void *" spelling="memcpy" id="1100338483923"/>
+			<CallExpr type="png_byte" spelling="check_location" id="1100305290817"/>
+			<CallExpr type="png_voidp" spelling="png_malloc_base" id="1103081396408"/>
+			<CallExpr type="void" spelling="png_chunk_report" id="1102875639962"/>
+			<CallExpr type="void *" spelling="memcpy" id="1103689366807"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="increment" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="time" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="round" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="protect" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="data" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="time"/>
+			<PROBLEM_DOMAIN word="chunk"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="But just skip storing the unknown chunk" comment_scope_start="1281" comment_scope_end="1283"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="These increments are skipped on out-of-memory for the data - the
+       * unknown chunk entry gets overwritten if the png_chunk_report returns.
+       * This is correct in the read case (the chunk is just dropped.)" comment_scope_start="1289" comment_scope_end="1295">
+		<SYMBOLS>
+			<DeclRefExpr type="png_unknown_chunkp" spelling="np" id="1101521922499"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1104222652995"/>
+			<MemberRefExpr type="int" spelling="unknown_chunks_num" id="1100914645088"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1100779086379"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="increments" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="for" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="data" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="gets" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="returns" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="read" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="case" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="chunk"/>
+			<PROBLEM_DOMAIN word="chunk"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="This API is pretty pointless in 1.6.0 because the location can be set
+    * before the call to png_set_unknown_chunks.
+    *
+    * TODO: add a png_app_warning in 1.7" comment_scope_start="1302" comment_scope_end="1312">
+		<SYMBOLS>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1103344310335"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1102799406283"/>
+			<DeclRefExpr type="int" spelling="chunk" id="1100961315090"/>
+			<DeclRefExpr type="int" spelling="chunk" id="1104229982649"/>
+			<DeclRefExpr type="png_inforp" spelling="info_ptr" id="1101893808470"/>
+			<DeclRefExpr type="int" spelling="location" id="1100563027571"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_app_error" id="1104054808981"/>
+			<DeclRefExpr type="png_const_structrp" spelling="png_ptr" id="1100716232194"/>
+			<MemberRefExpr type="int" spelling="unknown_chunks_num" id="1103429720599"/>
+			<StringLiteral type="char [31]" spelling="&quot;invalid unknown chunk location&quot;" id="1102594021403"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1100993666705"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1102517921901"/>
+			<UnexposedExpr type="int" spelling="chunk" id="1100976463455"/>
+			<UnexposedExpr type="int" spelling="chunk" id="1100729726904"/>
+			<UnexposedExpr type="int" spelling="unknown_chunks_num" id="1103788849210"/>
+			<UnexposedExpr type="png_info *" spelling="info_ptr" id="1103442470485"/>
+			<UnexposedExpr type="int" spelling="location" id="1100222882985"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_app_error" id="1101210244417"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1103960200617"/>
+			<CallExpr type="void" spelling="png_app_error" id="1103039731254"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="set" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="add" type=" 'Operations as part of Data structure"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Fake out the pre 1.6.0 behavior:" comment_scope_start="1313" comment_scope_end="1313"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="undocumented!" comment_scope_start="1314" comment_scope_end="1314">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="location" id="1100152574244"/>
+			<UnexposedExpr type="int" spelling="location" id="1102839233278"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="also undocumented" comment_scope_start="1318" comment_scope_end="1318">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="location" id="1100277123575"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="STORE_UNKNOWN_CHUNKS" comment_scope_start="1325" comment_scope_end="1325"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Utility function: update the 'keep' state of a chunk if it is already in
+    * the list, otherwise add it to the list." comment_scope_start="1348" comment_scope_end="1359">
+		<SYMBOLS>
+			<TypeRef type="png_byte" spelling="png_byte" id="1103437488081"/>
+			<DeclRefExpr type="unsigned int" spelling="i" id="1100979605946"/>
+			<DeclRefExpr type="unsigned int" spelling="i" id="1103594948924"/>
+			<DeclRefExpr type="unsigned int" spelling="count" id="1100729280309"/>
+			<DeclRefExpr type="unsigned int" spelling="i" id="1100879327346"/>
+			<DeclRefExpr type="png_bytep" spelling="list" id="1100892503425"/>
+			<DeclRefExpr type="int (const void *, const void *, unsigned long)" spelling="memcmp" id="1101974045509"/>
+			<DeclRefExpr type="png_bytep" spelling="list" id="1100768013730"/>
+			<DeclRefExpr type="png_const_bytep" spelling="add" id="1101998351116"/>
+			<DeclRefExpr type="png_bytep" spelling="list" id="1101143931968"/>
+			<DeclRefExpr type="int" spelling="keep" id="1100591765293"/>
+			<DeclRefExpr type="unsigned int" spelling="count" id="1101625220342"/>
+			<UnexposedExpr type="unsigned int" spelling="i" id="1102850468884"/>
+			<UnexposedExpr type="unsigned int" spelling="count" id="1103171051417"/>
+			<UnexposedExpr type="int (*)(const void *, const void *, unsigned long)" spelling="memcmp" id="1103123048198"/>
+			<UnexposedExpr type="const void *" spelling="list" id="1100430262157"/>
+			<UnexposedExpr type="png_bytep" spelling="list" id="1101340495186"/>
+			<UnexposedExpr type="const void *" spelling="add" id="1101187601500"/>
+			<UnexposedExpr type="png_const_bytep" spelling="add" id="1102385899367"/>
+			<UnexposedExpr type="png_bytep" spelling="list" id="1100987493793"/>
+			<UnexposedExpr type="int" spelling="keep" id="1101635410794"/>
+			<UnexposedExpr type="unsigned int" spelling="count" id="1101638868996"/>
+			<CallExpr type="int" spelling="memcmp" id="1100411971334"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="utility" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="update" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="list" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="add" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="list" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="chunk"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="'0' means just set the flags, so stop here" comment_scope_start="1392" comment_scope_end="1395">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="num_chunks_in" id="1100950506605"/>
+			<UnexposedExpr type="int" spelling="num_chunks_in" id="1100592433877"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="set" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Ignore all unknown chunks and all chunks recognized by
+       * libpng except for IHDR, PLTE, tRNS, IDAT, and IEND" comment_scope_start="1399" comment_scope_end="1421">
+		<SYMBOLS>
+			<TypeRef type="png_byte" spelling="png_byte" id="1103437488081"/>
+			<VarDecl type="const png_byte [90]" spelling="chunks_to_ignore" id="1100993557166"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="for" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="libpng"/>
+			<PROBLEM_DOMAIN word="idat"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="bKGD" comment_scope_start="1403" comment_scope_end="1403"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="cHRM" comment_scope_start="1404" comment_scope_end="1404"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="eXIf" comment_scope_start="1405" comment_scope_end="1405"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="gAMA" comment_scope_start="1406" comment_scope_end="1406"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="hIST" comment_scope_start="1407" comment_scope_end="1407"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="iCCP" comment_scope_start="1408" comment_scope_end="1408"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="iTXt" comment_scope_start="1409" comment_scope_end="1409"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="oFFs" comment_scope_start="1410" comment_scope_end="1410"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="pCAL" comment_scope_start="1411" comment_scope_end="1411"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="pHYs" comment_scope_start="1412" comment_scope_end="1412"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="sBIT" comment_scope_start="1413" comment_scope_end="1413"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="sCAL" comment_scope_start="1414" comment_scope_end="1414"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="sPLT" comment_scope_start="1415" comment_scope_end="1415"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="sTER" comment_scope_start="1416" comment_scope_end="1416"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="sRGB" comment_scope_start="1417" comment_scope_end="1417"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="tEXt" comment_scope_start="1418" comment_scope_end="1418"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="tIME" comment_scope_start="1419" comment_scope_end="1419"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="zTXt" comment_scope_start="1420" comment_scope_end="1420"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="SAFE" comment_scope_start="1424" comment_scope_end="1424">
+		<SYMBOLS>
+			<DeclRefExpr type="unsigned int" spelling="num_chunks" id="1101253138566"/>
+			<DeclRefExpr type="const png_byte [90]" spelling="chunks_to_ignore" id="1100879684346"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="num_chunks_in &gt; 0" comment_scope_start="1427" comment_scope_end="1427"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Prior to 1.6.0 this was silently ignored, now it is an app_error
+          * which can be switched off." comment_scope_start="1431" comment_scope_end="1437">
+		<SYMBOLS>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_app_error" id="1101672031473"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1103739474224"/>
+			<StringLiteral type="char [43]" spelling="&quot;png_set_keep_unknown_chunks: no chunk list&quot;" id="1102404723429"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_app_error" id="1100454492440"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1104099722722"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1103316918019"/>
+			<CallExpr type="void" spelling="png_app_error" id="1103985309338"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="app_error"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Since num_chunks is always restricted to UINT_MAX/5 this can't overflow." comment_scope_start="1446" comment_scope_end="1453">
+		<SYMBOLS>
+			<DeclRefExpr type="unsigned int" spelling="num_chunks" id="1100772936413"/>
+			<DeclRefExpr type="unsigned int" spelling="old_num_chunks" id="1102042300476"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_app_error" id="1101054088606"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1102540372371"/>
+			<StringLiteral type="char [45]" spelling="&quot;png_set_keep_unknown_chunks: too many chunks&quot;" id="1102192000270"/>
+			<UnexposedExpr type="unsigned int" spelling="num_chunks" id="1102137994371"/>
+			<UnexposedExpr type="unsigned int" spelling="old_num_chunks" id="1101795235394"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_app_error" id="1102632444559"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1103323543899"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1102955159406"/>
+			<CallExpr type="void" spelling="png_app_error" id="1102244654949"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="restricted" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="overflow" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="If these chunks are being reset to the default then no more memory is
+    * required because add_one_chunk above doesn't extend the list if the 'keep'
+    * parameter is the default." comment_scope_start="1455" comment_scope_end="1466">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="keep" id="1101415399417"/>
+			<DeclRefExpr type="png_bytep" spelling="new_list" id="1103786395890"/>
+			<DeclRefExpr type="png_voidp (png_const_structrp, png_alloc_size_t)" spelling="png_malloc" id="1103035561378"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1101349602094"/>
+			<DeclRefExpr type="unsigned int" spelling="num_chunks" id="1101975474182"/>
+			<DeclRefExpr type="unsigned int" spelling="old_num_chunks" id="1103113071291"/>
+			<DeclRefExpr type="unsigned int" spelling="old_num_chunks" id="1100311588145"/>
+			<DeclRefExpr type="void *(void *, const void *, unsigned long)" spelling="memcpy" id="1104164125474"/>
+			<DeclRefExpr type="png_bytep" spelling="new_list" id="1103768467685"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1104188765211"/>
+			<DeclRefExpr type="unsigned int" spelling="old_num_chunks" id="1100283685986"/>
+			<MemberRefExpr type="png_bytep" spelling="chunk_list" id="1101946575590"/>
+			<UnexposedExpr type="int" spelling="keep" id="1101109352938"/>
+			<UnexposedExpr type="png_voidp (*)(png_const_structrp, png_alloc_size_t)" spelling="png_malloc" id="1100436473462"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1101428076769"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1102912715079"/>
+			<UnexposedExpr type="unsigned int" spelling="num_chunks" id="1101265989772"/>
+			<UnexposedExpr type="unsigned int" spelling="old_num_chunks" id="1104188233752"/>
+			<UnexposedExpr type="unsigned int" spelling="old_num_chunks" id="1100971925196"/>
+			<UnexposedExpr type="void *(*)(void *, const void *, unsigned long)" spelling="memcpy" id="1102007509675"/>
+			<UnexposedExpr type="void *" spelling="new_list" id="1100864485157"/>
+			<UnexposedExpr type="png_bytep" spelling="new_list" id="1104205657826"/>
+			<UnexposedExpr type="const void *" spelling="chunk_list" id="1102441251689"/>
+			<UnexposedExpr type="png_bytep" spelling="chunk_list" id="1103704096004"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1103992255857"/>
+			<UnexposedExpr type="unsigned int" spelling="old_num_chunks" id="1103431094423"/>
+			<CallExpr type="png_voidp" spelling="png_malloc" id="1103958139595"/>
+			<CallExpr type="void *" spelling="memcpy" id="1100937174424"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="reset" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="default" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="memory" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="list" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="default" type=" 'Properties of Datastructure / Function / Blocks"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Add the new chunks together with each one's handling code.  If the chunk
+    * already exists the code is updated, otherwise the chunk is added to the
+    * end.  (In libpng 1.6.0 order no longer matters because this code enforces
+    * the earlier convention that the last setting is the one that is used.)" comment_scope_start="1474" comment_scope_end="1512">
+		<SYMBOLS>
+			<TypeRef type="png_const_bytep" spelling="png_const_bytep" id="1101228862878"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1102004773136"/>
+			<DeclRefExpr type="png_bytep" spelling="new_list" id="1100161103783"/>
+			<DeclRefExpr type="unsigned int" spelling="i" id="1104133892837"/>
+			<DeclRefExpr type="unsigned int" spelling="i" id="1102582105597"/>
+			<DeclRefExpr type="unsigned int" spelling="num_chunks" id="1104277898186"/>
+			<DeclRefExpr type="unsigned int" spelling="i" id="1101966876692"/>
+			<DeclRefExpr type="unsigned int" spelling="old_num_chunks" id="1101995279286"/>
+			<DeclRefExpr type="unsigned int (png_bytep, unsigned int, png_const_bytep, int)" spelling="add_one_chunk" id="1102069023266"/>
+			<DeclRefExpr type="png_bytep" spelling="new_list" id="1102328080170"/>
+			<DeclRefExpr type="unsigned int" spelling="old_num_chunks" id="1101450026232"/>
+			<DeclRefExpr type="png_const_bytep" spelling="chunk_list" id="1100433442122"/>
+			<DeclRefExpr type="unsigned int" spelling="i" id="1100028981014"/>
+			<DeclRefExpr type="int" spelling="keep" id="1101714405212"/>
+			<DeclRefExpr type="unsigned int" spelling="num_chunks" id="1103938110303"/>
+			<DeclRefExpr type="unsigned int" spelling="i" id="1100652750708"/>
+			<DeclRefExpr type="png_const_bytep" spelling="inlist" id="1100667312284"/>
+			<DeclRefExpr type="png_bytep" spelling="outlist" id="1102316202044"/>
+			<DeclRefExpr type="png_bytep" spelling="new_list" id="1101320011697"/>
+			<DeclRefExpr type="unsigned int" spelling="i" id="1104043082544"/>
+			<DeclRefExpr type="unsigned int" spelling="old_num_chunks" id="1103528420744"/>
+			<DeclRefExpr type="unsigned int" spelling="i" id="1100663856270"/>
+			<DeclRefExpr type="png_const_bytep" spelling="inlist" id="1102202365920"/>
+			<DeclRefExpr type="png_const_bytep" spelling="inlist" id="1100402657703"/>
+			<DeclRefExpr type="png_bytep" spelling="outlist" id="1101571656991"/>
+			<DeclRefExpr type="png_const_bytep" spelling="inlist" id="1102693416003"/>
+			<DeclRefExpr type="void *(void *, const void *, unsigned long)" spelling="memcpy" id="1103947304555"/>
+			<DeclRefExpr type="png_bytep" spelling="outlist" id="1104277279129"/>
+			<DeclRefExpr type="png_const_bytep" spelling="inlist" id="1102536385423"/>
+			<DeclRefExpr type="png_bytep" spelling="outlist" id="1103873224478"/>
+			<DeclRefExpr type="unsigned int" spelling="num_chunks" id="1102647858504"/>
+			<DeclRefExpr type="unsigned int" spelling="num_chunks" id="1103329892463"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1103192652601"/>
+			<DeclRefExpr type="png_bytep" spelling="new_list" id="1103356386194"/>
+			<DeclRefExpr type="void (png_const_structrp, png_voidp)" spelling="png_free" id="1102736661499"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1101781467425"/>
+			<DeclRefExpr type="png_bytep" spelling="new_list" id="1103438051403"/>
+			<DeclRefExpr type="png_bytep" spelling="new_list" id="1102637083094"/>
+			<MemberRefExpr type="png_bytep" spelling="chunk_list" id="1100833443073"/>
+			<UnexposedExpr type="png_bytep" spelling="new_list" id="1101825398508"/>
+			<UnexposedExpr type="unsigned int" spelling="i" id="1102316684354"/>
+			<UnexposedExpr type="unsigned int" spelling="num_chunks" id="1101912267103"/>
+			<UnexposedExpr type="unsigned int (*)(png_bytep, unsigned int, png_const_bytep, int)" spelling="add_one_chunk" id="1103447449642"/>
+			<UnexposedExpr type="png_bytep" spelling="new_list" id="1102644332114"/>
+			<UnexposedExpr type="unsigned int" spelling="old_num_chunks" id="1100846967578"/>
+			<UnexposedExpr type="png_const_bytep" spelling="chunk_list" id="1102661765184"/>
+			<UnexposedExpr type="unsigned int" spelling="i" id="1101042637325"/>
+			<UnexposedExpr type="int" spelling="keep" id="1103311084954"/>
+			<UnexposedExpr type="png_bytep" spelling="new_list" id="1100451926115"/>
+			<UnexposedExpr type="unsigned int" spelling="i" id="1103272530858"/>
+			<UnexposedExpr type="unsigned int" spelling="old_num_chunks" id="1103069659283"/>
+			<UnexposedExpr type="png_const_bytep" spelling="inlist" id="1100046295343"/>
+			<UnexposedExpr type="png_bytep" spelling="outlist" id="1102243970860"/>
+			<UnexposedExpr type="png_bytep" spelling="inlist" id="1102234477920"/>
+			<UnexposedExpr type="png_const_bytep" spelling="inlist" id="1102380204272"/>
+			<UnexposedExpr type="void *(*)(void *, const void *, unsigned long)" spelling="memcpy" id="1100026559005"/>
+			<UnexposedExpr type="void *" spelling="outlist" id="1100943760497"/>
+			<UnexposedExpr type="png_bytep" spelling="outlist" id="1100975900720"/>
+			<UnexposedExpr type="const void *" spelling="inlist" id="1102664044478"/>
+			<UnexposedExpr type="png_const_bytep" spelling="inlist" id="1104122502012"/>
+			<UnexposedExpr type="unsigned int" spelling="num_chunks" id="1100711778272"/>
+			<UnexposedExpr type="png_bytep" spelling="chunk_list" id="1102166378045"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1101556727908"/>
+			<UnexposedExpr type="png_bytep" spelling="new_list" id="1102889659885"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_voidp)" spelling="png_free" id="1103675353264"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1104127689525"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1102166724121"/>
+			<UnexposedExpr type="png_voidp" spelling="new_list" id="1102683847297"/>
+			<UnexposedExpr type="png_bytep" spelling="new_list" id="1102140563097"/>
+			<VarDecl type="png_const_bytep" spelling="inlist" id="1101615912896"/>
+			<VarDecl type="png_bytep" spelling="outlist" id="1103601579932"/>
+			<VarDecl type="unsigned int" spelling="i" id="1102059382412"/>
+			<CallExpr type="unsigned int" spelling="add_one_chunk" id="1100471790232"/>
+			<CallExpr type="void *" spelling="memcpy" id="1100385838337"/>
+			<CallExpr type="void" spelling="png_free" id="1103598300446"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="add" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="new" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="updated" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="added" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="end" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="order" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="last" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="chunk"/>
+			<PROBLEM_DOMAIN word="chunk"/>
+			<PROBLEM_DOMAIN word="libpng"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Now remove any spurious 'default' entries." comment_scope_start="1491" comment_scope_end="1503">
+		<SYMBOLS>
+			<DeclRefExpr type="unsigned int" spelling="num_chunks" id="1103938110303"/>
+			<DeclRefExpr type="unsigned int" spelling="i" id="1100652750708"/>
+			<DeclRefExpr type="png_const_bytep" spelling="inlist" id="1100667312284"/>
+			<DeclRefExpr type="png_bytep" spelling="outlist" id="1102316202044"/>
+			<DeclRefExpr type="png_bytep" spelling="new_list" id="1101320011697"/>
+			<DeclRefExpr type="unsigned int" spelling="i" id="1104043082544"/>
+			<DeclRefExpr type="unsigned int" spelling="old_num_chunks" id="1103528420744"/>
+			<DeclRefExpr type="unsigned int" spelling="i" id="1100663856270"/>
+			<DeclRefExpr type="png_const_bytep" spelling="inlist" id="1102202365920"/>
+			<DeclRefExpr type="png_const_bytep" spelling="inlist" id="1100402657703"/>
+			<DeclRefExpr type="png_bytep" spelling="outlist" id="1101571656991"/>
+			<DeclRefExpr type="png_const_bytep" spelling="inlist" id="1102693416003"/>
+			<DeclRefExpr type="void *(void *, const void *, unsigned long)" spelling="memcpy" id="1103947304555"/>
+			<DeclRefExpr type="png_bytep" spelling="outlist" id="1104277279129"/>
+			<DeclRefExpr type="png_const_bytep" spelling="inlist" id="1102536385423"/>
+			<DeclRefExpr type="png_bytep" spelling="outlist" id="1103873224478"/>
+			<DeclRefExpr type="unsigned int" spelling="num_chunks" id="1102647858504"/>
+			<UnexposedExpr type="png_bytep" spelling="new_list" id="1100451926115"/>
+			<UnexposedExpr type="unsigned int" spelling="i" id="1103272530858"/>
+			<UnexposedExpr type="unsigned int" spelling="old_num_chunks" id="1103069659283"/>
+			<UnexposedExpr type="png_const_bytep" spelling="inlist" id="1100046295343"/>
+			<UnexposedExpr type="png_bytep" spelling="outlist" id="1102243970860"/>
+			<UnexposedExpr type="png_bytep" spelling="inlist" id="1102234477920"/>
+			<UnexposedExpr type="png_const_bytep" spelling="inlist" id="1102380204272"/>
+			<UnexposedExpr type="void *(*)(void *, const void *, unsigned long)" spelling="memcpy" id="1100026559005"/>
+			<UnexposedExpr type="void *" spelling="outlist" id="1100943760497"/>
+			<UnexposedExpr type="png_bytep" spelling="outlist" id="1100975900720"/>
+			<UnexposedExpr type="const void *" spelling="inlist" id="1102664044478"/>
+			<UnexposedExpr type="png_const_bytep" spelling="inlist" id="1104122502012"/>
+			<CallExpr type="void *" spelling="memcpy" id="1100385838337"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="remove" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="default" type=" 'Properties of Datastructure / Function / Blocks"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="This means the application has removed all the specialized handling." comment_scope_start="1504" comment_scope_end="1511">
+		<SYMBOLS>
+			<DeclRefExpr type="unsigned int" spelling="num_chunks" id="1103329892463"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1103192652601"/>
+			<DeclRefExpr type="png_bytep" spelling="new_list" id="1103356386194"/>
+			<DeclRefExpr type="void (png_const_structrp, png_voidp)" spelling="png_free" id="1102736661499"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1101781467425"/>
+			<DeclRefExpr type="png_bytep" spelling="new_list" id="1103438051403"/>
+			<DeclRefExpr type="png_bytep" spelling="new_list" id="1102637083094"/>
+			<MemberRefExpr type="png_bytep" spelling="chunk_list" id="1100833443073"/>
+			<UnexposedExpr type="unsigned int" spelling="num_chunks" id="1100711778272"/>
+			<UnexposedExpr type="png_bytep" spelling="chunk_list" id="1102166378045"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1101556727908"/>
+			<UnexposedExpr type="png_bytep" spelling="new_list" id="1102889659885"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_voidp)" spelling="png_free" id="1103675353264"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1104127689525"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1102166724121"/>
+			<UnexposedExpr type="png_voidp" spelling="new_list" id="1102683847297"/>
+			<UnexposedExpr type="png_bytep" spelling="new_list" id="1102140563097"/>
+			<CallExpr type="void" spelling="png_free" id="1103598300446"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="removed" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="application"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="checked above" comment_scope_start="1577" comment_scope_end="1577">
+		<SYMBOLS>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1102350579565"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1100982194609"/>
+			<DeclRefExpr type="size_t" spelling="size" id="1100386521162"/>
+			<MemberRefExpr type="uInt" spelling="IDAT_read_size" id="1101835560622"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1100567648271"/>
+			<UnexposedExpr type="size_t" spelling="size" id="1103011188373"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="checked" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Some compilers complain that this is always false.  However, it
+       * can be true when integer overflow happens." comment_scope_start="1594" comment_scope_end="1602">
+		<SYMBOLS>
+			<TypeRef type="uInt" spelling="uInt" id="1102384861863"/>
+			<TypeRef type="uInt" spelling="uInt" id="1102384861863"/>
+			<DeclRefExpr type="size_t" spelling="size" id="1103801798096"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_warning" id="1103265867830"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1101556109139"/>
+			<DeclRefExpr type="size_t" spelling="size" id="1100906411063"/>
+			<StringLiteral type="char [50]" spelling="&quot;Compression buffer size limited to system maximum&quot;" id="1103981268139"/>
+			<UnexposedExpr type="size_t" spelling="size" id="1103648956005"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_warning" id="1104117921657"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1100598645868"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1101656468531"/>
+			<CallExpr type="void" spelling="png_warning" id="1104074750002"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="integer" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="overflow" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="must fit" comment_scope_start="1601" comment_scope_end="1601">
+		<SYMBOLS>
+			<TypeRef type="uInt" spelling="uInt" id="1102384861863"/>
+			<DeclRefExpr type="size_t" spelling="size" id="1100906411063"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Deflate will potentially go into an infinite loop on a SYNC_FLUSH
+          * if this is permitted." comment_scope_start="1607" comment_scope_end="1614">
+		<SYMBOLS>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_warning" id="1100747124353"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1102760724165"/>
+			<StringLiteral type="char [50]" spelling="&quot;Compression buffer size cannot be reduced below 6&quot;" id="1101620673900"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_warning" id="1102501016530"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1100301899783"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1100734338644"/>
+			<CallExpr type="void" spelling="png_warning" id="1102595509331"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="This function was added to libpng 1.2.6" comment_scope_start="1634" comment_scope_end="1638">
+		<SYMBOLS>
+			<TypeRef type="png_structrp" spelling="png_structrp" id="1100338851491"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1102350579565"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1102350579565"/>
+			<ParmDecl type="png_structrp" spelling="png_ptr" id="1100157074956"/>
+			<ParmDecl type="png_uint_32" spelling="user_width_max" id="1101103916226"/>
+			<ParmDecl type="png_uint_32" spelling="user_height_max" id="1100323034225"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="added" type=" 'Operations as part of Data structure"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="libpng"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Images with dimensions larger than these limits will be
+    * rejected by png_set_IHDR().  To accept any PNG datastream
+    * regardless of dimensions, set both limits to 0x7fffffff." comment_scope_start="1639" comment_scope_end="1648">
+		<SYMBOLS>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1100079820922"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1102182465827"/>
+			<DeclRefExpr type="png_uint_32" spelling="user_width_max" id="1103642462434"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1102919614780"/>
+			<DeclRefExpr type="png_uint_32" spelling="user_height_max" id="1102404484909"/>
+			<MemberRefExpr type="png_uint_32" spelling="user_width_max" id="1100399740915"/>
+			<MemberRefExpr type="png_uint_32" spelling="user_height_max" id="1101795244839"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1104063839133"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1100036631252"/>
+			<UnexposedExpr type="png_uint_32" spelling="user_width_max" id="1100195888758"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1103439773082"/>
+			<UnexposedExpr type="png_uint_32" spelling="user_height_max" id="1100022891304"/>
+			<FunctionDecl type="void (png_structrp, png_uint_32, png_uint_32)" spelling="png_set_user_limits" id="1100937719498"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="larger" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="set" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="images"/>
+			<PROBLEM_DOMAIN word="png"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="This function was added to libpng 1.4.0" comment_scope_start="1650" comment_scope_end="1657">
+		<SYMBOLS>
+			<TypeRef type="png_structrp" spelling="png_structrp" id="1100338851491"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1102350579565"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1101619007963"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1102475478203"/>
+			<DeclRefExpr type="png_uint_32" spelling="user_chunk_cache_max" id="1101550247750"/>
+			<MemberRefExpr type="png_uint_32" spelling="user_chunk_cache_max" id="1102585213229"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1100967049242"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1100948432414"/>
+			<UnexposedExpr type="png_uint_32" spelling="user_chunk_cache_max" id="1100763943026"/>
+			<ParmDecl type="png_structrp" spelling="png_ptr" id="1101426836872"/>
+			<ParmDecl type="png_uint_32" spelling="user_chunk_cache_max" id="1104290066930"/>
+			<FunctionDecl type="void (png_structrp, png_uint_32)" spelling="png_set_chunk_cache_max" id="1101699879299"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="added" type=" 'Operations as part of Data structure"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="libpng"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="This function was added to libpng 1.4.1" comment_scope_start="1658" comment_scope_end="1665">
+		<SYMBOLS>
+			<TypeRef type="png_structrp" spelling="png_structrp" id="1100338851491"/>
+			<TypeRef type="png_alloc_size_t" spelling="png_alloc_size_t" id="1103249318464"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1103914744168"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1102825236123"/>
+			<DeclRefExpr type="png_alloc_size_t" spelling="user_chunk_malloc_max" id="1100473732924"/>
+			<MemberRefExpr type="png_alloc_size_t" spelling="user_chunk_malloc_max" id="1101103923317"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1101686767555"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1103738146082"/>
+			<UnexposedExpr type="png_alloc_size_t" spelling="user_chunk_malloc_max" id="1101009138320"/>
+			<ParmDecl type="png_structrp" spelling="png_ptr" id="1100114635939"/>
+			<ParmDecl type="png_alloc_size_t" spelling="user_chunk_malloc_max" id="1100764952967"/>
+			<FunctionDecl type="void (png_structrp, png_alloc_size_t)" spelling="png_set_chunk_malloc_max" id="1103567016087"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="added" type=" 'Operations as part of Data structure"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="libpng"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="?SET_USER_LIMITS" comment_scope_start="1666" comment_scope_end="1666"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="If allowed is 1, png_benign_error() is treated as a warning.
+    *
+    * If allowed is 0, png_benign_error() is treated as an error (which
+    * is the default behavior if png_set_benign_errors() is not called)." comment_scope_start="1675" comment_scope_end="1688">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="allowed" id="1102234762506"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1100201878653"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1102694139810"/>
+			<MemberRefExpr type="png_uint_32" spelling="flags" id="1103667986919"/>
+			<MemberRefExpr type="png_uint_32" spelling="flags" id="1103646822676"/>
+			<UnexposedExpr type="int" spelling="allowed" id="1104217808571"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1103239385954"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1101840311097"/>
+			<FunctionDecl type="void (png_structrp, int)" spelling="png_set_benign_errors" id="1103102676207"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="error" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="default" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="BENIGN_ERRORS" comment_scope_start="1689" comment_scope_end="1689"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Whether to report invalid palette index; added at libng-1.5.10.
+    * It is possible for an indexed (color-type==3) PNG file to contain
+    * pixels with invalid (out-of-range) indexes if the PLTE chunk has
+    * fewer entries than the image's bit-depth would allow. We recover
+    * from this gracefully by filling any incomplete palette with zeros
+    * (opaque black).  By default, when this occurs libpng will issue
+    * a benign error.  This API can be used to override that behavior." comment_scope_start="1692" comment_scope_end="1714">
+		<SYMBOLS>
+			<TypeRef type="png_structrp" spelling="png_structrp" id="1100338851491"/>
+			<DeclRefExpr type="int" spelling="allowed" id="1101895284875"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1103207159008"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1101348825668"/>
+			<MemberRefExpr type="int" spelling="num_palette_max" id="1101265166039"/>
+			<MemberRefExpr type="int" spelling="num_palette_max" id="1102875595295"/>
+			<UnexposedExpr type="int" spelling="allowed" id="1103159545760"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1104029914909"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1101034718502"/>
+			<ParmDecl type="png_structrp" spelling="png_ptr" id="1102742364963"/>
+			<ParmDecl type="int" spelling="allowed" id="1103806400829"/>
+			<FunctionDecl type="void (png_structrp, int)" spelling="png_set_check_for_invalid_index" id="1101397856690"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="index" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="added" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="for" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="contain" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="default" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="error" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="palette"/>
+			<PROBLEM_DOMAIN word="color-type"/>
+			<PROBLEM_DOMAIN word="png"/>
+			<PROBLEM_DOMAIN word="chunk"/>
+			<PROBLEM_DOMAIN word="images"/>
+			<PROBLEM_DOMAIN word="palette"/>
+			<PROBLEM_DOMAIN word="libpng"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Check that the tEXt or zTXt keyword is valid per PNG 1.0 specification,
+ * and if invalid, correct the keyword rather than discarding the entire
+ * chunk.  The PNG 1.0 specification requires keywords 1-79 characters in
+ * length, forbids leading or trailing whitespace, multiple internal spaces,
+ * and the non-break space (0x80) from ISO 8859-1.  Returns keyword length.
+ *
+ * The 'new_key' buffer must be 80 characters in size (for the keyword plus a
+ * trailing '\0').  If this routine returns 0 then there was no keyword, or a
+ * valid one could not be generated, and the caller must png_error." comment_scope_start="1715" comment_scope_end="1724"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="PRIVATE" comment_scope_start="1725" comment_scope_end="1725">
+		<SYMBOLS>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1102350579565"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="private" type=" 'Properties of Datastructure / Function / Blocks"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="&amp;&amp; ch &lt;= 255" comment_scope_start="1747" comment_scope_end="1747">
+		<SYMBOLS>
+			<DeclRefExpr type="png_byte" spelling="ch" id="1103613046572"/>
+			<DeclRefExpr type="png_byte" spelling="ch" id="1100600847692"/>
+			<DeclRefExpr type="png_byte" spelling="ch" id="1101961211964"/>
+			<UnexposedExpr type="int" spelling="ch" id="1103474021276"/>
+			<UnexposedExpr type="png_byte" spelling="ch" id="1104051587729"/>
+			<UnexposedExpr type="int" spelling="ch" id="1101464529584"/>
+			<UnexposedExpr type="png_byte" spelling="ch" id="1102490152471"/>
+			<UnexposedExpr type="int" spelling="ch" id="1103674711007"/>
+			<UnexposedExpr type="png_byte" spelling="ch" id="1103075117477"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="A space or an invalid character when one wasn't seen immediately
+          * before; output just a space." comment_scope_start="1754" comment_scope_end="1758">
+		<SYMBOLS>
+			<DeclRefExpr type="png_bytep" spelling="new_key" id="1101500251845"/>
+			<DeclRefExpr type="png_uint_32" spelling="key_len" id="1102106219380"/>
+			<DeclRefExpr type="int" spelling="space" id="1100100209487"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="space" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="character" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="output" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="space" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="If the character was not a space then it is invalid." comment_scope_start="1759" comment_scope_end="1762">
+		<SYMBOLS>
+			<DeclRefExpr type="png_byte" spelling="ch" id="1100337122787"/>
+			<DeclRefExpr type="int" spelling="bad_character" id="1102670312792"/>
+			<DeclRefExpr type="png_byte" spelling="ch" id="1102687237923"/>
+			<UnexposedExpr type="int" spelling="ch" id="1103356056401"/>
+			<UnexposedExpr type="png_byte" spelling="ch" id="1103086522822"/>
+			<UnexposedExpr type="int" spelling="ch" id="1100338280943"/>
+			<UnexposedExpr type="png_byte" spelling="ch" id="1102237237939"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="character" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="space" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="just skip it, record the first error" comment_scope_start="1765" comment_scope_end="1765">
+		<SYMBOLS>
+			<DeclRefExpr type="int" spelling="bad_character" id="1102948222588"/>
+			<DeclRefExpr type="png_byte" spelling="ch" id="1102912755338"/>
+			<UnexposedExpr type="int" spelling="ch" id="1101506809229"/>
+			<UnexposedExpr type="png_byte" spelling="ch" id="1102053571375"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="record" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="first" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="error" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="trailing space" comment_scope_start="1768" comment_scope_end="1768">
+		<SYMBOLS>
+			<DeclRefExpr type="png_uint_32" spelling="key_len" id="1100598042013"/>
+			<DeclRefExpr type="int" spelling="space" id="1100240053352"/>
+			<UnexposedExpr type="png_uint_32" spelling="key_len" id="1103757264697"/>
+			<UnexposedExpr type="int" spelling="space" id="1100290838104"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="space" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Terminate the keyword" comment_scope_start="1775" comment_scope_end="1781">
+		<SYMBOLS>
+			<DeclRefExpr type="png_bytep" spelling="new_key" id="1103736806945"/>
+			<DeclRefExpr type="png_uint_32" spelling="key_len" id="1104159804810"/>
+			<UnexposedExpr type="png_bytep" spelling="new_key" id="1103694198558"/>
+			<UnexposedExpr type="png_uint_32" spelling="key_len" id="1102510395887"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="terminate" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="Try to only output one warning per keyword:" comment_scope_start="1782" comment_scope_end="1782"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="keyword too long" comment_scope_start="1783" comment_scope_end="1783">
+		<SYMBOLS>
+			<DeclRefExpr type="png_const_charp" spelling="key" id="1104082032021"/>
+			<UnexposedExpr type="png_const_charp" spelling="key" id="1101176157222"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="long" type=" 'Properties of Datastructure / Function / Blocks"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="!WARNINGS" comment_scope_start="1795" comment_scope_end="1795"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="!WARNINGS" comment_scope_start="1797" comment_scope_end="1797"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="TEXT || pCAL || iCCP || sPLT" comment_scope_start="1801" comment_scope_end="1801"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngset.c" comment_text="READ || WRITE" comment_scope_start="1802" comment_scope_end="1802"/>
+</COMMENTS>

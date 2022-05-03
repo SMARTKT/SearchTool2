@@ -1,0 +1,3 @@
+/home/dewang/smartKT/Running_complex_cmake/projects/threads/build/CMakeFiles/rebuild_cache.dir
+/home/dewang/smartKT/Running_complex_cmake/projects/threads/build/CMakeFiles/thread.dir
+/home/dewang/smartKT/Running_complex_cmake/projects/threads/build/CMakeFiles/edit_cache.dir

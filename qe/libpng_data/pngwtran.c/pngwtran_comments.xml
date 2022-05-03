@@ -1,0 +1,946 @@
+<?xml version="1.0" ?>
+<COMMENTS project_name="libpng" project_path="/home/dewang/smartKT/SmartKTRepo/projects/libpng">
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="Pack pixels into bytes.  Pass the true bit depth in bit_depth.  The
+ * row_info bit depth should be 8 (one pixel per byte).  The channels
+ * should be 1 (this only happens on grayscale and paletted images)." comment_scope_start="20" comment_scope_end="163">
+		<SYMBOLS>
+			<ParmDecl type="png_row_infop" spelling="row_info" id="1502075916827"/>
+			<ParmDecl type="png_bytep" spelling="row" id="1501702505144"/>
+			<ParmDecl type="png_uint_32" spelling="bit_depth" id="1501039689359"/>
+			<UnexposedExpr type="int" spelling="bit_depth" id="1501611815545"/>
+			<UnexposedExpr type="png_byte" spelling="bit_depth" id="1500494580256"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1500060565074"/>
+			<UnexposedExpr type="int" spelling="channels" id="1500880420400"/>
+			<UnexposedExpr type="png_byte" spelling="channels" id="1500840630466"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1502880960430"/>
+			<UnexposedExpr type="png_uint_32" spelling="bit_depth" id="1501122469559"/>
+			<UnexposedExpr type="png_uint_32" spelling="width" id="1503694569229"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1501723741651"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1501402758932"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1503384813119"/>
+			<UnexposedExpr type="png_uint_32" spelling="i" id="1502709027689"/>
+			<UnexposedExpr type="png_uint_32" spelling="row_width" id="1502908522771"/>
+			<UnexposedExpr type="png_bytep" spelling="sp" id="1501018844820"/>
+			<UnexposedExpr type="int" spelling="mask" id="1501312510746"/>
+			<UnexposedExpr type="int" spelling="mask" id="1501211209029"/>
+			<UnexposedExpr type="png_bytep" spelling="dp" id="1504104646083"/>
+			<UnexposedExpr type="int" spelling="v" id="1502219306941"/>
+			<UnexposedExpr type="int" spelling="mask" id="1503557505515"/>
+			<UnexposedExpr type="png_bytep" spelling="dp" id="1503614796095"/>
+			<UnexposedExpr type="int" spelling="v" id="1500298660613"/>
+			<UnexposedExpr type="png_uint_32" spelling="width" id="1500216872734"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1502850711401"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1503757917639"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1502086274125"/>
+			<UnexposedExpr type="png_uint_32" spelling="i" id="1502874852338"/>
+			<UnexposedExpr type="png_uint_32" spelling="row_width" id="1503848132649"/>
+			<UnexposedExpr type="png_bytep" spelling="sp" id="1500700889750"/>
+			<UnexposedExpr type="int" spelling="value" id="1500687578045"/>
+			<UnexposedExpr type="png_byte" spelling="value" id="1503833081641"/>
+			<UnexposedExpr type="unsigned int" spelling="shift" id="1500241913512"/>
+			<UnexposedExpr type="unsigned int" spelling="shift" id="1503836815087"/>
+			<UnexposedExpr type="png_bytep" spelling="dp" id="1502544261165"/>
+			<UnexposedExpr type="int" spelling="v" id="1502225681423"/>
+			<UnexposedExpr type="unsigned int" spelling="shift" id="1503295520125"/>
+			<UnexposedExpr type="png_bytep" spelling="dp" id="1503164197373"/>
+			<UnexposedExpr type="int" spelling="v" id="1502854350255"/>
+			<UnexposedExpr type="png_uint_32" spelling="width" id="1500225814614"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1501947930481"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1503667078748"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1500464620589"/>
+			<UnexposedExpr type="png_uint_32" spelling="i" id="1501125508708"/>
+			<UnexposedExpr type="png_uint_32" spelling="row_width" id="1500530597927"/>
+			<UnexposedExpr type="png_bytep" spelling="sp" id="1500473683908"/>
+			<UnexposedExpr type="int" spelling="value" id="1502949283586"/>
+			<UnexposedExpr type="png_byte" spelling="value" id="1503188559494"/>
+			<UnexposedExpr type="unsigned int" spelling="shift" id="1501621100739"/>
+			<UnexposedExpr type="unsigned int" spelling="shift" id="1503251704793"/>
+			<UnexposedExpr type="png_bytep" spelling="dp" id="1503715539625"/>
+			<UnexposedExpr type="int" spelling="v" id="1503491310839"/>
+			<UnexposedExpr type="unsigned int" spelling="shift" id="1501800195673"/>
+			<UnexposedExpr type="png_bytep" spelling="dp" id="1500054892984"/>
+			<UnexposedExpr type="int" spelling="v" id="1500599436760"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1503759350118"/>
+			<UnexposedExpr type="png_uint_32" spelling="bit_depth" id="1503307730184"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1501713634175"/>
+			<UnexposedExpr type="png_uint_32" spelling="bit_depth" id="1502474885605"/>
+			<UnexposedExpr type="unsigned int" spelling="channels" id="1502662085514"/>
+			<UnexposedExpr type="png_byte" spelling="channels" id="1500692647015"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1501877814324"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1500737868465"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1502869712346"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1500406080923"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1500651286777"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1501126329040"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1500666648286"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1503331018592"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1502212872204"/>
+			<DeclRefExpr type="png_uint_32" spelling="bit_depth" id="1503774022726"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1504127265089"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1502875839824"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1501643949607"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1503728460974"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1501299536037"/>
+			<DeclRefExpr type="int" spelling="mask" id="1500063268030"/>
+			<DeclRefExpr type="int" spelling="v" id="1503927625154"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1500065889129"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1504190254105"/>
+			<DeclRefExpr type="png_uint_32" spelling="row_width" id="1501085146869"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1501874450434"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1503918611337"/>
+			<DeclRefExpr type="int" spelling="v" id="1501038095065"/>
+			<DeclRefExpr type="int" spelling="mask" id="1502896032973"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1500881289584"/>
+			<DeclRefExpr type="int" spelling="mask" id="1500547066527"/>
+			<DeclRefExpr type="int" spelling="mask" id="1502351621788"/>
+			<DeclRefExpr type="int" spelling="mask" id="1501661067086"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1500319115493"/>
+			<DeclRefExpr type="int" spelling="v" id="1502793057105"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1504009584656"/>
+			<DeclRefExpr type="int" spelling="v" id="1501043715592"/>
+			<DeclRefExpr type="int" spelling="mask" id="1503081027275"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1500945483228"/>
+			<DeclRefExpr type="int" spelling="v" id="1500857013438"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1501278560551"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1503893069551"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1502197892039"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1503562846585"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1502875782265"/>
+			<DeclRefExpr type="unsigned int" spelling="shift" id="1502545189764"/>
+			<DeclRefExpr type="int" spelling="v" id="1503055894643"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1503408671462"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1500159191800"/>
+			<DeclRefExpr type="png_uint_32" spelling="row_width" id="1502493770119"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1503848247485"/>
+			<DeclRefExpr type="png_byte" spelling="value" id="1503113884280"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1501201345830"/>
+			<DeclRefExpr type="int" spelling="v" id="1500357816096"/>
+			<DeclRefExpr type="png_byte" spelling="value" id="1500912259721"/>
+			<DeclRefExpr type="unsigned int" spelling="shift" id="1502470990659"/>
+			<DeclRefExpr type="unsigned int" spelling="shift" id="1502824561107"/>
+			<DeclRefExpr type="unsigned int" spelling="shift" id="1503405341515"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1501154203558"/>
+			<DeclRefExpr type="int" spelling="v" id="1501575530247"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502444010561"/>
+			<DeclRefExpr type="int" spelling="v" id="1502052791012"/>
+			<DeclRefExpr type="unsigned int" spelling="shift" id="1501230390967"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1503004064531"/>
+			<DeclRefExpr type="unsigned int" spelling="shift" id="1503951998354"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1500602309961"/>
+			<DeclRefExpr type="int" spelling="v" id="1503280439672"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1503120560178"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1502300532292"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1502322388211"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502628651851"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1500288960757"/>
+			<DeclRefExpr type="unsigned int" spelling="shift" id="1504042897736"/>
+			<DeclRefExpr type="int" spelling="v" id="1501700768135"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1503687873319"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1504037268612"/>
+			<DeclRefExpr type="png_uint_32" spelling="row_width" id="1503768440822"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1502891716739"/>
+			<DeclRefExpr type="png_byte" spelling="value" id="1503638772221"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1501247218075"/>
+			<DeclRefExpr type="int" spelling="v" id="1500925200069"/>
+			<DeclRefExpr type="png_byte" spelling="value" id="1501621127766"/>
+			<DeclRefExpr type="unsigned int" spelling="shift" id="1503756718065"/>
+			<DeclRefExpr type="unsigned int" spelling="shift" id="1500156694984"/>
+			<DeclRefExpr type="unsigned int" spelling="shift" id="1501927798337"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1501797357146"/>
+			<DeclRefExpr type="int" spelling="v" id="1500573110838"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1503557174216"/>
+			<DeclRefExpr type="int" spelling="v" id="1503795275173"/>
+			<DeclRefExpr type="unsigned int" spelling="shift" id="1503251826262"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1502014572785"/>
+			<DeclRefExpr type="unsigned int" spelling="shift" id="1501218749370"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502810787868"/>
+			<DeclRefExpr type="int" spelling="v" id="1500308403126"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1501565724356"/>
+			<DeclRefExpr type="png_uint_32" spelling="bit_depth" id="1501284122237"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1503975043216"/>
+			<DeclRefExpr type="png_uint_32" spelling="bit_depth" id="1502160017716"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1500732168148"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1502198302985"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1503064546926"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1501676861030"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1503215232447"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1502813243009"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1500557371440"/>
+			<VarDecl type="png_bytep" spelling="sp" id="1500660285015"/>
+			<VarDecl type="png_bytep" spelling="dp" id="1500493784973"/>
+			<VarDecl type="int" spelling="mask" id="1502446553621"/>
+			<VarDecl type="int" spelling="v" id="1500324509396"/>
+			<VarDecl type="png_uint_32" spelling="i" id="1503469136322"/>
+			<VarDecl type="png_uint_32" spelling="row_width" id="1503726172278"/>
+			<VarDecl type="png_bytep" spelling="sp" id="1503437556844"/>
+			<VarDecl type="png_bytep" spelling="dp" id="1500707074361"/>
+			<VarDecl type="unsigned int" spelling="shift" id="1502534331655"/>
+			<VarDecl type="int" spelling="v" id="1501828590962"/>
+			<VarDecl type="png_uint_32" spelling="i" id="1501454697342"/>
+			<VarDecl type="png_uint_32" spelling="row_width" id="1502027436104"/>
+			<VarDecl type="png_byte" spelling="value" id="1503410610768"/>
+			<VarDecl type="png_bytep" spelling="sp" id="1500449399970"/>
+			<VarDecl type="png_bytep" spelling="dp" id="1500676721156"/>
+			<VarDecl type="unsigned int" spelling="shift" id="1503359581561"/>
+			<VarDecl type="int" spelling="v" id="1503567622078"/>
+			<VarDecl type="png_uint_32" spelling="i" id="1501094075638"/>
+			<VarDecl type="png_uint_32" spelling="row_width" id="1503658394400"/>
+			<VarDecl type="png_byte" spelling="value" id="1501675911202"/>
+			<FunctionDecl type="void (png_row_infop, png_bytep, png_uint_32)" spelling="png_do_pack" id="1503928253054"/>
+			<MemberRefExpr type="png_byte" spelling="bit_depth" id="1501910427807"/>
+			<MemberRefExpr type="png_byte" spelling="channels" id="1500494668200"/>
+			<MemberRefExpr type="png_uint_32" spelling="width" id="1501591198037"/>
+			<MemberRefExpr type="png_uint_32" spelling="width" id="1502336876507"/>
+			<MemberRefExpr type="png_uint_32" spelling="width" id="1502042142560"/>
+			<MemberRefExpr type="png_byte" spelling="bit_depth" id="1501687011531"/>
+			<MemberRefExpr type="png_byte" spelling="pixel_depth" id="1502616281185"/>
+			<MemberRefExpr type="png_byte" spelling="channels" id="1502715792908"/>
+			<MemberRefExpr type="size_t" spelling="rowbytes" id="1501561545419"/>
+			<MemberRefExpr type="png_byte" spelling="pixel_depth" id="1501791856257"/>
+			<MemberRefExpr type="png_uint_32" spelling="width" id="1502583747755"/>
+			<MemberRefExpr type="png_byte" spelling="pixel_depth" id="1502052113791"/>
+			<MemberRefExpr type="png_uint_32" spelling="width" id="1503305454619"/>
+			<MemberRefExpr type="png_byte" spelling="pixel_depth" id="1503846639128"/>
+			<TypeRef type="png_row_infop" spelling="png_row_infop" id="1503550539304"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1501952821165"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1501952821165"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1501952821165"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1501952821165"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+			<TypeRef type="size_t" spelling="size_t" id="1500731733430"/>
+			<TypeRef type="size_t" spelling="size_t" id="1500731733430"/>
+			<TypeRef type="size_t" spelling="size_t" id="1500731733430"/>
+			<TypeRef type="size_t" spelling="size_t" id="1500731733430"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="bytes" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="bit" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="bit" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="byte" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="depth"/>
+			<PROBLEM_DOMAIN word="depth"/>
+			<PROBLEM_DOMAIN word="pixel"/>
+			<PROBLEM_DOMAIN word="grayscale"/>
+			<PROBLEM_DOMAIN word="paletted"/>
+			<PROBLEM_DOMAIN word="images"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="Shift pixel values to take advantage of whole range.  Pass the
+ * true number of bits in bit_depth.  The row should be packed
+ * according to row_info-&gt;bit_depth.  Thus, if you had a row of
+ * bit depth 4, but the pixels only had values from 0 to 7, you
+ * would pass 3 as bit_depth, and this routine would translate the
+ * data to 0 to 15." comment_scope_start="164" comment_scope_end="210">
+		<SYMBOLS>
+			<ParmDecl type="png_row_infop" spelling="row_info" id="1503967887191"/>
+			<ParmDecl type="png_bytep" spelling="row" id="1501836451561"/>
+			<ParmDecl type="png_const_color_8p" spelling="bit_depth" id="1501847492755"/>
+			<UnexposedExpr type="int" spelling="color_type" id="1503562803201"/>
+			<UnexposedExpr type="png_byte" spelling="color_type" id="1503776219878"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1500997425937"/>
+			<UnexposedExpr type="int" spelling="color_type" id="1503555318950"/>
+			<UnexposedExpr type="png_byte" spelling="color_type" id="1503037166216"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1503191470677"/>
+			<UnexposedExpr type="int *" spelling="shift_start" id="1500584823861"/>
+			<UnexposedExpr type="unsigned int" spelling="channels" id="1502117002358"/>
+			<UnexposedExpr type="int" spelling="bit_depth" id="1500108695242"/>
+			<UnexposedExpr type="png_byte" spelling="bit_depth" id="1500424335581"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1502090709998"/>
+			<UnexposedExpr type="int" spelling="red" id="1500728444988"/>
+			<UnexposedExpr type="png_byte" spelling="red" id="1500712268536"/>
+			<UnexposedExpr type="png_const_color_8p" spelling="bit_depth" id="1500258402145"/>
+			<UnexposedExpr type="int *" spelling="shift_dec" id="1502877468136"/>
+			<UnexposedExpr type="unsigned int" spelling="channels" id="1503435823812"/>
+			<UnexposedExpr type="int" spelling="red" id="1500210580658"/>
+			<UnexposedExpr type="png_byte" spelling="red" id="1502617080439"/>
+			<UnexposedExpr type="png_const_color_8p" spelling="bit_depth" id="1503162891483"/>
+			<UnexposedExpr type="int *" spelling="shift_start" id="1500944979162"/>
+			<UnexposedExpr type="unsigned int" spelling="channels" id="1500540809100"/>
+			<UnexposedExpr type="int" spelling="bit_depth" id="1503847558940"/>
+			<UnexposedExpr type="png_byte" spelling="bit_depth" id="1501210782052"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1504009005623"/>
+			<UnexposedExpr type="int" spelling="green" id="1501925353360"/>
+			<UnexposedExpr type="png_byte" spelling="green" id="1501406222187"/>
+			<UnexposedExpr type="png_const_color_8p" spelling="bit_depth" id="1500537598764"/>
+			<UnexposedExpr type="int *" spelling="shift_dec" id="1502989142449"/>
+			<UnexposedExpr type="unsigned int" spelling="channels" id="1503291207735"/>
+			<UnexposedExpr type="int" spelling="green" id="1500962544095"/>
+			<UnexposedExpr type="png_byte" spelling="green" id="1500833472578"/>
+			<UnexposedExpr type="png_const_color_8p" spelling="bit_depth" id="1502616105793"/>
+			<UnexposedExpr type="int *" spelling="shift_start" id="1501937973051"/>
+			<UnexposedExpr type="unsigned int" spelling="channels" id="1500035232252"/>
+			<UnexposedExpr type="int" spelling="bit_depth" id="1502137149659"/>
+			<UnexposedExpr type="png_byte" spelling="bit_depth" id="1502969493116"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1504283220123"/>
+			<UnexposedExpr type="int" spelling="blue" id="1501257650805"/>
+			<UnexposedExpr type="png_byte" spelling="blue" id="1503360989925"/>
+			<UnexposedExpr type="png_const_color_8p" spelling="bit_depth" id="1503099353774"/>
+			<UnexposedExpr type="int *" spelling="shift_dec" id="1502653870768"/>
+			<UnexposedExpr type="unsigned int" spelling="channels" id="1502251317264"/>
+			<UnexposedExpr type="int" spelling="blue" id="1501325491904"/>
+			<UnexposedExpr type="png_byte" spelling="blue" id="1503150961843"/>
+			<UnexposedExpr type="png_const_color_8p" spelling="bit_depth" id="1502757167679"/>
+			<UnexposedExpr type="int *" spelling="shift_start" id="1503886941952"/>
+			<UnexposedExpr type="unsigned int" spelling="channels" id="1503136766735"/>
+			<UnexposedExpr type="int" spelling="bit_depth" id="1500075426503"/>
+			<UnexposedExpr type="png_byte" spelling="bit_depth" id="1504028470979"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1503160229274"/>
+			<UnexposedExpr type="int" spelling="gray" id="1504259641231"/>
+			<UnexposedExpr type="png_byte" spelling="gray" id="1502215759786"/>
+			<UnexposedExpr type="png_const_color_8p" spelling="bit_depth" id="1501200290031"/>
+			<UnexposedExpr type="int *" spelling="shift_dec" id="1502247351394"/>
+			<UnexposedExpr type="unsigned int" spelling="channels" id="1503752672498"/>
+			<UnexposedExpr type="int" spelling="gray" id="1502670514362"/>
+			<UnexposedExpr type="png_byte" spelling="gray" id="1504016343761"/>
+			<UnexposedExpr type="png_const_color_8p" spelling="bit_depth" id="1501455208020"/>
+			<UnexposedExpr type="int" spelling="color_type" id="1502075827495"/>
+			<UnexposedExpr type="png_byte" spelling="color_type" id="1500636494330"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1500638116731"/>
+			<UnexposedExpr type="int *" spelling="shift_start" id="1500225227907"/>
+			<UnexposedExpr type="unsigned int" spelling="channels" id="1503586311644"/>
+			<UnexposedExpr type="int" spelling="bit_depth" id="1500181475005"/>
+			<UnexposedExpr type="png_byte" spelling="bit_depth" id="1500707823817"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1503924338756"/>
+			<UnexposedExpr type="int" spelling="alpha" id="1502123881481"/>
+			<UnexposedExpr type="png_byte" spelling="alpha" id="1501586379920"/>
+			<UnexposedExpr type="png_const_color_8p" spelling="bit_depth" id="1502217938984"/>
+			<UnexposedExpr type="int *" spelling="shift_dec" id="1501955895247"/>
+			<UnexposedExpr type="unsigned int" spelling="channels" id="1501221679412"/>
+			<UnexposedExpr type="int" spelling="alpha" id="1501511440263"/>
+			<UnexposedExpr type="png_byte" spelling="alpha" id="1503900867158"/>
+			<UnexposedExpr type="png_const_color_8p" spelling="bit_depth" id="1503926334672"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1501528041567"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1501822345652"/>
+			<DeclRefExpr type="int [4]" spelling="shift_start" id="1500697211437"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1503464980663"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1500707896124"/>
+			<DeclRefExpr type="png_const_color_8p" spelling="bit_depth" id="1500528525374"/>
+			<DeclRefExpr type="int [4]" spelling="shift_dec" id="1500332908858"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1504014965851"/>
+			<DeclRefExpr type="png_const_color_8p" spelling="bit_depth" id="1502784944466"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1502002924445"/>
+			<DeclRefExpr type="int [4]" spelling="shift_start" id="1502187254295"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1500469688824"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1501018953876"/>
+			<DeclRefExpr type="png_const_color_8p" spelling="bit_depth" id="1502044284688"/>
+			<DeclRefExpr type="int [4]" spelling="shift_dec" id="1503351619624"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1502097163759"/>
+			<DeclRefExpr type="png_const_color_8p" spelling="bit_depth" id="1501627013173"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1500038708761"/>
+			<DeclRefExpr type="int [4]" spelling="shift_start" id="1501820722967"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1502301651650"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1501480037897"/>
+			<DeclRefExpr type="png_const_color_8p" spelling="bit_depth" id="1503911132752"/>
+			<DeclRefExpr type="int [4]" spelling="shift_dec" id="1500584864903"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1501803852621"/>
+			<DeclRefExpr type="png_const_color_8p" spelling="bit_depth" id="1502851604272"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1503000377099"/>
+			<DeclRefExpr type="int [4]" spelling="shift_start" id="1503766335710"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1504224468258"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1504275481643"/>
+			<DeclRefExpr type="png_const_color_8p" spelling="bit_depth" id="1502260469939"/>
+			<DeclRefExpr type="int [4]" spelling="shift_dec" id="1501148579859"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1504037987256"/>
+			<DeclRefExpr type="png_const_color_8p" spelling="bit_depth" id="1504150212530"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1500613933407"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1502853681989"/>
+			<DeclRefExpr type="int [4]" spelling="shift_start" id="1501540874418"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1501466554464"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1502721258957"/>
+			<DeclRefExpr type="png_const_color_8p" spelling="bit_depth" id="1500112853176"/>
+			<DeclRefExpr type="int [4]" spelling="shift_dec" id="1503258050011"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1503515920190"/>
+			<DeclRefExpr type="png_const_color_8p" spelling="bit_depth" id="1502402057400"/>
+			<DeclRefExpr type="unsigned int" spelling="channels" id="1500446999531"/>
+			<VarDecl type="int [4]" spelling="shift_start" id="1502511439540"/>
+			<VarDecl type="int [4]" spelling="shift_dec" id="1502677440817"/>
+			<VarDecl type="unsigned int" spelling="channels" id="1501036289799"/>
+			<MemberRefExpr type="png_byte" spelling="color_type" id="1500004020309"/>
+			<MemberRefExpr type="png_byte" spelling="color_type" id="1500695104839"/>
+			<MemberRefExpr type="png_byte" spelling="bit_depth" id="1501854078190"/>
+			<MemberRefExpr type="const png_byte" spelling="red" id="1502256855391"/>
+			<MemberRefExpr type="const png_byte" spelling="red" id="1502896509217"/>
+			<MemberRefExpr type="png_byte" spelling="bit_depth" id="1501406383400"/>
+			<MemberRefExpr type="const png_byte" spelling="green" id="1500889665722"/>
+			<MemberRefExpr type="const png_byte" spelling="green" id="1503996214748"/>
+			<MemberRefExpr type="png_byte" spelling="bit_depth" id="1503894554804"/>
+			<MemberRefExpr type="const png_byte" spelling="blue" id="1501073784507"/>
+			<MemberRefExpr type="const png_byte" spelling="blue" id="1500221060930"/>
+			<MemberRefExpr type="png_byte" spelling="bit_depth" id="1503368145150"/>
+			<MemberRefExpr type="const png_byte" spelling="gray" id="1501679449148"/>
+			<MemberRefExpr type="const png_byte" spelling="gray" id="1502294648410"/>
+			<MemberRefExpr type="png_byte" spelling="color_type" id="1503043963984"/>
+			<MemberRefExpr type="png_byte" spelling="bit_depth" id="1500348196105"/>
+			<MemberRefExpr type="const png_byte" spelling="alpha" id="1503899193023"/>
+			<MemberRefExpr type="const png_byte" spelling="alpha" id="1501826873442"/>
+			<TypeRef type="png_row_infop" spelling="png_row_infop" id="1503550539304"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1501952821165"/>
+			<TypeRef type="png_const_color_8p" spelling="png_const_color_8p" id="1502873537882"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="values" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="range" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="number" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="bit" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="values" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="data" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="pixel"/>
+			<PROBLEM_DOMAIN word="depth"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="With low row depths, could only be grayscale, so one channel" comment_scope_start="211" comment_scope_end="247">
+		<SYMBOLS>
+			<UnexposedExpr type="int" spelling="bit_depth" id="1500918888784"/>
+			<UnexposedExpr type="png_byte" spelling="bit_depth" id="1503869186227"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1503261370689"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1503430204983"/>
+			<UnexposedExpr type="size_t" spelling="rowbytes" id="1501885529943"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1501707798854"/>
+			<UnexposedExpr type="int" spelling="gray" id="1502680982150"/>
+			<UnexposedExpr type="png_byte" spelling="gray" id="1503247793726"/>
+			<UnexposedExpr type="png_const_color_8p" spelling="bit_depth" id="1500288590641"/>
+			<UnexposedExpr type="int" spelling="bit_depth" id="1500983919094"/>
+			<UnexposedExpr type="png_byte" spelling="bit_depth" id="1500063810178"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1500708367000"/>
+			<UnexposedExpr type="int" spelling="bit_depth" id="1503323926828"/>
+			<UnexposedExpr type="png_byte" spelling="bit_depth" id="1502844946120"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1501525868435"/>
+			<UnexposedExpr type="int" spelling="gray" id="1501808150798"/>
+			<UnexposedExpr type="png_byte" spelling="gray" id="1501898607375"/>
+			<UnexposedExpr type="png_const_color_8p" spelling="bit_depth" id="1500730566414"/>
+			<UnexposedExpr type="size_t" spelling="i" id="1503387020517"/>
+			<UnexposedExpr type="size_t" spelling="row_bytes" id="1503215098585"/>
+			<UnexposedExpr type="png_bytep" spelling="bp" id="1503878134448"/>
+			<UnexposedExpr type="int *" spelling="shift_start" id="1501303534183"/>
+			<UnexposedExpr type="int" spelling="j" id="1500972570654"/>
+			<UnexposedExpr type="int *" spelling="shift_dec" id="1501215671447"/>
+			<UnexposedExpr type="int *" spelling="shift_dec" id="1502412134795"/>
+			<UnexposedExpr type="int" spelling="j" id="1504059888973"/>
+			<UnexposedExpr type="unsigned int" spelling="v" id="1502457207347"/>
+			<UnexposedExpr type="int" spelling="j" id="1502323395819"/>
+			<UnexposedExpr type="unsigned int" spelling="v" id="1501239401835"/>
+			<UnexposedExpr type="int" spelling="j" id="1501434179612"/>
+			<UnexposedExpr type="unsigned int" spelling="mask" id="1502008424505"/>
+			<UnexposedExpr type="png_bytep" spelling="bp" id="1503304434971"/>
+			<UnexposedExpr type="unsigned int" spelling="out" id="1500104641491"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1503994656213"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1504014736927"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1500632692795"/>
+			<DeclRefExpr type="png_const_color_8p" spelling="bit_depth" id="1501186123867"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1502442998655"/>
+			<DeclRefExpr type="unsigned int" spelling="mask" id="1501191341299"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1500196301365"/>
+			<DeclRefExpr type="png_const_color_8p" spelling="bit_depth" id="1501947768804"/>
+			<DeclRefExpr type="unsigned int" spelling="mask" id="1504183318712"/>
+			<DeclRefExpr type="unsigned int" spelling="mask" id="1503901447624"/>
+			<DeclRefExpr type="size_t" spelling="i" id="1501600523060"/>
+			<DeclRefExpr type="size_t" spelling="i" id="1501102664804"/>
+			<DeclRefExpr type="size_t" spelling="row_bytes" id="1502720324742"/>
+			<DeclRefExpr type="size_t" spelling="i" id="1504029516513"/>
+			<DeclRefExpr type="png_bytep" spelling="bp" id="1503779192456"/>
+			<DeclRefExpr type="unsigned int" spelling="v" id="1503110949550"/>
+			<DeclRefExpr type="png_bytep" spelling="bp" id="1500672621635"/>
+			<DeclRefExpr type="unsigned int" spelling="out" id="1501363823598"/>
+			<DeclRefExpr type="int" spelling="j" id="1502370543797"/>
+			<DeclRefExpr type="int [4]" spelling="shift_start" id="1500259149484"/>
+			<DeclRefExpr type="int" spelling="j" id="1502548414630"/>
+			<DeclRefExpr type="int [4]" spelling="shift_dec" id="1501346095756"/>
+			<DeclRefExpr type="int" spelling="j" id="1502114968948"/>
+			<DeclRefExpr type="int [4]" spelling="shift_dec" id="1503416911317"/>
+			<DeclRefExpr type="int" spelling="j" id="1503237870188"/>
+			<DeclRefExpr type="unsigned int" spelling="out" id="1503670617615"/>
+			<DeclRefExpr type="unsigned int" spelling="v" id="1504133681550"/>
+			<DeclRefExpr type="int" spelling="j" id="1504273244342"/>
+			<DeclRefExpr type="unsigned int" spelling="out" id="1501918259044"/>
+			<DeclRefExpr type="unsigned int" spelling="v" id="1501392226390"/>
+			<DeclRefExpr type="int" spelling="j" id="1502328630782"/>
+			<DeclRefExpr type="unsigned int" spelling="mask" id="1504025609885"/>
+			<DeclRefExpr type="png_bytep" spelling="bp" id="1502529247902"/>
+			<DeclRefExpr type="unsigned int" spelling="out" id="1500440724615"/>
+			<VarDecl type="png_bytep" spelling="bp" id="1500125258193"/>
+			<VarDecl type="size_t" spelling="i" id="1501378835158"/>
+			<VarDecl type="unsigned int" spelling="mask" id="1500914745726"/>
+			<VarDecl type="size_t" spelling="row_bytes" id="1504016144115"/>
+			<VarDecl type="int" spelling="j" id="1503969303983"/>
+			<VarDecl type="unsigned int" spelling="v" id="1502245164427"/>
+			<VarDecl type="unsigned int" spelling="out" id="1502189566693"/>
+			<MemberRefExpr type="png_byte" spelling="bit_depth" id="1503436790448"/>
+			<MemberRefExpr type="size_t" spelling="rowbytes" id="1500027600997"/>
+			<MemberRefExpr type="const png_byte" spelling="gray" id="1502933246261"/>
+			<MemberRefExpr type="png_byte" spelling="bit_depth" id="1504072510069"/>
+			<MemberRefExpr type="png_byte" spelling="bit_depth" id="1502004721593"/>
+			<MemberRefExpr type="const png_byte" spelling="gray" id="1501343738589"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1501952821165"/>
+			<TypeRef type="size_t" spelling="size_t" id="1500731733430"/>
+			<TypeRef type="size_t" spelling="size_t" id="1500731733430"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="grayscale"/>
+			<PROBLEM_DOMAIN word="channel"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="This converts from ARGB to RGBA" comment_scope_start="319" comment_scope_end="332">
+		<SYMBOLS>
+			<UnexposedExpr type="png_uint_32" spelling="width" id="1501913946129"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1501937517126"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1502524450298"/>
+			<UnexposedExpr type="png_uint_32" spelling="i" id="1503072063050"/>
+			<UnexposedExpr type="png_uint_32" spelling="row_width" id="1502600680849"/>
+			<UnexposedExpr type="png_byte" spelling="save" id="1503454026305"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1500562594021"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1500187367866"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1500525772414"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1501458816612"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1500821318209"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1503289196836"/>
+			<DeclRefExpr type="png_uint_32" spelling="row_width" id="1502428997278"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1500792296134"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1500916741365"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1504102892776"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1502812240029"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1503058914189"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1504129658035"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502485957676"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1503374936781"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502427626555"/>
+			<DeclRefExpr type="png_byte" spelling="save" id="1503153210602"/>
+			<VarDecl type="png_bytep" spelling="sp" id="1501866850322"/>
+			<VarDecl type="png_bytep" spelling="dp" id="1502204713606"/>
+			<VarDecl type="png_uint_32" spelling="i" id="1500355729275"/>
+			<VarDecl type="png_uint_32" spelling="row_width" id="1503241031421"/>
+			<VarDecl type="png_byte" spelling="save" id="1502536747152"/>
+			<MemberRefExpr type="png_uint_32" spelling="width" id="1501603070234"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1501952821165"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="converts" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="argb"/>
+			<PROBLEM_DOMAIN word="rgba"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="This converts from AARRGGBB to RRGGBBAA" comment_scope_start="337" comment_scope_end="356">
+		<SYMBOLS>
+			<UnexposedExpr type="png_uint_32" spelling="width" id="1500709725746"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1502708761702"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1500406294518"/>
+			<UnexposedExpr type="png_uint_32" spelling="i" id="1502612128272"/>
+			<UnexposedExpr type="png_uint_32" spelling="row_width" id="1503776415206"/>
+			<UnexposedExpr type="png_byte *" spelling="save" id="1500551061309"/>
+			<UnexposedExpr type="png_byte *" spelling="save" id="1502744708354"/>
+			<UnexposedExpr type="png_byte *" spelling="save" id="1503319787821"/>
+			<UnexposedExpr type="png_byte *" spelling="save" id="1501284913126"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1500092302135"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1503168786176"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1502647700850"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502770644937"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1503840821523"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1500325712042"/>
+			<DeclRefExpr type="png_uint_32" spelling="row_width" id="1502320411378"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1503437005748"/>
+			<DeclRefExpr type="png_byte [2]" spelling="save" id="1503435101485"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1501586836614"/>
+			<DeclRefExpr type="png_byte [2]" spelling="save" id="1502702401575"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1502632280899"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502675212473"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1500384907928"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1503525148307"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1503517785129"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1500806498732"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1504096588335"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502594229271"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1502874999781"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1501192424741"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1500958859031"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502337169431"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1501782751269"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1501149827002"/>
+			<DeclRefExpr type="png_byte [2]" spelling="save" id="1504031856573"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502860569052"/>
+			<DeclRefExpr type="png_byte [2]" spelling="save" id="1500269082556"/>
+			<VarDecl type="png_bytep" spelling="sp" id="1501811578539"/>
+			<VarDecl type="png_bytep" spelling="dp" id="1500941764774"/>
+			<VarDecl type="png_uint_32" spelling="i" id="1502501942023"/>
+			<VarDecl type="png_uint_32" spelling="row_width" id="1503570974253"/>
+			<VarDecl type="png_byte [2]" spelling="save" id="1501195732887"/>
+			<MemberRefExpr type="png_uint_32" spelling="width" id="1502386374847"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1501952821165"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="converts" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="aarrggbb"/>
+			<PROBLEM_DOMAIN word="rrggbbaa"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="WRITE_16BIT" comment_scope_start="357" comment_scope_end="357"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="This converts from AG to GA" comment_scope_start="364" comment_scope_end="375">
+		<SYMBOLS>
+			<UnexposedExpr type="png_uint_32" spelling="width" id="1501433540614"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1500600181406"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1501759462954"/>
+			<UnexposedExpr type="png_uint_32" spelling="i" id="1500342021223"/>
+			<UnexposedExpr type="png_uint_32" spelling="row_width" id="1503753298079"/>
+			<UnexposedExpr type="png_byte" spelling="save" id="1503405943933"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1500999415062"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1501046466152"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1501713871344"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502052896390"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1503786210537"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1502283103424"/>
+			<DeclRefExpr type="png_uint_32" spelling="row_width" id="1500315836025"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1500932833601"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1503793040327"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502648449216"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1500231967843"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1501996799946"/>
+			<DeclRefExpr type="png_byte" spelling="save" id="1503792981247"/>
+			<VarDecl type="png_bytep" spelling="sp" id="1502634722293"/>
+			<VarDecl type="png_bytep" spelling="dp" id="1502637961316"/>
+			<VarDecl type="png_uint_32" spelling="i" id="1501185249765"/>
+			<VarDecl type="png_uint_32" spelling="row_width" id="1503861933620"/>
+			<VarDecl type="png_byte" spelling="save" id="1504236644558"/>
+			<MemberRefExpr type="png_uint_32" spelling="width" id="1501039511388"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1501952821165"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="converts" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="ag"/>
+			<PROBLEM_DOMAIN word="ga"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="This converts from AAGG to GGAA" comment_scope_start="380" comment_scope_end="395">
+		<SYMBOLS>
+			<UnexposedExpr type="png_uint_32" spelling="width" id="1504178439008"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1500121355955"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1502237936921"/>
+			<UnexposedExpr type="png_uint_32" spelling="i" id="1502368298303"/>
+			<UnexposedExpr type="png_uint_32" spelling="row_width" id="1501562226259"/>
+			<UnexposedExpr type="png_byte *" spelling="save" id="1500177394907"/>
+			<UnexposedExpr type="png_byte *" spelling="save" id="1500787864838"/>
+			<UnexposedExpr type="png_byte *" spelling="save" id="1503487851388"/>
+			<UnexposedExpr type="png_byte *" spelling="save" id="1503449672426"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1501690000340"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1503119530252"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1503841020055"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502658548242"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1504147102975"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1500952734586"/>
+			<DeclRefExpr type="png_uint_32" spelling="row_width" id="1502408038282"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1502789936695"/>
+			<DeclRefExpr type="png_byte [2]" spelling="save" id="1503769041037"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1500839908095"/>
+			<DeclRefExpr type="png_byte [2]" spelling="save" id="1500961163052"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1503200852260"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1500979868710"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1502820936867"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1503648068698"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1502145905591"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502699087547"/>
+			<DeclRefExpr type="png_byte [2]" spelling="save" id="1501841027839"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1500017486696"/>
+			<DeclRefExpr type="png_byte [2]" spelling="save" id="1504029165609"/>
+			<VarDecl type="png_bytep" spelling="sp" id="1502464355572"/>
+			<VarDecl type="png_bytep" spelling="dp" id="1501268310400"/>
+			<VarDecl type="png_uint_32" spelling="i" id="1501524335631"/>
+			<VarDecl type="png_uint_32" spelling="row_width" id="1502502692499"/>
+			<VarDecl type="png_byte [2]" spelling="save" id="1500478221851"/>
+			<MemberRefExpr type="png_uint_32" spelling="width" id="1502190647949"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1501952821165"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="converts" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="aagg"/>
+			<PROBLEM_DOMAIN word="ggaa"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="WRITE_16BIT" comment_scope_start="396" comment_scope_end="396"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="This inverts the alpha channel in RGBA" comment_scope_start="413" comment_scope_end="419">
+		<SYMBOLS>
+			<UnexposedExpr type="png_uint_32" spelling="width" id="1502608675351"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1500181849142"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1503142308263"/>
+			<UnexposedExpr type="png_uint_32" spelling="i" id="1503159305079"/>
+			<UnexposedExpr type="png_uint_32" spelling="row_width" id="1501937379614"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1501285176654"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1502683979416"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1503771372613"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1503367606566"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1501594561050"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1501788747163"/>
+			<DeclRefExpr type="png_uint_32" spelling="row_width" id="1502553541402"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1503722302013"/>
+			<VarDecl type="png_bytep" spelling="sp" id="1503292451519"/>
+			<VarDecl type="png_bytep" spelling="dp" id="1500242398776"/>
+			<VarDecl type="png_uint_32" spelling="i" id="1500334416771"/>
+			<VarDecl type="png_uint_32" spelling="row_width" id="1503049682473"/>
+			<MemberRefExpr type="png_uint_32" spelling="width" id="1502154256597"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1501952821165"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="alpha"/>
+			<PROBLEM_DOMAIN word="channel"/>
+			<PROBLEM_DOMAIN word="rgba"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="Does nothing
+               *(dp++) = *(sp++);
+               *(dp++) = *(sp++);
+               *(dp++) = *(sp++);" comment_scope_start="420" comment_scope_end="427">
+		<SYMBOLS>
+			<UnexposedExpr type="png_bytep" spelling="sp" id="1501352995147"/>
+			<UnexposedExpr type="png_bytep" spelling="dp" id="1502680669975"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1501201568141"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1503524699025"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1500059627334"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1502110984029"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1500746827280"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="This inverts the alpha channel in RRGGBBAA" comment_scope_start="433" comment_scope_end="439">
+		<SYMBOLS>
+			<UnexposedExpr type="png_uint_32" spelling="width" id="1504209691273"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1502345040285"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1503864846040"/>
+			<UnexposedExpr type="png_uint_32" spelling="i" id="1503261361694"/>
+			<UnexposedExpr type="png_uint_32" spelling="row_width" id="1501435087796"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1503194799261"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1503200226038"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1500505561523"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1504266206188"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1504210642070"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1500131972767"/>
+			<DeclRefExpr type="png_uint_32" spelling="row_width" id="1502280928000"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1502034238364"/>
+			<VarDecl type="png_bytep" spelling="sp" id="1501987451243"/>
+			<VarDecl type="png_bytep" spelling="dp" id="1504263203507"/>
+			<VarDecl type="png_uint_32" spelling="i" id="1500034564460"/>
+			<VarDecl type="png_uint_32" spelling="row_width" id="1501257918162"/>
+			<MemberRefExpr type="png_uint_32" spelling="width" id="1502374160252"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1501952821165"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="alpha"/>
+			<PROBLEM_DOMAIN word="channel"/>
+			<PROBLEM_DOMAIN word="rrggbbaa"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="Does nothing
+               *(dp++) = *(sp++);
+               *(dp++) = *(sp++);
+               *(dp++) = *(sp++);
+               *(dp++) = *(sp++);
+               *(dp++) = *(sp++);
+               *(dp++) = *(sp++);" comment_scope_start="440" comment_scope_end="451">
+		<SYMBOLS>
+			<UnexposedExpr type="png_bytep" spelling="sp" id="1500223133450"/>
+			<UnexposedExpr type="png_bytep" spelling="dp" id="1503453642361"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1501606810234"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1500014178845"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1501224834338"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1500859578055"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1501965865785"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1500899572135"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1500768642772"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="WRITE_16BIT" comment_scope_start="453" comment_scope_end="453"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="This inverts the alpha channel in GA" comment_scope_start="460" comment_scope_end="470">
+		<SYMBOLS>
+			<UnexposedExpr type="png_uint_32" spelling="width" id="1500993579374"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1502548288837"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1501120027668"/>
+			<UnexposedExpr type="png_uint_32" spelling="i" id="1502829216518"/>
+			<UnexposedExpr type="png_uint_32" spelling="row_width" id="1501647965612"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1502185579040"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1501482143777"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1501914688888"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1500077527590"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1500457155986"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1502256270596"/>
+			<DeclRefExpr type="png_uint_32" spelling="row_width" id="1500049749124"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1503106913615"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1501240060507"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1504023653646"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1501511523797"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1501097152576"/>
+			<VarDecl type="png_bytep" spelling="sp" id="1500763315604"/>
+			<VarDecl type="png_bytep" spelling="dp" id="1501014410319"/>
+			<VarDecl type="png_uint_32" spelling="i" id="1500683634959"/>
+			<VarDecl type="png_uint_32" spelling="row_width" id="1500931667202"/>
+			<MemberRefExpr type="png_uint_32" spelling="width" id="1502953229592"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1501952821165"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="alpha"/>
+			<PROBLEM_DOMAIN word="channel"/>
+			<PROBLEM_DOMAIN word="ga"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="This inverts the alpha channel in GGAA" comment_scope_start="475" comment_scope_end="481">
+		<SYMBOLS>
+			<UnexposedExpr type="png_uint_32" spelling="width" id="1500404079084"/>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1500150033934"/>
+			<UnexposedExpr type="png_bytep" spelling="row" id="1502772369962"/>
+			<UnexposedExpr type="png_uint_32" spelling="i" id="1502786866503"/>
+			<UnexposedExpr type="png_uint_32" spelling="row_width" id="1501242785960"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1503874708353"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1500823653637"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1500252616647"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1500396268357"/>
+			<DeclRefExpr type="png_bytep" spelling="row" id="1500460117518"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1502317501427"/>
+			<DeclRefExpr type="png_uint_32" spelling="row_width" id="1500098943604"/>
+			<DeclRefExpr type="png_uint_32" spelling="i" id="1503435564905"/>
+			<VarDecl type="png_bytep" spelling="sp" id="1500034721244"/>
+			<VarDecl type="png_bytep" spelling="dp" id="1501833953959"/>
+			<VarDecl type="png_uint_32" spelling="i" id="1501265021672"/>
+			<VarDecl type="png_uint_32" spelling="row_width" id="1500205802654"/>
+			<MemberRefExpr type="png_uint_32" spelling="width" id="1501200915570"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1501952821165"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+			<TypeRef type="png_uint_32" spelling="png_uint_32" id="1502340902669"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="alpha"/>
+			<PROBLEM_DOMAIN word="channel"/>
+			<PROBLEM_DOMAIN word="ggaa"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="Does nothing
+               *(dp++) = *(sp++);
+               *(dp++) = *(sp++);" comment_scope_start="482" comment_scope_end="489">
+		<SYMBOLS>
+			<UnexposedExpr type="png_bytep" spelling="sp" id="1501912300502"/>
+			<UnexposedExpr type="png_bytep" spelling="dp" id="1502245327061"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1500451975310"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1500141625338"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1502770958111"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1503802421498"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1500520774699"/>
+			<DeclRefExpr type="png_bytep" spelling="dp" id="1503115822292"/>
+			<DeclRefExpr type="png_bytep" spelling="sp" id="1504290410543"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+			<TypeRef type="png_byte" spelling="png_byte" id="1503716263939"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="WRITE_16BIT" comment_scope_start="491" comment_scope_end="491"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="Transform the data according to the user's wishes.  The order of
+ * transformations is significant." comment_scope_start="497" comment_scope_end="499"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="PRIVATE" comment_scope_start="500" comment_scope_end="500"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="User write transform
+                                                 function" comment_scope_start="511" comment_scope_end="512">
+		<SYMBOLS>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1503151072210"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1503589428658"/>
+			<MemberRefExpr type="png_user_transform_ptr" spelling="write_user_transform_fn" id="1501801625865"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="write" type=" 'Operations as part of Data structure"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="png_ptr" comment_scope_start="513" comment_scope_end="513">
+		<SYMBOLS>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1502859673290"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1500915207066"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="row_info:" comment_scope_start="514" comment_scope_end="514">
+		<SYMBOLS>
+			<UnexposedExpr type="png_row_infop" spelling="row_info" id="1502503995609"/>
+			<DeclRefExpr type="png_row_infop" spelling="row_info" id="1503302384439"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="png_uint_32 width;       width of row" comment_scope_start="515" comment_scope_end="520"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="size_t rowbytes;         number of bytes in row" comment_scope_start="515" comment_scope_end="520"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="png_byte color_type;     color type of pixels" comment_scope_start="515" comment_scope_end="520"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="png_byte bit_depth;      bit depth of samples" comment_scope_start="515" comment_scope_end="520"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="png_byte channels;       number of channels (1-4)" comment_scope_start="515" comment_scope_end="520"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="png_byte pixel_depth;    bits per pixel (depth*channels)" comment_scope_start="515" comment_scope_end="520"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="start of pixel data for row" comment_scope_start="521" comment_scope_end="521">
+		<SYMBOLS>
+			<UnexposedExpr type="png_bytep" spelling="row_buf" id="1502566624407"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1503987199608"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1500737682559"/>
+			<MemberRefExpr type="png_bytep" spelling="row_buf" id="1502763020951"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="start" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="data" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="for" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="pixel"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="WRITE_TRANSFORMS" comment_scope_start="574" comment_scope_end="574"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwtran.c" comment_text="WRITE" comment_scope_start="575" comment_scope_end="575"/>
+</COMMENTS>

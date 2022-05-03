@@ -1,0 +1,416 @@
+# FILENAME	FUNCNODEID	FUNCNAME	NARGS	ARGTYPE*	RETTYPE
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803089628178	png_access_version_number	0		png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801332191267	png_set_sig_bytes	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802463928959	png_sig_cmp	3	png_const_bytep	size_t	size_t	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802206680848	png_create_read_struct	4	png_const_charp	png_voidp	png_error_ptr	png_error_ptr	png_structp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803410662386	png_create_write_struct	4	png_const_charp	png_voidp	png_error_ptr	png_error_ptr	png_structp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801846733217	png_get_compression_buffer_size	1	png_const_structrp	size_t
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800798836865	png_set_compression_buffer_size	2	png_structrp	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803983786461	png_set_longjmp_fn	3	png_structrp	png_longjmp_ptr	size_t	jmp_buf *
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803296258174	png_longjmp	2	png_const_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804221576983	png_reset_zstream	1	png_structrp	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802557849670	png_create_read_struct_2	7	png_const_charp	png_voidp	png_error_ptr	png_error_ptr	png_voidp	png_malloc_ptr	png_free_ptr	png_structp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801963890081	png_create_write_struct_2	7	png_const_charp	png_voidp	png_error_ptr	png_error_ptr	png_voidp	png_malloc_ptr	png_free_ptr	png_structp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800930132760	png_write_sig	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802801508621	png_write_chunk	4	png_structrp	png_const_bytep	png_const_bytep	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802078808986	png_write_chunk_start	3	png_structrp	png_const_bytep	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802735802284	png_write_chunk_data	3	png_structrp	png_const_bytep	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804272225760	png_write_chunk_end	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802836225090	png_create_info_struct	1	png_const_structrp	png_infop
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801498702875	png_info_init_3	2	png_infopp	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801665532392	png_write_info_before_PLTE	2	png_structrp	png_const_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800869464428	png_write_info	2	png_structrp	png_const_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802211560354	png_read_info	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802659335904	png_convert_to_rfc1123	2	png_structrp	png_const_timep	png_const_charp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802441305275	png_convert_to_rfc1123_buffer	2	char [29]	png_const_timep	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803635527532	png_convert_from_struct_tm	2	png_timep	const struct tm *	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803514647954	png_convert_from_time_t	2	png_timep	time_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804293340278	png_set_expand	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801154636230	png_set_expand_gray_1_2_4_to_8	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800170695961	png_set_palette_to_rgb	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801752093250	png_set_tRNS_to_alpha	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801363054702	png_set_expand_16	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801181257472	png_set_bgr	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804184631369	png_set_gray_to_rgb	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803419627481	png_set_rgb_to_gray	4	png_structrp	int	double	double	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801495041186	png_set_rgb_to_gray_fixed	4	png_structrp	int	png_fixed_point	png_fixed_point	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803806768915	png_get_rgb_to_gray_status	1	png_const_structrp	png_byte
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801461556905	png_build_grayscale_palette	2	int	png_colorp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802343221126	png_set_alpha_mode	3	png_structrp	int	double	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801427503085	png_set_alpha_mode_fixed	3	png_structrp	int	png_fixed_point	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804033334260	png_set_strip_alpha	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803385230181	png_set_swap_alpha	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800335090692	png_set_invert_alpha	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802432087777	png_set_filler	3	png_structrp	png_uint_32	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803812935842	png_set_add_alpha	3	png_structrp	png_uint_32	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800188253258	png_set_swap	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802991219509	png_set_packing	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803864193999	png_set_packswap	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804217366281	png_set_shift	2	png_structrp	png_const_color_8p	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803375887553	png_set_interlace_handling	1	png_structrp	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802850710624	png_set_invert_mono	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802973037304	png_set_background	5	png_structrp	png_const_color_16p	int	int	double	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801140162650	png_set_background_fixed	5	png_structrp	png_const_color_16p	int	int	png_fixed_point	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800839807735	png_set_scale_16	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804216534672	png_set_strip_16	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801582128678	png_set_quantize	6	png_structrp	png_colorp	int	int	png_const_uint_16p	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800193517893	png_set_gamma	3	png_structrp	double	double	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803512366432	png_set_gamma_fixed	3	png_structrp	png_fixed_point	png_fixed_point	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800641621901	png_set_flush	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803092691150	png_write_flush	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800900402802	png_start_read_image	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803973363068	png_read_update_info	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802582333724	png_read_rows	4	png_structrp	png_bytepp	png_bytepp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800698877123	png_read_row	3	png_structrp	png_bytep	png_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802642202106	png_read_image	2	png_structrp	png_bytepp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801626977155	png_write_row	2	png_structrp	png_const_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801175933999	png_write_rows	3	png_structrp	png_bytepp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802197199004	png_write_image	2	png_structrp	png_bytepp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802449980111	png_write_end	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803635565093	png_read_end	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801915568937	png_destroy_info_struct	2	png_const_structrp	png_infopp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803604471216	png_destroy_read_struct	3	png_structpp	png_infopp	png_infopp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803870523863	png_destroy_write_struct	2	png_structpp	png_infopp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802361769636	png_set_crc_action	3	png_structrp	int	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800502268744	png_set_filter	3	png_structrp	int	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801528541524	png_set_filter_heuristics	5	png_structrp	int	int	png_const_doublep	png_const_doublep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802863795902	png_set_filter_heuristics_fixed	5	png_structrp	int	int	png_const_fixed_point_p	png_const_fixed_point_p	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803716680489	png_set_compression_level	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803039830315	png_set_compression_mem_level	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803752069136	png_set_compression_strategy	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801605079881	png_set_compression_window_bits	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802984217523	png_set_compression_method	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800703604368	png_set_text_compression_level	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802716159918	png_set_text_compression_mem_level	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802902892980	png_set_text_compression_strategy	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800328073072	png_set_text_compression_window_bits	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802570459573	png_set_text_compression_method	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800417441359	png_init_io	2	png_structrp	png_FILE_p	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802984860621	png_set_error_fn	4	png_structrp	png_voidp	png_error_ptr	png_error_ptr	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803701190529	png_get_error_ptr	1	png_const_structrp	png_voidp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802798199275	png_set_write_fn	4	png_structrp	png_voidp	png_rw_ptr	png_flush_ptr	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804294334099	png_set_read_fn	3	png_structrp	png_voidp	png_rw_ptr	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801791642542	png_get_io_ptr	1	png_const_structrp	png_voidp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802890121650	png_set_read_status_fn	2	png_structrp	png_read_status_ptr	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802371658212	png_set_write_status_fn	2	png_structrp	png_write_status_ptr	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800455816460	png_set_mem_fn	4	png_structrp	png_voidp	png_malloc_ptr	png_free_ptr	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803353311235	png_get_mem_ptr	1	png_const_structrp	png_voidp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803895548269	png_set_read_user_transform_fn	2	png_structrp	png_user_transform_ptr	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803209312744	png_set_write_user_transform_fn	2	png_structrp	png_user_transform_ptr	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801253166205	png_set_user_transform_info	4	png_structrp	png_voidp	int	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801565296922	png_get_user_transform_ptr	1	png_const_structrp	png_voidp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801791039387	png_get_current_row_number	1	png_const_structrp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802346509201	png_get_current_pass_number	1	png_const_structrp	png_byte
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802363993590	png_set_read_user_chunk_fn	3	png_structrp	png_voidp	png_user_chunk_ptr	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803723306192	png_get_user_chunk_ptr	1	png_const_structrp	png_voidp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803517041026	png_set_progressive_read_fn	5	png_structrp	png_voidp	png_progressive_info_ptr	png_progressive_row_ptr	png_progressive_end_ptr	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800992306139	png_get_progressive_ptr	1	png_const_structrp	png_voidp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801472731236	png_process_data	4	png_structrp	png_inforp	png_bytep	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800999412517	png_process_data_pause	2	png_structrp	int	size_t
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800895202498	png_process_data_skip	1	png_structrp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803755469801	png_progressive_combine_row	3	png_const_structrp	png_bytep	png_const_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800930638754	png_malloc	2	png_const_structrp	png_alloc_size_t	png_voidp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800965370586	png_calloc	2	png_const_structrp	png_alloc_size_t	png_voidp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800525519168	png_malloc_warn	2	png_const_structrp	png_alloc_size_t	png_voidp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802881331634	png_free	2	png_const_structrp	png_voidp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801380828141	png_free_data	4	png_const_structrp	png_inforp	png_uint_32	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803145280672	png_data_freer	4	png_const_structrp	png_inforp	int	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804124179343	png_malloc_default	2	png_const_structrp	png_alloc_size_t	png_voidp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801129465447	png_free_default	2	png_const_structrp	png_voidp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803366531936	png_error	2	png_const_structrp	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803218639619	png_chunk_error	2	png_const_structrp	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803052916594	png_warning	2	png_const_structrp	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803070788512	png_chunk_warning	2	png_const_structrp	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803361179317	png_benign_error	2	png_const_structrp	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803170098281	png_chunk_benign_error	2	png_const_structrp	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802006512196	png_set_benign_errors	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801787332025	png_get_valid	3	png_const_structrp	png_const_inforp	png_uint_32	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801270996613	png_get_rowbytes	2	png_const_structrp	png_const_inforp	size_t
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801336958527	png_get_rows	2	png_const_structrp	png_const_inforp	png_bytepp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801901981326	png_set_rows	3	png_const_structrp	png_inforp	png_bytepp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800697041632	png_get_channels	2	png_const_structrp	png_const_inforp	png_byte
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800365467397	png_get_image_width	2	png_const_structrp	png_const_inforp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801401671039	png_get_image_height	2	png_const_structrp	png_const_inforp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803658846092	png_get_bit_depth	2	png_const_structrp	png_const_inforp	png_byte
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802648625358	png_get_color_type	2	png_const_structrp	png_const_inforp	png_byte
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800742942732	png_get_filter_type	2	png_const_structrp	png_const_inforp	png_byte
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800887364634	png_get_interlace_type	2	png_const_structrp	png_const_inforp	png_byte
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803339608972	png_get_compression_type	2	png_const_structrp	png_const_inforp	png_byte
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802137900953	png_get_pixels_per_meter	2	png_const_structrp	png_const_inforp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801144124605	png_get_x_pixels_per_meter	2	png_const_structrp	png_const_inforp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803392497160	png_get_y_pixels_per_meter	2	png_const_structrp	png_const_inforp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802892701707	png_get_pixel_aspect_ratio	2	png_const_structrp	png_const_inforp	float
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801761420635	png_get_pixel_aspect_ratio_fixed	2	png_const_structrp	png_const_inforp	png_fixed_point
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803765086721	png_get_x_offset_pixels	2	png_const_structrp	png_const_inforp	png_int_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800232494439	png_get_y_offset_pixels	2	png_const_structrp	png_const_inforp	png_int_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803414781792	png_get_x_offset_microns	2	png_const_structrp	png_const_inforp	png_int_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801590004801	png_get_y_offset_microns	2	png_const_structrp	png_const_inforp	png_int_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804015220333	png_get_signature	2	png_const_structrp	png_const_inforp	png_const_bytep
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803240017392	png_get_bKGD	3	png_const_structrp	png_inforp	png_color_16p *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803197325983	png_set_bKGD	3	png_const_structrp	png_inforp	png_const_color_16p	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800727243794	png_get_cHRM	10	png_const_structrp	png_const_inforp	double *	double *	double *	double *	double *	double *	double *	double *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803902273038	png_get_cHRM_XYZ	11	png_const_structrp	png_const_inforp	double *	double *	double *	double *	double *	double *	double *	double *	double *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800908145626	png_get_cHRM_fixed	10	png_const_structrp	png_const_inforp	png_fixed_point *	png_fixed_point *	png_fixed_point *	png_fixed_point *	png_fixed_point *	png_fixed_point *	png_fixed_point *	png_fixed_point *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804076581510	png_get_cHRM_XYZ_fixed	11	png_const_structrp	png_const_inforp	png_fixed_point *	png_fixed_point *	png_fixed_point *	png_fixed_point *	png_fixed_point *	png_fixed_point *	png_fixed_point *	png_fixed_point *	png_fixed_point *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801008649787	png_set_cHRM	10	png_const_structrp	png_inforp	double	double	double	double	double	double	double	double	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801700448286	png_set_cHRM_XYZ	11	png_const_structrp	png_inforp	double	double	double	double	double	double	double	double	double	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801234741445	png_set_cHRM_fixed	10	png_const_structrp	png_inforp	png_fixed_point	png_fixed_point	png_fixed_point	png_fixed_point	png_fixed_point	png_fixed_point	png_fixed_point	png_fixed_point	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801589865008	png_set_cHRM_XYZ_fixed	11	png_const_structrp	png_inforp	png_fixed_point	png_fixed_point	png_fixed_point	png_fixed_point	png_fixed_point	png_fixed_point	png_fixed_point	png_fixed_point	png_fixed_point	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804120867430	png_get_eXIf	3	png_const_structrp	png_inforp	png_bytep *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801414816245	png_set_eXIf	3	png_const_structrp	png_inforp	png_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800234948199	png_get_eXIf_1	4	png_const_structrp	png_const_inforp	png_uint_32 *	png_bytep *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800624013540	png_set_eXIf_1	4	png_const_structrp	png_inforp	png_uint_32	png_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803780719368	png_get_gAMA	3	png_const_structrp	png_const_inforp	double *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802191320182	png_get_gAMA_fixed	3	png_const_structrp	png_const_inforp	png_fixed_point *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803079583350	png_set_gAMA	3	png_const_structrp	png_inforp	double	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802602529262	png_set_gAMA_fixed	3	png_const_structrp	png_inforp	png_fixed_point	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803490060465	png_get_hIST	3	png_const_structrp	png_inforp	png_uint_16p *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800658299458	png_set_hIST	3	png_const_structrp	png_inforp	png_const_uint_16p	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801113365945	png_get_IHDR	9	png_const_structrp	png_const_inforp	png_uint_32 *	png_uint_32 *	int *	int *	int *	int *	int *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803494671993	png_set_IHDR	9	png_const_structrp	png_inforp	png_uint_32	png_uint_32	int	int	int	int	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801696470992	png_get_oFFs	5	png_const_structrp	png_const_inforp	png_int_32 *	png_int_32 *	int *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801368896445	png_set_oFFs	5	png_const_structrp	png_inforp	png_int_32	png_int_32	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801090351980	png_get_pCAL	9	png_const_structrp	png_inforp	png_charp *	png_int_32 *	png_int_32 *	int *	int *	png_charp *	png_charpp *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804000074201	png_set_pCAL	9	png_const_structrp	png_inforp	png_const_charp	png_int_32	png_int_32	int	int	png_const_charp	png_charpp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801817024566	png_get_pHYs	5	png_const_structrp	png_const_inforp	png_uint_32 *	png_uint_32 *	int *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803490376097	png_set_pHYs	5	png_const_structrp	png_inforp	png_uint_32	png_uint_32	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800635369330	png_get_PLTE	4	png_const_structrp	png_inforp	png_colorp *	int *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802560212291	png_set_PLTE	4	png_structrp	png_inforp	png_const_colorp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802472734221	png_get_sBIT	3	png_const_structrp	png_inforp	png_color_8p *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803408825202	png_set_sBIT	3	png_const_structrp	png_inforp	png_const_color_8p	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800530675418	png_get_sRGB	3	png_const_structrp	png_const_inforp	int *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803932888276	png_set_sRGB	3	png_const_structrp	png_inforp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803574902728	png_set_sRGB_gAMA_and_cHRM	3	png_const_structrp	png_inforp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803886825302	png_get_iCCP	6	png_const_structrp	png_inforp	png_charpp	int *	png_bytepp	png_uint_32 *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801896845705	png_set_iCCP	6	png_const_structrp	png_inforp	png_const_charp	int	png_const_bytep	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802295463790	png_get_sPLT	3	png_const_structrp	png_inforp	png_sPLT_tpp	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800120216894	png_set_sPLT	4	png_const_structrp	png_inforp	png_const_sPLT_tp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802636145691	png_get_text	4	png_const_structrp	png_inforp	png_textp *	int *	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800049989141	png_set_text	4	png_const_structrp	png_inforp	png_const_textp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801116341927	png_get_tIME	3	png_const_structrp	png_inforp	png_timep *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802799626034	png_set_tIME	3	png_const_structrp	png_inforp	png_const_timep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804102407951	png_get_tRNS	5	png_const_structrp	png_inforp	png_bytep *	int *	png_color_16p *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803199563443	png_set_tRNS	5	png_structrp	png_inforp	png_const_bytep	int	png_const_color_16p	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804146463414	png_get_sCAL	5	png_const_structrp	png_const_inforp	int *	double *	double *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804286508230	png_get_sCAL_fixed	5	png_const_structrp	png_const_inforp	int *	png_fixed_point *	png_fixed_point *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802981345929	png_get_sCAL_s	5	png_const_structrp	png_const_inforp	int *	png_charpp	png_charpp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802148751711	png_set_sCAL	5	png_const_structrp	png_inforp	int	double	double	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801559991198	png_set_sCAL_fixed	5	png_const_structrp	png_inforp	int	png_fixed_point	png_fixed_point	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800725078731	png_set_sCAL_s	5	png_const_structrp	png_inforp	int	png_const_charp	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800721155052	png_set_keep_unknown_chunks	4	png_structrp	int	png_const_bytep	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801221760694	png_handle_as_unknown	2	png_const_structrp	png_const_bytep	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800937756073	png_set_unknown_chunks	4	png_const_structrp	png_inforp	png_const_unknown_chunkp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800189396723	png_set_unknown_chunk_location	4	png_const_structrp	png_inforp	int	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802573887876	png_get_unknown_chunks	3	png_const_structrp	png_inforp	png_unknown_chunkpp	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802694351170	png_set_invalid	3	png_const_structrp	png_inforp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803609603956	png_read_png	4	png_structrp	png_inforp	int	png_voidp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803267153703	png_write_png	4	png_structrp	png_inforp	int	png_voidp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801914979508	png_get_copyright	1	png_const_structrp	png_const_charp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800950490507	png_get_header_ver	1	png_const_structrp	png_const_charp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801621655911	png_get_header_version	1	png_const_structrp	png_const_charp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802083243678	png_get_libpng_ver	1	png_const_structrp	png_const_charp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802335628782	png_permit_mng_features	2	png_structrp	png_uint_32	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803333894937	png_set_user_limits	3	png_structrp	png_uint_32	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803014118562	png_get_user_width_max	1	png_const_structrp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800557733506	png_get_user_height_max	1	png_const_structrp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801668985446	png_set_chunk_cache_max	2	png_structrp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803890770296	png_get_chunk_cache_max	1	png_const_structrp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800896107614	png_set_chunk_malloc_max	2	png_structrp	png_alloc_size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803752843748	png_get_chunk_malloc_max	1	png_const_structrp	png_alloc_size_t
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804015031140	png_get_pixels_per_inch	2	png_const_structrp	png_const_inforp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802349284561	png_get_x_pixels_per_inch	2	png_const_structrp	png_const_inforp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804127366824	png_get_y_pixels_per_inch	2	png_const_structrp	png_const_inforp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803184180598	png_get_x_offset_inches	2	png_const_structrp	png_const_inforp	float
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801513949988	png_get_x_offset_inches_fixed	2	png_const_structrp	png_const_inforp	png_fixed_point
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804055315768	png_get_y_offset_inches	2	png_const_structrp	png_const_inforp	float
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803832908618	png_get_y_offset_inches_fixed	2	png_const_structrp	png_const_inforp	png_fixed_point
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803996537711	png_get_pHYs_dpi	5	png_const_structrp	png_const_inforp	png_uint_32 *	png_uint_32 *	int *	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801011168170	png_get_io_state	1	png_const_structrp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803254858293	png_get_io_chunk_type	1	png_const_structrp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800575385183	png_get_uint_32	1	png_const_bytep	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800022252599	png_get_uint_16	1	png_const_bytep	png_uint_16
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803660905917	png_get_int_32	1	png_const_bytep	png_int_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803003411549	png_get_uint_31	2	png_const_structrp	png_const_bytep	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	804224211145	png_save_uint_32	2	png_bytep	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802435720454	png_save_int_32	2	png_bytep	png_int_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800436961964	png_save_uint_16	2	png_bytep	unsigned int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801916767064	png_set_check_for_invalid_index	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	803175780970	png_get_palette_max	2	png_const_structp	png_const_infop	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802006555847	png_image_begin_read_from_file	2	png_imagep	const char *	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800453121742	png_image_begin_read_from_stdio	2	png_imagep	FILE *	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801406501387	png_image_begin_read_from_memory	3	png_imagep	png_const_voidp	size_t	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801562831923	png_image_finish_read	5	png_imagep	png_const_colorp	void *	png_int_32	void *	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802597054402	png_image_free	1	png_imagep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800249763084	png_image_write_to_file	6	png_imagep	const char *	int	const void *	png_int_32	const void *	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	801310531187	png_image_write_to_stdio	6	png_imagep	FILE *	int	const void *	png_int_32	const void *	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	802381366169	png_image_write_to_memory	7	png_imagep	void *	png_alloc_size_t *restrict	int	const void *	png_int_32	const void *	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/png.h	800007267442	png_set_option	3	png_structrp	int	int	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803025242177	png_zstream_error	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802903179156	png_free_buffer_list	2	png_structrp	png_compression_bufferp *	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802114532358	png_fixed	3	png_const_structrp	double	png_const_charp	png_fixed_point
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801456701148	png_user_version_check	2	png_structrp	png_const_charp	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800524131601	png_malloc_base	2	png_const_structrp	png_alloc_size_t	png_voidp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803302001107	png_malloc_array	3	png_const_structrp	int	size_t	png_voidp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802560637403	png_realloc_array	5	png_const_structrp	png_const_voidp	int	int	size_t	png_voidp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800784655742	png_create_png_struct	7	png_const_charp	png_voidp	png_error_ptr	png_error_ptr	png_voidp	png_malloc_ptr	png_free_ptr	png_structp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800426814998	png_destroy_png_struct	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	804048535356	png_free_jmpbuf	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800883270614	png_zalloc	3	voidpf	uInt	uInt	voidpf
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801439280819	png_zfree	2	voidpf	voidpf	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803693075208	png_default_read_data	3	png_structp	png_bytep	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	804130798715	png_push_fill_buffer	3	png_structp	png_bytep	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	804286050832	png_default_write_data	3	png_structp	png_bytep	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801948565627	png_default_flush	1	png_structp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802361291565	png_reset_crc	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	804087355932	png_write_data	3	png_structrp	png_const_bytep	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800016992663	png_read_sig	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803916224825	png_read_chunk_header	1	png_structrp	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801050578370	png_read_data	3	png_structrp	png_bytep	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802301274415	png_crc_read	3	png_structrp	png_bytep	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800124789546	png_crc_finish	2	png_structrp	png_uint_32	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800061699877	png_crc_error	1	png_structrp	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802070757742	png_calculate_crc	3	png_structrp	png_const_bytep	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802569838277	png_flush	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803125946337	png_write_IHDR	8	png_structrp	png_uint_32	png_uint_32	int	int	int	int	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801972665227	png_write_PLTE	3	png_structrp	png_const_colorp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801351643482	png_compress_IDAT	4	png_structrp	png_const_bytep	png_alloc_size_t	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801900259888	png_write_IEND	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800594558558	png_write_gAMA_fixed	2	png_structrp	png_fixed_point	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802667445869	png_write_sBIT	3	png_structrp	png_const_color_8p	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	804239119482	png_write_cHRM_fixed	2	png_structrp	const png_xy *	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803534849674	png_write_sRGB	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800620170509	png_write_eXIf	3	png_structrp	png_bytep	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801680233907	png_write_iCCP	3	png_structrp	png_const_charp	png_const_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800397619388	png_write_sPLT	2	png_structrp	png_const_sPLT_tp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802301280056	png_write_tRNS	5	png_structrp	png_const_bytep	png_const_color_16p	int	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800291971303	png_write_bKGD	3	png_structrp	png_const_color_16p	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800613197679	png_write_hIST	3	png_structrp	png_const_uint_16p	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802141868798	png_write_tEXt	4	png_structrp	png_const_charp	png_const_charp	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801726396618	png_write_zTXt	4	png_structrp	png_const_charp	png_const_charp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	804230377509	png_write_iTXt	6	png_structrp	int	png_const_charp	png_const_charp	png_const_charp	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800906610336	png_set_text_2	4	png_const_structrp	png_inforp	png_const_textp	int	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802446025380	png_write_oFFs	4	png_structrp	png_int_32	png_int_32	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801544949895	png_write_pCAL	8	png_structrp	png_charp	png_int_32	png_int_32	int	int	png_const_charp	png_charpp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802320474277	png_write_pHYs	4	png_structrp	png_uint_32	png_uint_32	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801388224355	png_write_tIME	2	png_structrp	png_const_timep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802671041012	png_write_sCAL_s	4	png_structrp	int	png_const_charp	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803464130005	png_write_finish_row	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801265114390	png_write_start_row	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802177342204	png_combine_row	3	png_const_structrp	png_bytep	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800678721461	png_do_read_interlace	4	png_row_infop	png_bytep	int	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802240306193	png_do_write_interlace	3	png_row_infop	png_bytep	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800677872860	png_read_filter_row	5	png_structrp	png_row_infop	png_bytep	png_const_bytep	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800494651553	png_read_filter_row_sub3_sse2	3	png_row_infop	png_bytep	png_const_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800910647368	png_read_filter_row_sub4_sse2	3	png_row_infop	png_bytep	png_const_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802553339522	png_read_filter_row_avg3_sse2	3	png_row_infop	png_bytep	png_const_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801050162829	png_read_filter_row_avg4_sse2	3	png_row_infop	png_bytep	png_const_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	804254759310	png_read_filter_row_paeth3_sse2	3	png_row_infop	png_bytep	png_const_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801399722627	png_read_filter_row_paeth4_sse2	3	png_row_infop	png_bytep	png_const_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800391744444	png_write_find_filter	2	png_structrp	png_row_infop	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802715989460	png_read_IDAT_data	3	png_structrp	png_bytep	png_alloc_size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802238964622	png_read_finish_IDAT	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800418008383	png_read_finish_row	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802042723192	png_read_start_row	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801176752590	png_zlib_inflate	2	png_structrp	int	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801233583594	png_read_transform_info	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802400670134	png_do_strip_channel	3	png_row_infop	png_bytep	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803156417221	png_do_swap	2	png_row_infop	png_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801651786670	png_do_packswap	2	png_row_infop	png_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800378181746	png_do_invert	2	png_row_infop	png_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803921989444	png_do_bgr	2	png_row_infop	png_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803566670828	png_handle_IHDR	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	804066392664	png_handle_PLTE	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802125912757	png_handle_IEND	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802490372347	png_handle_bKGD	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801220896671	png_handle_cHRM	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803070240487	png_handle_eXIf	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802160939380	png_handle_gAMA	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801647603005	png_handle_hIST	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803032707768	png_handle_iCCP	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801805764264	png_handle_iTXt	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803922019803	png_handle_oFFs	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803891525038	png_handle_pCAL	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801913813910	png_handle_pHYs	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801939810741	png_handle_sBIT	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803918829160	png_handle_sCAL	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802980268237	png_handle_sPLT	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	804193509133	png_handle_sRGB	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801825903043	png_handle_tEXt	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800433838685	png_handle_tIME	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802934804579	png_handle_tRNS	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800610374301	png_handle_zTXt	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800346068845	png_check_chunk_name	2	png_const_structrp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800923396226	png_check_chunk_length	2	png_const_structrp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802169613472	png_handle_unknown	4	png_structrp	png_inforp	png_uint_32	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802746165411	png_chunk_unknown_handling	2	png_const_structrp	png_uint_32	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802387415203	png_do_read_transformations	2	png_structrp	png_row_infop	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802684597263	png_do_write_transformations	2	png_structrp	png_row_infop	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802372337635	png_init_read_transformations	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803547918714	png_push_read_chunk	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800766233022	png_push_read_sig	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803729509187	png_push_check_crc	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800330201557	png_push_save_buffer	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803026523600	png_push_restore_buffer	3	png_structrp	png_bytep	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802358586391	png_push_read_IDAT	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801491313160	png_process_IDAT_data	3	png_structrp	png_bytep	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801379230853	png_push_process_row	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801622667106	png_push_handle_unknown	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801459648451	png_push_have_info	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800526734398	png_push_have_end	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803444827394	png_push_have_row	2	png_structrp	png_bytep	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802012989608	png_push_read_end	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803634992525	png_process_some_data	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802553148515	png_read_push_finish_row	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802978404946	png_push_handle_tEXt	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801244813165	png_push_read_tEXt	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802242117066	png_push_handle_zTXt	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800947795656	png_push_read_zTXt	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803496599667	png_push_handle_iTXt	3	png_structrp	png_inforp	png_uint_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802089503940	png_push_read_iTXt	2	png_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801114538577	png_colorspace_set_gamma	3	png_const_structrp	png_colorspacerp	png_fixed_point	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801492909125	png_colorspace_sync_info	2	png_const_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800954840379	png_colorspace_sync	2	png_const_structrp	png_inforp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802211868620	png_colorspace_set_chromaticities	4	png_const_structrp	png_colorspacerp	const png_xy *	int	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	804204676145	png_colorspace_set_endpoints	4	png_const_structrp	png_colorspacerp	const png_XYZ *	int	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	804012796165	png_colorspace_set_sRGB	3	png_const_structrp	png_colorspacerp	int	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803883532581	png_colorspace_set_ICC	6	png_const_structrp	png_colorspacerp	png_const_charp	png_uint_32	png_const_bytep	int	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800167445939	png_icc_check_length	4	png_const_structrp	png_colorspacerp	png_const_charp	png_uint_32	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802034004810	png_icc_check_header	6	png_const_structrp	png_colorspacerp	png_const_charp	png_uint_32	png_const_bytep	int	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803620137706	png_icc_check_tag_table	5	png_const_structrp	png_colorspacerp	png_const_charp	png_uint_32	png_const_bytep	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802547358125	png_icc_set_sRGB	4	png_const_structrp	png_colorspacerp	png_const_bytep	uLong	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800299217171	png_colorspace_set_rgb_coefficients	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802494707774	png_check_IHDR	8	png_const_structrp	png_uint_32	png_uint_32	int	int	int	int	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	804100438916	png_do_check_palette_indexes	2	png_structrp	png_row_infop	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802283120035	png_fixed_error	2	png_const_structrp	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802428023148	png_safecat	4	png_charp	size_t	size_t	png_const_charp	size_t
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801241285712	png_format_number	4	png_const_charp	png_charp	int	png_alloc_size_t	png_charp
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802173541255	png_warning_parameter	3	png_warning_parameters	int	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801450538255	png_warning_parameter_unsigned	4	png_warning_parameters	int	int	png_alloc_size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801986624000	png_warning_parameter_signed	4	png_warning_parameters	int	int	png_int_32	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801854264031	png_formatted_warning	3	png_const_structrp	png_warning_parameters	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803239381907	png_app_warning	2	png_const_structrp	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800655398581	png_app_error	2	png_const_structrp	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801226567092	png_chunk_report	3	png_const_structrp	png_const_charp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801642721583	png_ascii_from_fp	5	png_const_structrp	png_charp	size_t	double	unsigned int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801985486036	png_ascii_from_fixed	4	png_const_structrp	png_charp	size_t	png_fixed_point	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802012241154	png_check_fp_number	4	png_const_charp	size_t	int *	png_size_tp	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803618964847	png_check_fp_string	2	png_const_charp	size_t	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802440511405	png_muldiv	4	png_fixed_point_p	png_fixed_point	png_int_32	png_int_32	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802579740547	png_muldiv_warn	4	png_const_structrp	png_fixed_point	png_int_32	png_int_32	png_fixed_point
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803519289879	png_reciprocal	1	png_fixed_point	png_fixed_point
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802259479304	png_reciprocal2	2	png_fixed_point	png_fixed_point	png_fixed_point
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800558370213	png_gamma_significant	1	png_fixed_point	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803029513205	png_gamma_correct	3	png_structrp	unsigned int	png_fixed_point	png_uint_16
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800046649599	png_gamma_16bit_correct	2	unsigned int	png_fixed_point	png_uint_16
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800419177923	png_gamma_8bit_correct	2	unsigned int	png_fixed_point	png_byte
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802798198311	png_destroy_gamma_table	1	png_structrp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	801139560964	png_build_gamma_table	2	png_structrp	int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802641288048	png_safe_error	2	png_structp	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	800875526424	png_safe_warning	2	png_structp	png_const_charp	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803086286649	png_safe_execute	3	png_imagep	int (*)(png_voidp)	png_voidp	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	804122627099	png_image_error	2	png_imagep	png_const_charp	int
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	803850504278	png_init_filter_functions_sse2	2	png_structp	unsigned int	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngpriv.h	802487610718	png_check_keyword	3	png_structrp	png_const_charp	png_bytep	png_uint_32
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngrio.c	804018851683	png_read_data	3	png_structrp	png_bytep	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngrio.c	801996149353	png_default_read_data	3	png_structp	png_bytep	size_t	void
+/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngrio.c	801969826848	png_set_read_fn	3	png_structrp	png_voidp	png_rw_ptr	void

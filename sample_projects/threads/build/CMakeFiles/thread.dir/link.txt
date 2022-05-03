@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++17 -g  -rdynamic CMakeFiles/thread.dir/main.cpp.o CMakeFiles/thread.dir/try.cpp.o  -o thread -lpthread 

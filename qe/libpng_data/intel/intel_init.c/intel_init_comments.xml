@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<COMMENTS project_name="libpng" project_path="/home/dewang/smartKT/SmartKTRepo/projects/libpng">
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/intel/intel_init.c" comment_text="The techniques used to implement each of these filters in SSE operate on
+    * one pixel at a time.
+    * So they generally speed up 3bpp images about 3x, 4bpp images about 4x.
+    * They can scale up to 6 and 8 bpp images and down to 2 bpp images,
+    * but they'd not likely have any benefit for 1bpp images.
+    * Most of these can be implemented using only MMX and 64-bit registers,
+    * but they end up a bit slower than using the equally-ubiquitous SSE2." comment_scope_start="22" comment_scope_end="45">
+		<SYMBOLS>
+			<DeclRefExpr type="unsigned int" spelling="bpp" id="1704093436852"/>
+			<DeclRefExpr type="png_structp" spelling="pp" id="1703532375538"/>
+			<DeclRefExpr type="void (png_row_infop, png_bytep, png_const_bytep)" spelling="png_read_filter_row_sub3_sse2" id="1700812413053"/>
+			<DeclRefExpr type="png_structp" spelling="pp" id="1700136302681"/>
+			<DeclRefExpr type="void (png_row_infop, png_bytep, png_const_bytep)" spelling="png_read_filter_row_avg3_sse2" id="1703254385536"/>
+			<DeclRefExpr type="png_structp" spelling="pp" id="1702831588229"/>
+			<DeclRefExpr type="void (png_row_infop, png_bytep, png_const_bytep)" spelling="png_read_filter_row_paeth3_sse2" id="1703266987030"/>
+			<DeclRefExpr type="unsigned int" spelling="bpp" id="1702982751981"/>
+			<DeclRefExpr type="png_structp" spelling="pp" id="1702547427597"/>
+			<DeclRefExpr type="void (png_row_infop, png_bytep, png_const_bytep)" spelling="png_read_filter_row_sub4_sse2" id="1703423308949"/>
+			<DeclRefExpr type="png_structp" spelling="pp" id="1703481737453"/>
+			<DeclRefExpr type="void (png_row_infop, png_bytep, png_const_bytep)" spelling="png_read_filter_row_avg4_sse2" id="1704050217148"/>
+			<DeclRefExpr type="png_structp" spelling="pp" id="1701847246719"/>
+			<DeclRefExpr type="void (png_row_infop, png_bytep, png_const_bytep)" spelling="png_read_filter_row_paeth4_sse2" id="1703318202406"/>
+			<MemberRefExpr type="void (*[4])(png_row_infop, png_bytep, png_const_bytep)" spelling="read_filter" id="1700107768581"/>
+			<MemberRefExpr type="void (*[4])(png_row_infop, png_bytep, png_const_bytep)" spelling="read_filter" id="1703144730691"/>
+			<MemberRefExpr type="void (*[4])(png_row_infop, png_bytep, png_const_bytep)" spelling="read_filter" id="1702544943473"/>
+			<MemberRefExpr type="void (*[4])(png_row_infop, png_bytep, png_const_bytep)" spelling="read_filter" id="1704035150177"/>
+			<MemberRefExpr type="void (*[4])(png_row_infop, png_bytep, png_const_bytep)" spelling="read_filter" id="1702778669763"/>
+			<MemberRefExpr type="void (*[4])(png_row_infop, png_bytep, png_const_bytep)" spelling="read_filter" id="1702744585450"/>
+			<UnexposedExpr type="unsigned int" spelling="bpp" id="1702199871845"/>
+			<UnexposedExpr type="void (**)(png_row_infop, png_bytep, png_const_bytep)" spelling="read_filter" id="1704006137547"/>
+			<UnexposedExpr type="png_structp" spelling="pp" id="1700709741302"/>
+			<UnexposedExpr type="void (*)(png_row_infop, png_bytep, png_const_bytep)" spelling="png_read_filter_row_sub3_sse2" id="1703951008737"/>
+			<UnexposedExpr type="void (**)(png_row_infop, png_bytep, png_const_bytep)" spelling="read_filter" id="1701646973646"/>
+			<UnexposedExpr type="png_structp" spelling="pp" id="1702076358970"/>
+			<UnexposedExpr type="void (*)(png_row_infop, png_bytep, png_const_bytep)" spelling="png_read_filter_row_avg3_sse2" id="1703443493115"/>
+			<UnexposedExpr type="void (**)(png_row_infop, png_bytep, png_const_bytep)" spelling="read_filter" id="1700673751802"/>
+			<UnexposedExpr type="png_structp" spelling="pp" id="1701664868297"/>
+			<UnexposedExpr type="void (*)(png_row_infop, png_bytep, png_const_bytep)" spelling="png_read_filter_row_paeth3_sse2" id="1700341611310"/>
+			<UnexposedExpr type="unsigned int" spelling="bpp" id="1702589494491"/>
+			<UnexposedExpr type="void (**)(png_row_infop, png_bytep, png_const_bytep)" spelling="read_filter" id="1702516237776"/>
+			<UnexposedExpr type="png_structp" spelling="pp" id="1701289998917"/>
+			<UnexposedExpr type="void (*)(png_row_infop, png_bytep, png_const_bytep)" spelling="png_read_filter_row_sub4_sse2" id="1701720735907"/>
+			<UnexposedExpr type="void (**)(png_row_infop, png_bytep, png_const_bytep)" spelling="read_filter" id="1702282948561"/>
+			<UnexposedExpr type="png_structp" spelling="pp" id="1700249399488"/>
+			<UnexposedExpr type="void (*)(png_row_infop, png_bytep, png_const_bytep)" spelling="png_read_filter_row_avg4_sse2" id="1700026969308"/>
+			<UnexposedExpr type="void (**)(png_row_infop, png_bytep, png_const_bytep)" spelling="read_filter" id="1700401427632"/>
+			<UnexposedExpr type="png_structp" spelling="pp" id="1702807138133"/>
+			<UnexposedExpr type="void (*)(png_row_infop, png_bytep, png_const_bytep)" spelling="png_read_filter_row_paeth4_sse2" id="1702172925537"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="time" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="for" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="end" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="bit" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="pixel"/>
+			<PROBLEM_DOMAIN word="time"/>
+			<PROBLEM_DOMAIN word="images"/>
+			<PROBLEM_DOMAIN word="images"/>
+			<PROBLEM_DOMAIN word="images"/>
+			<PROBLEM_DOMAIN word="images"/>
+			<PROBLEM_DOMAIN word="images"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/intel/intel_init.c" comment_text="No need optimize PNG_FILTER_VALUE_UP.  The compiler should
+    * autovectorize." comment_scope_start="46" comment_scope_end="49">
+		<SYMBOLS>
+			<FunctionDecl type="void (png_structp, unsigned int)" spelling="png_init_filter_functions_sse2" id="1702982717123"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS/>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/intel/intel_init.c" comment_text="PNG_INTEL_SSE_IMPLEMENTATION &gt; 0" comment_scope_start="51" comment_scope_end="51"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/intel/intel_init.c" comment_text="PNG_READ_SUPPORTED" comment_scope_start="52" comment_scope_end="52"/>
+</COMMENTS>

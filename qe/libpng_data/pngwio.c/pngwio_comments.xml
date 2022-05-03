@@ -1,0 +1,255 @@
+<?xml version="1.0" ?>
+<COMMENTS project_name="libpng" project_path="/home/dewang/smartKT/SmartKTRepo/projects/libpng">
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwio.c" comment_text="Write the data to whatever output you are using.  The default routine
+ * writes to a file pointer.  Note that this routine sometimes gets called
+ * with very small lengths, so you should implement some kind of simple
+ * buffering if you are using unbuffered writes.  This should never be asked
+ * to write more than 64K on a 16-bit machine." comment_scope_start="25" comment_scope_end="31"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwio.c" comment_text="PRIVATE" comment_scope_start="32" comment_scope_end="32"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwio.c" comment_text="NOTE: write_data_fn must not change the buffer!" comment_scope_start="35" comment_scope_end="42">
+		<SYMBOLS>
+			<FunctionDecl type="void (png_structrp, png_const_bytep, size_t)" spelling="png_write_data" id="1302757727942"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1300901905978"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1301219602202"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1300549898681"/>
+			<DeclRefExpr type="png_const_bytep" spelling="data" id="1301524720038"/>
+			<DeclRefExpr type="size_t" spelling="length" id="1304264154475"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp) __attribute__((noreturn))" spelling="png_error" id="1303710385453"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1302901325697"/>
+			<CallExpr type="void" spelling="png_error" id="1301892842694"/>
+			<StringLiteral type="char [28]" spelling="&quot;Call to NULL write function&quot;" id="1303350806659"/>
+			<MemberRefExpr type="png_rw_ptr" spelling="write_data_fn" id="1302992486848"/>
+			<MemberRefExpr type="png_rw_ptr" spelling="write_data_fn" id="1300488264896"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1302319819215"/>
+			<TypeRef type="png_ptruint" spelling="png_ptruint" id="1302402302423"/>
+			<UnexposedExpr type="png_rw_ptr" spelling="write_data_fn" id="1303206097428"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1301007984489"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1303732453988"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1303869912594"/>
+			<UnexposedExpr type="size_t" spelling="length" id="1303032128528"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp) __attribute__((noreturn))" spelling="png_error" id="1300572666520"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1301691352891"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1304110365845"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="buffer" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS/>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwio.c" comment_text="This is the function that does the actual writing of data.  If you are
+ * not writing to a standard C stream, you should create a replacement
+ * write_data function and use it at run time with png_set_write_fn(), rather
+ * than changing the library." comment_scope_start="45" comment_scope_end="64">
+		<SYMBOLS>
+			<FunctionDecl type="void (png_structp, png_bytep, size_t)" spelling="png_default_write_data" id="1301386165978"/>
+			<ParmDecl type="png_structp" spelling="png_ptr" id="1300279917966"/>
+			<ParmDecl type="png_bytep" spelling="data" id="1302740948581"/>
+			<ParmDecl type="size_t" spelling="length" id="1301480208331"/>
+			<DeclRefExpr type="png_structp" spelling="png_ptr" id="1302962236503"/>
+			<DeclRefExpr type="size_t" spelling="check" id="1302876383987"/>
+			<DeclRefExpr type="unsigned long (const void *, unsigned long, unsigned long, FILE *)" spelling="fwrite" id="1301022081708"/>
+			<DeclRefExpr type="png_bytep" spelling="data" id="1304230007483"/>
+			<DeclRefExpr type="size_t" spelling="length" id="1301296011149"/>
+			<DeclRefExpr type="png_structp" spelling="png_ptr" id="1302765831734"/>
+			<DeclRefExpr type="size_t" spelling="check" id="1301711938270"/>
+			<DeclRefExpr type="size_t" spelling="length" id="1302934928161"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp) __attribute__((noreturn))" spelling="png_error" id="1300479127925"/>
+			<DeclRefExpr type="png_structp" spelling="png_ptr" id="1302054541034"/>
+			<CallExpr type="unsigned long" spelling="fwrite" id="1300523365074"/>
+			<CallExpr type="void" spelling="png_error" id="1300125825877"/>
+			<VarDecl type="size_t" spelling="check" id="1301861946870"/>
+			<StringLiteral type="char [12]" spelling="&quot;Write Error&quot;" id="1303829614797"/>
+			<MemberRefExpr type="png_voidp" spelling="io_ptr" id="1302736675323"/>
+			<TypeRef type="png_structp" spelling="png_structp" id="1301736892377"/>
+			<TypeRef type="png_bytep" spelling="png_bytep" id="1302319819215"/>
+			<TypeRef type="size_t" spelling="size_t" id="1303161251475"/>
+			<TypeRef type="size_t" spelling="size_t" id="1303161251475"/>
+			<TypeRef type="png_FILE_p" spelling="png_FILE_p" id="1301026149400"/>
+			<UnexposedExpr type="png_structp" spelling="png_ptr" id="1302228788159"/>
+			<UnexposedExpr type="unsigned long (*)(const void *, unsigned long, unsigned long, FILE *)" spelling="fwrite" id="1300311904106"/>
+			<UnexposedExpr type="const void *" spelling="data" id="1300074134600"/>
+			<UnexposedExpr type="png_bytep" spelling="data" id="1302008576805"/>
+			<UnexposedExpr type="size_t" spelling="length" id="1301857546946"/>
+			<UnexposedExpr type="png_structp" spelling="png_ptr" id="1304139269938"/>
+			<UnexposedExpr type="size_t" spelling="check" id="1301569220190"/>
+			<UnexposedExpr type="size_t" spelling="length" id="1301421071641"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp) __attribute__((noreturn))" spelling="png_error" id="1301111063737"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1303713120872"/>
+			<UnexposedExpr type="png_structp" spelling="png_ptr" id="1302079593681"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="data" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="create" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="time" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="stream"/>
+			<PROBLEM_DOMAIN word="time"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwio.c" comment_text="This function is called to output any data pending writing (normally
+ * to disk).  After png_flush is called, there should be no data pending
+ * writing in any buffers." comment_scope_start="65" comment_scope_end="69"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwio.c" comment_text="PRIVATE" comment_scope_start="70" comment_scope_end="70"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwio.c" comment_text="This function allows the application to supply new output functions for
+ * libpng if standard C streams aren't being used.
+ *
+ * This function takes as its arguments:
+ * png_ptr       - pointer to a png output data structure
+ * io_ptr        - pointer to user supplied structure containing info about
+ *                 the output functions.  May be NULL.
+ * write_data_fn - pointer to a new output function that takes as its
+ *                 arguments a pointer to a png_struct, a pointer to
+ *                 data to be written, and a 32-bit unsigned int that is
+ *                 the number of bytes to be written.  The new write
+ *                 function should call png_error(png_ptr, &quot;Error msg&quot;)
+ *                 to exit and output any fatal error messages.  May be
+ *                 NULL, in which case libpng's default function will
+ *                 be used.
+ * flush_data_fn - pointer to a new flush function that takes as its
+ *                 arguments a pointer to a png_struct.  After a call to
+ *                 the flush function, there should be no data in any buffers
+ *                 or pending transmission.  If the output method doesn't do
+ *                 any buffering of output, a function prototype must still be
+ *                 supplied although it doesn't have to do anything.  If
+ *                 PNG_WRITE_FLUSH_SUPPORTED is not defined at libpng compile
+ *                 time, output_flush_fn will be ignored, although it must be
+ *                 supplied for compatibility.  May be NULL, in which case
+ *                 libpng's default function will be used, if
+ *                 PNG_WRITE_FLUSH_SUPPORTED is defined.  This is not
+ *                 a good idea if io_ptr does not point to a standard
+ *                 *FILE structure." comment_scope_start="92" comment_scope_end="153">
+		<SYMBOLS>
+			<ParmDecl type="png_structrp" spelling="png_ptr" id="1301708249615"/>
+			<ParmDecl type="png_voidp" spelling="io_ptr" id="1303266631215"/>
+			<ParmDecl type="png_rw_ptr" spelling="write_data_fn" id="1302952423441"/>
+			<ParmDecl type="png_flush_ptr" spelling="output_flush_fn" id="1303510105436"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1303312972995"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1301263572224"/>
+			<DeclRefExpr type="png_voidp" spelling="io_ptr" id="1300203939947"/>
+			<DeclRefExpr type="png_rw_ptr" spelling="write_data_fn" id="1302536830303"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1300344521391"/>
+			<DeclRefExpr type="png_rw_ptr" spelling="write_data_fn" id="1303113160071"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1304126866772"/>
+			<DeclRefExpr type="void (png_structp, png_bytep, size_t)" spelling="png_default_write_data" id="1302003444767"/>
+			<DeclRefExpr type="png_flush_ptr" spelling="output_flush_fn" id="1303526083487"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1301401193940"/>
+			<DeclRefExpr type="png_flush_ptr" spelling="output_flush_fn" id="1301959623057"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1304287121477"/>
+			<DeclRefExpr type="void (png_structp)" spelling="png_default_flush" id="1302838628691"/>
+			<MemberRefExpr type="png_voidp" spelling="io_ptr" id="1303706536605"/>
+			<MemberRefExpr type="png_rw_ptr" spelling="write_data_fn" id="1303006381313"/>
+			<MemberRefExpr type="png_rw_ptr" spelling="write_data_fn" id="1300837746654"/>
+			<MemberRefExpr type="png_flush_ptr" spelling="output_flush_fn" id="1303802920624"/>
+			<MemberRefExpr type="png_flush_ptr" spelling="output_flush_fn" id="1304040513729"/>
+			<TypeRef type="png_structrp" spelling="png_structrp" id="1300474935795"/>
+			<TypeRef type="png_voidp" spelling="png_voidp" id="1300242848752"/>
+			<TypeRef type="png_rw_ptr" spelling="png_rw_ptr" id="1303632804381"/>
+			<TypeRef type="png_flush_ptr" spelling="png_flush_ptr" id="1300430335973"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1300348597945"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1300785814210"/>
+			<UnexposedExpr type="png_voidp" spelling="io_ptr" id="1303360154011"/>
+			<UnexposedExpr type="png_rw_ptr" spelling="write_data_fn" id="1303871969219"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1301710998714"/>
+			<UnexposedExpr type="png_rw_ptr" spelling="write_data_fn" id="1301000761992"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1303185405432"/>
+			<UnexposedExpr type="void (*)(png_structp, png_bytep, size_t)" spelling="png_default_write_data" id="1303874639364"/>
+			<UnexposedExpr type="png_flush_ptr" spelling="output_flush_fn" id="1300743412581"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1301828132624"/>
+			<UnexposedExpr type="png_flush_ptr" spelling="output_flush_fn" id="1302760133098"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1300364978298"/>
+			<UnexposedExpr type="void (*)(png_structp)" spelling="png_default_flush" id="1300079499882"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="new" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="output" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="for" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="arguments" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="pointer" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="output" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="data" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="structure" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="pointer" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="structure" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="output" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="null" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="pointer" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="new" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="output" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="arguments" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="pointer" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="pointer" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="data" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="unsigned" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="int" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="number" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="bytes" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="new" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="write" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="error" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="exit" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="output" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="error" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="null" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="case" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="default" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="pointer" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="new" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="arguments" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="pointer" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="data" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="output" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="do" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="output" type=" 'Data-Structure and its Components"/>
+			<POGRAM_DOMAIN word="do" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="time" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="for" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="null" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="case" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="default" type=" 'Properties of Datastructure / Function / Blocks"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="if" type=" 'Operations as part of Algorithms"/>
+			<POGRAM_DOMAIN word="structure" type=" 'Data-Structure and its Components"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="application"/>
+			<PROBLEM_DOMAIN word="libpng"/>
+			<PROBLEM_DOMAIN word="png"/>
+			<PROBLEM_DOMAIN word="png_error"/>
+			<PROBLEM_DOMAIN word="libpng"/>
+			<PROBLEM_DOMAIN word="time"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwio.c" comment_text="WRITE_FLUSH" comment_scope_start="154" comment_scope_end="154"/>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwio.c" comment_text="It is an error to read while writing a png file" comment_scope_start="157" comment_scope_end="165">
+		<SYMBOLS>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1302825681509"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1301061580863"/>
+			<DeclRefExpr type="void (png_const_structrp, png_const_charp)" spelling="png_warning" id="1303798049061"/>
+			<DeclRefExpr type="png_structrp" spelling="png_ptr" id="1304194374692"/>
+			<CallExpr type="void" spelling="png_warning" id="1301979716811"/>
+			<StringLiteral type="char [68]" spelling="&quot;Can't set both read_data_fn and write_data_fn in the same structure&quot;" id="1301927184898"/>
+			<MemberRefExpr type="png_rw_ptr" spelling="read_data_fn" id="1304032471794"/>
+			<MemberRefExpr type="png_rw_ptr" spelling="read_data_fn" id="1300677016024"/>
+			<UnexposedExpr type="png_rw_ptr" spelling="read_data_fn" id="1301533129985"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1301639397985"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1302270840536"/>
+			<UnexposedExpr type="void (*)(png_const_structrp, png_const_charp)" spelling="png_warning" id="1303751298549"/>
+			<UnexposedExpr type="const png_struct *" spelling="png_ptr" id="1302618418943"/>
+			<UnexposedExpr type="png_struct *" spelling="png_ptr" id="1302479592551"/>
+		</SYMBOLS>
+		<PROGRAM_DOMAINS>
+			<POGRAM_DOMAIN word="error" type=" 'Time Complexity / Space Complexity/ Memory/ Exception"/>
+			<POGRAM_DOMAIN word="read" type=" 'Operations as part of Data structure"/>
+			<POGRAM_DOMAIN word="while" type=" 'Operations as part of Algorithms"/>
+		</PROGRAM_DOMAINS>
+		<PROBLEM_DOMAINS>
+			<PROBLEM_DOMAIN word="png"/>
+		</PROBLEM_DOMAINS>
+	</COMMENT>
+	<COMMENT src_file_location="/home/dewang/smartKT/SmartKTRepo/projects/libpng/pngwio.c" comment_text="WRITE" comment_scope_start="168" comment_scope_end="168"/>
+</COMMENTS>

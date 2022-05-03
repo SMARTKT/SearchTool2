@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++17 -gdwarf-4  -rdynamic CMakeFiles/inherit.dir/src/inherit.cpp.o  -o inherit -Wl,-rpath,/home/dewang/smartKT/Running_complex_cmake/projects/inherit/build/lib lib/libfoo.so 

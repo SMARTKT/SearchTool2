@@ -1,0 +1,6 @@
+/home/dewang/smartKT/Running_complex_cmake/projects/inherit/build/CMakeFiles/rebuild_cache.dir
+/home/dewang/smartKT/Running_complex_cmake/projects/inherit/build/CMakeFiles/inherit.dir
+/home/dewang/smartKT/Running_complex_cmake/projects/inherit/build/CMakeFiles/edit_cache.dir
+/home/dewang/smartKT/Running_complex_cmake/projects/inherit/build/lib/CMakeFiles/rebuild_cache.dir
+/home/dewang/smartKT/Running_complex_cmake/projects/inherit/build/lib/CMakeFiles/foo.dir
+/home/dewang/smartKT/Running_complex_cmake/projects/inherit/build/lib/CMakeFiles/edit_cache.dir

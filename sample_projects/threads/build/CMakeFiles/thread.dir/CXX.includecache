@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dewang/smartKT/Running_complex_cmake/projects/threads/main.cpp
+cstdio
+-
+pthread.h
+-
+unistd.h
+-
+string.h
+-
+errno.h
+-
+
+/home/dewang/smartKT/Running_complex_cmake/projects/threads/try.cpp
+cstdio
+-
+cstdlib
+-
+pthread.h
+-
+

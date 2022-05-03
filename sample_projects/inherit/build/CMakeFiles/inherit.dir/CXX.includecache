@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lib/foo.h
+
+/home/dewang/smartKT/Running_complex_cmake/projects/inherit/src/inherit.cpp
+foo.h
+/home/dewang/smartKT/Running_complex_cmake/projects/inherit/src/foo.h
+
